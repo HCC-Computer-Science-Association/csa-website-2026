@@ -4,7 +4,7 @@ title: "Python Basics Workshop"
 date: 2026-02-19
 location: "Houston City College"
 type: workshop
-recap: "First lines of Python for total beginners — variables, loops, and a working mini-project."
+recap: "First lines of Python for total beginners: variables, loops, and a working mini-project."
 ---
 
 A from-scratch introduction to programming with Python: variables, control flow,

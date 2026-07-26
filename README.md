@@ -1,11 +1,11 @@
 # CSA Website
 
-The website of the **Computer Science Association** at Houston City College —
-live at [hcc-csa.org](https://hcc-csa.org).
+The website of **Computer Science Association** at Houston City College, live
+at [hcc-csa.org](https://hcc-csa.org).
 
 Static site built with [Astro 5](https://astro.build) + Tailwind CSS v4.
 Content (events, team, resources) lives in markdown/YAML collections that any
-officer can edit — see [CONTRIBUTING.md](CONTRIBUTING.md).
+officer can edit; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Quick start
 
@@ -30,7 +30,7 @@ src/
 ```
 
 Deploys to GitHub Pages on every push to `main` via
-`.github/workflows/deploy.yml`, plus a weekly scheduled rebuild so events
+`.github/workflows/deploy.yml`, plus a daily scheduled rebuild so events
 rotate from Upcoming to Past on their own.
 
 Design system: see [DESIGN.md](DESIGN.md) ("The Silkscreen"). Product context:

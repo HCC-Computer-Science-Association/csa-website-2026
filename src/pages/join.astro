@@ -4,7 +4,7 @@ import SectionHeader from "../components/SectionHeader.astro";
 import { SITE, SOCIALS, DISCORD_URL } from "../config";
 
 const pins = [
-  { pin: "1", body: "Every workshop and event, announced where you'll actually see it — first." },
+  { pin: "1", body: "Every workshop and event, announced where you'll actually see it first." },
   { pin: "2", body: "hackHCC: find teammates before the rest of campus knows registration opened." },
   { pin: "3", body: "Study partners, project teammates, and honest answers to beginner questions." },
   { pin: "4", body: "Internship leads and resume feedback from students one step ahead of you." },
@@ -12,21 +12,21 @@ const pins = [
 ---
 
 <Base
-  title={`Join — ${SITE.name} at ${SITE.college}`}
-  description="Join the Computer Science Association at Houston City College — free, one click, every major welcome."
+  title={`Join · ${SITE.name} at ${SITE.college}`}
+  description="Join Computer Science Association at Houston City College: free, one click, every major welcome."
 >
   <div class="mx-auto max-w-6xl px-5 pt-16 pb-24 sm:px-8">
-    <SectionHeader as="h1" designator="J1 — Connector" title="Join CSA" />
+    <SectionHeader as="h1" designator="J1 · Connector" title="Join CSA" />
 
     <div class="grid gap-14 lg:grid-cols-[1.2fr_1fr]">
       <div>
         <p class="max-w-[58ch] text-xl leading-relaxed text-silk">
           The club lives on Discord. Joining is one click, costs nothing, and
-          requires zero experience — "I'm curious" is enough.
+          requires zero experience. "I'm curious" is enough.
         </p>
 
         <div class="mt-10 border border-silk-hair">
-          <p class="legend border-b border-silk-hair p-4 text-silk-faint">J1 pinout — what you get</p>
+          <p class="legend border-b border-silk-hair p-4 text-silk-faint">J1 pinout · what you get</p>
           {
             pins.map(({ pin, body }) => (
               <div class="grid grid-cols-[4.5rem_1fr] gap-4 border-b border-silk-hair p-5 last:border-b-0">

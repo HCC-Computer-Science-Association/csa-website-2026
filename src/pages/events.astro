@@ -15,11 +15,11 @@ const pastRefdes = past.map((e) => refdes(e.data.type));
 ---
 
 <Base
-  title={`Events — ${SITE.name} at ${SITE.college}`}
-  description="Workshops, hackathons, and socials run by the Computer Science Association at Houston City College."
+  title={`Events · ${SITE.name} at ${SITE.college}`}
+  description="Workshops, hackathons, and socials by Computer Science Association at Houston City College."
 >
   <div class="mx-auto max-w-6xl px-5 pt-16 pb-24 sm:px-8">
-    <SectionHeader as="h1" designator="Y1 — Oscillator" title="Events" />
+    <SectionHeader as="h1" designator="Y1 · Oscillator" title="Events" />
     <p class="-mt-4 mb-14 max-w-[65ch] text-silk-dim">
       Everything runs on this clock: hands-on workshops, socials, and hackHCC.
       Registration links open per event; big events get their own site.
@@ -41,7 +41,7 @@ const pastRefdes = past.map((e) => refdes(e.data.type));
           <div class="border border-dashed border-silk-faint p-10">
             <p class="legend text-silk-dim">No upcoming events routed yet.</p>
             <p class="mt-2 max-w-[55ch] text-sm text-silk-dim">
-              The next schedule is being drawn — announcements land in the Discord first.
+              The next schedule is being drawn; announcements land in the Discord first.
             </p>
           </div>
         )
@@ -51,7 +51,7 @@ const pastRefdes = past.map((e) => refdes(e.data.type));
     <section aria-labelledby="past" class="mt-20">
       <h2 id="past" class="legend mb-6 flex items-center gap-3 text-silk-dim">
         <span class="via" aria-hidden="true"></span>
-        Past — the log
+        Past · the log
       </h2>
       {
         past.length > 0 ? (
@@ -65,7 +65,7 @@ const pastRefdes = past.map((e) => refdes(e.data.type));
         )
       }
       <p class="legend mt-8 text-silk-faint">
-        Partial log — {SITE.name} has hosted 100+ workshops; the full archive is being back-filled.
+        Partial log: {SITE.name} has hosted 100+ workshops; the full archive is being back-filled.
       </p>
     </section>
   </div>

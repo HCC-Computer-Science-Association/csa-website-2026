@@ -26,12 +26,12 @@ const pins = [
         </div>
         <div class="border-b border-silk-hair p-4">
           <p class="legend text-silk-faint">Rev</p>
-          <p class="legend mt-1 text-silk">A — {year}</p>
+          <p class="legend mt-1 text-silk">A · {year}</p>
         </div>
         <div class="col-span-full p-4">
           <p class="legend text-silk-faint">Title</p>
           <p class="mt-1 font-display text-xl font-semibold tracking-wide text-silk uppercase">
-            {SITE.fullName} — {SITE.college}
+            {SITE.fullName} · {SITE.college}
           </p>
           <p class="mt-2 max-w-[60ch] text-sm text-silk-dim">
             Student-run. Free. Every major, every level. The fastest way to reach us is the Discord.
@@ -39,7 +39,7 @@ const pins = [
         </div>
       </div>
       <div class="border-t border-silk-hair sm:border-t-0 sm:border-l">
-        <p class="legend border-b border-silk-hair p-3 text-silk-faint">J3 — Connect</p>
+        <p class="legend border-b border-silk-hair p-3 text-silk-faint">J3 · Connect</p>
         <ul>
           {
             pins.map(({ pin, label, href }) => (

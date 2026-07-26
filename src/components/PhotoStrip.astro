@@ -5,7 +5,7 @@ import type { ImageMetadata } from "astro";
 /**
  * Drop real event photos into src/assets/photos/ and they appear here
  * automatically. Until then, the board honestly marks the footprints
- * DNP — "do not populate" — the real annotation for an intentionally
+ * DNP ("do not populate"), the real annotation for an intentionally
  * empty component slot.
  */
 const modules = import.meta.glob<{ default: ImageMetadata }>(
@@ -24,14 +24,14 @@ const photos = Object.entries(modules)
       ? photos.map((photo, i) => (
           <Image
             src={photo}
-            alt={`CSA members at a club event — photo ${i + 1} of ${photos.length}`}
+            alt={`CSA members at a club event, photo ${i + 1} of ${photos.length}`}
             width={480}
             class="aspect-[4/3] w-full border border-silk-hair object-cover"
           />
         ))
       : [1, 2, 3, 4].map((n) => (
           <div class="flex aspect-[4/3] flex-col items-center justify-center gap-2 border border-dashed border-silk-faint">
-            <span class="legend text-silk-faint">PH{n} — DNP</span>
+            <span class="legend text-silk-faint">PH{n} · DNP</span>
             <span class="legend text-silk-faint">photo pending</span>
           </div>
         ))
@@ -40,7 +40,7 @@ const photos = Object.entries(modules)
 {
   photos.length === 0 && (
     <p class="legend mt-4 text-silk-faint">
-      Footprints reserved — real photos from workshops and hackHCC land here.
+      Footprints reserved: real photos from workshops and hackHCC land here.
     </p>
   )
 }

@@ -5,7 +5,7 @@ date: 2026-05-22
 endDate: 2026-05-23
 location: "Houston City College"
 type: hackathon
-recap: "Our first flagship hackathon — beginner-friendly tracks, real projects shipped in 24 hours."
+recap: "Our first flagship hackathon: beginner-friendly tracks and real projects shipped in 24 hours."
 ---
 
 CSA's flagship hackathon. Students of every level teamed up, built, and shipped

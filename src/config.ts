@@ -9,7 +9,7 @@ export const SITE = {
   url: "https://hcc-csa.org",
   tagline: "Houston City College's student-run computer science community.",
   description:
-    "The Computer Science Association at Houston City College — workshops, hackathons, and a 700+ member community of students who build together.",
+    "Computer Science Association at Houston City College: workshops, hackathons, and a 700+ member community of students who build together.",
 } as const;
 
 // TODO(officers): replace with the permanent invite link

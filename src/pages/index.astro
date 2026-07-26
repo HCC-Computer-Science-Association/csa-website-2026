@@ -1,17 +1,17 @@
 ---
 /*
-  THESIS: the club as a routed circuit board — engineering documentation as
+  THESIS: the club as a routed circuit board, engineering documentation as
   identity; refuses the dark-SaaS hero and the neon-terminal cliché alike.
   OWN-WORLD: deep-blue soldermask ground, white silkscreen legend (B612/Saira
   Condensed), traces with 45° bends ending in vias, ENIG-gold pads for the one
   action that matters, reference designators as wayfinding.
   STORY: a freshman lands, reads a plain-English pitch printed on a beautiful
-  board, sees real events and real numbers, and plugs in — Discord is the club.
+  board, sees real events and real numbers, and plugs in. Discord is the club.
   FIRST VIEWPORT: legend headline + tagline left, gold JOIN pad + outline
   SEE EVENTS beneath; right, the authored board scene where the powered trace
   pulses from U1 (the club) into J1 (join).
-  FORM: Silkscreen/PCB — user-pinned world, chosen over TTY and RFC renditions
-  on the decision page.
+  FORM: Silkscreen/PCB, the user-pinned world, chosen over TTY and RFC
+  renditions on the decision page.
 */
 import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
@@ -29,16 +29,16 @@ const upcoming = events.filter(isUpcoming).sort(byDateAsc).slice(0, 3);
 const refdes = refdesCounter();
 ---
 
-<Base title={`${SITE.name} — ${SITE.fullName} at ${SITE.college}`}>
-  {/* U1 — hero */}
+<Base title={`${SITE.name} · ${SITE.fullName} at ${SITE.college}`}>
+  {/* U1 · hero */}
   <section class="mx-auto grid max-w-6xl items-center gap-12 px-5 pt-16 pb-20 sm:px-8 lg:grid-cols-[1.1fr_1fr] lg:pt-24 lg:pb-28">
     <div>
-      <p class="legend text-silk-dim">{SITE.college} — student organization</p>
+      <p class="legend text-silk-dim">{SITE.college} · student organization</p>
       <h1 class="mt-4 font-display text-[clamp(2.75rem,7vw,5.5rem)] leading-[0.95] font-bold tracking-wide text-silk uppercase [text-wrap:balance]">
-        The Computer Science Association
+        Computer Science Association
       </h1>
       <p class="mt-6 max-w-[52ch] text-lg text-silk-dim">
-        700+ students learning, building, and shipping together — workshops,
+        700+ students learning, building, and shipping together: workshops,
         hackHCC, and people who have your back. Every major. Every level. Free.
       </p>
       <div class="mt-9 flex flex-wrap items-center gap-4">
@@ -68,12 +68,12 @@ const refdes = refdesCounter();
     </div>
   </section>
 
-  {/* U2 — about teaser */}
+  {/* U2 · about teaser */}
   <section class="border-t border-silk-hair">
     <div class="mx-auto grid max-w-6xl gap-8 px-5 py-16 sm:px-8 lg:grid-cols-[auto_1fr_auto] lg:items-baseline lg:gap-16">
-      <p class="legend text-gold">U2 — About</p>
+      <p class="legend text-gold">U2 · About</p>
       <p class="max-w-[65ch] text-lg leading-relaxed text-silk">
-        CSA is {SITE.college}'s student-run computer science club. We teach each other — 100+
+        CSA is {SITE.college}'s student-run computer science club. We teach each other: 100+
         hands-on workshops and counting, a flagship hackathon, and a community where asking a
         beginner question is the whole point, not an embarrassment.
       </p>
@@ -81,10 +81,10 @@ const refdes = refdesCounter();
     </div>
   </section>
 
-  {/* Y1 — upcoming events */}
+  {/* Y1 · upcoming events */}
   <section class="border-t border-silk-hair">
     <div class="mx-auto max-w-6xl px-5 py-20 sm:px-8 sm:py-24">
-      <SectionHeader designator="Y1 — Oscillator" title="Upcoming events" />
+      <SectionHeader designator="Y1 · Oscillator" title="Upcoming events" />
       {
         upcoming.length > 0 ? (
           <div class="grid gap-4 sm:gap-5 [grid-template-columns:repeat(auto-fill,minmax(min(100%,290px),1fr))]">
@@ -107,17 +107,17 @@ const refdes = refdesCounter();
     </div>
   </section>
 
-  {/* PH — photo strip */}
+  {/* PH · photo strip */}
   <section class="border-t border-silk-hair">
     <div class="mx-auto max-w-6xl px-5 py-20 sm:px-8 sm:py-24">
-      <SectionHeader designator="PH — Gallery" title="In the room" />
+      <SectionHeader designator="PH · Gallery" title="In the room" />
       <PhotoStrip />
     </div>
   </section>
 
-  {/* TP — stats */}
+  {/* TP · stats */}
   <Stats />
 
-  {/* J1 — join */}
+  {/* J1 · join */}
   <JoinBand />
 </Base>

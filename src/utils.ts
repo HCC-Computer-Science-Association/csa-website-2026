@@ -11,9 +11,9 @@ export function formatEventDate(date: Date, endDate?: Date): string {
     const em = MONTHS[endDate.getUTCMonth()];
     const ed = endDate.getUTCDate();
     const ey = endDate.getUTCFullYear();
-    if (ey === y && endDate.getUTCMonth() === date.getUTCMonth()) return `${m} ${d}–${ed}, ${y}`;
-    if (ey === y) return `${m} ${d} – ${em} ${ed}, ${y}`;
-    return `${m} ${d}, ${y} – ${em} ${ed}, ${ey}`;
+    if (ey === y && endDate.getUTCMonth() === date.getUTCMonth()) return `${m} ${d} to ${ed}, ${y}`;
+    if (ey === y) return `${m} ${d} to ${em} ${ed}, ${y}`;
+    return `${m} ${d}, ${y} to ${em} ${ed}, ${ey}`;
   }
   return `${m} ${d}, ${y}`;
 }
@@ -21,7 +21,7 @@ export function formatEventDate(date: Date, endDate?: Date): string {
 /**
  * An event stays upcoming until its (end) date has fully passed in Houston.
  * Dates are UTC midnight, so the boundary is end-of-day + 6h (America/Chicago
- * is UTC-5/6) — an evening build during the event won't archive it early.
+ * is UTC-5/6); an evening build during the event won't archive it early.
  */
 export function isUpcoming(event: CollectionEntry<"events">): boolean {
   const last = event.data.endDate ?? event.data.date;

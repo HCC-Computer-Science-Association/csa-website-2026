@@ -5,7 +5,7 @@ primary_target: "src/pages/index.astro"
 related_targets: []
 ---
 
-# Surface: Home (/) — Persuade
+# Surface: Home (/) · Persuade
 
 **Scope & mode:** Landing page, Persuade. Visitor: an HCC student (often non-CS,
 often beginner) deciding in <60s whether CSA is worth joining; secondary: a
@@ -19,17 +19,17 @@ real event backfill in the events collection; photos exist but arrive later
 (labeled placeholder slots, never fake photos).
 
 **Sequence (confirmed with user):**
-1. Hero — U1: silkscreen legend headline + plain-English tagline; primary gold
+1. Hero, U1: silkscreen legend headline + plain-English tagline; primary gold
    pad "Join the Discord", secondary silkscreen-outline "See events". The one
    authored motion: a power-on pulse travels the hero trace from wordmark to the
    Join pad.
-2. About teaser — 2–3 sentences + link to /about.
-3. Upcoming events — next 2–3 event cards (IC-outline cards), link to /events.
-4. Photo strip — real event photos; until provided, DNP ("do not populate")
+2. About teaser, 2to3 sentences + link to /about.
+3. Upcoming events, next 2to3 event cards (IC-outline cards), link to /events.
+4. Photo strip, real event photos; until provided, DNP ("do not populate")
    footprint slots clearly labeled as awaiting photos.
-5. Stats — 700+ members · 100+ workshops · hackHCC, set as dimension/test-point
+5. Stats, 700+ members · 100+ workshops · hackHCC, set as dimension/test-point
    callouts, not a generic hero-metric row.
-6. Final Join CTA — edge-connector band with one gold pad.
+6. Final Join CTA, edge-connector band with one gold pad.
 
 **Constraints:** zero client JS; CSS-only motion honoring reduced-motion; WCAG
 AA on dark; every claim truthful; Discord invite URL is a TODO placeholder until

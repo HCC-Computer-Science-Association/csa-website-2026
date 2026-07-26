@@ -29,7 +29,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={new URL("/og.png", Astro.site)} />
-    <meta property="og:site_name" content={`${SITE.name} — ${SITE.fullName}`} />
+    <meta property="og:site_name" content={`${SITE.name} · ${SITE.fullName}`} />
     <meta name="twitter:card" content="summary_large_image" />
   </head>
   <body class="grid-ground min-h-screen">

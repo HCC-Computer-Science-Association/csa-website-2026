@@ -1,4 +1,4 @@
-# Officer board — TODO(officers): real names, roles, headshots.
+# Officer board. TODO(officers): real names, roles, headshots.
 # Add a photo by dropping the file in src/assets/team/ and setting:  photo: ../assets/team/name.jpg
 - id: president
   name: "Name TBA"

@@ -9,14 +9,14 @@ const team = (await getCollection("team")).sort((a, b) => a.data.order - b.data.
 ---
 
 <Base
-  title={`Team — ${SITE.name} at ${SITE.college}`}
-  description="The student officers who run the Computer Science Association at Houston City College."
+  title={`Team · ${SITE.name} at ${SITE.college}`}
+  description="The student officers who run Computer Science Association at Houston City College."
 >
   <div class="mx-auto max-w-6xl px-5 pt-16 pb-24 sm:px-8">
-    <SectionHeader as="h1" designator="J2 — Pin header" title="The officers" />
+    <SectionHeader as="h1" designator="J2 · Pin header" title="The officers" />
     <p class="-mt-4 mb-14 max-w-[65ch] text-silk-dim">
-      Students, all of us — the ones keeping the club running: planning
-      workshops, organizing hackHCC, and answering your questions.
+      Students, all of us, keeping the club running: planning workshops,
+      organizing hackHCC, and answering your questions.
     </p>
 
     <div class="grid gap-4 sm:gap-5 [grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr))]">
@@ -59,8 +59,8 @@ const team = (await getCollection("team")).sort((a, b) => a.data.order - b.data.
     </div>
 
     <p class="mt-14 max-w-[60ch] text-sm text-silk-dim">
-      Want a seat here someday? Officers come from the community —
-      <a href={DISCORD_URL} rel="noopener" class="text-signal-bright underline underline-offset-4">join the Discord</a>, show up, and get involved.
+      Want a seat here someday? Officers come from the community.
+      <a href={DISCORD_URL} rel="noopener" class="text-signal-bright underline underline-offset-4">Join the Discord</a>, show up, and get involved.
     </p>
   </div>
 </Base>

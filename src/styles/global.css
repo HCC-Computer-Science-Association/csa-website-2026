@@ -7,7 +7,7 @@
 @import "tailwindcss";
 
 /*
-  THE SILKSCREEN — CSA design tokens.
+  THE SILKSCREEN: CSA design tokens.
   The page is a printed circuit board: deep blue soldermask ground,
   white silkscreen legend, gold-plated interaction. See DESIGN.md.
 */
@@ -17,16 +17,16 @@
   /* board materials */
   --color-mask-deep: #070c29; /* page ground */
   --color-mask: #0d1541; /* raised board surface */
-  --color-pour: #16204f; /* copper pour under mask — emphasized panels */
-  --color-mask-purple: #3e376e; /* brand navy — special surfaces */
+  --color-pour: #16204f; /* copper pour under mask: emphasized panels */
+  --color-mask-purple: #3e376e; /* brand navy: special surfaces */
 
   /* powered copper */
   --color-signal: #2001ed; /* energized fills, large marks */
   --color-signal-bright: #6d7dff; /* text-scale powered: links, active nav */
 
   /* metals */
-  --color-gold: #edb100; /* ENIG gold — the primary action */
-  --color-jumper: #edea00; /* bodge-wire yellow — focus, tiny highlights */
+  --color-gold: #edb100; /* ENIG gold: the primary action */
+  --color-jumper: #edea00; /* bodge-wire yellow: focus, tiny highlights */
   --color-tin: #6e6e61; /* muted metallic detail; never body text */
 
   /* silkscreen ink */
@@ -81,7 +81,7 @@
 }
 
 @layer components {
-  /* Silkscreen legend label — designators, meta, nav */
+  /* Silkscreen legend label: designators, meta, nav */
   .legend {
     font-family: var(--font-mono);
     font-size: 0.75rem;

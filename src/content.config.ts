@@ -2,7 +2,7 @@ import { defineCollection, z } from "astro:content";
 import { glob, file } from "astro/loaders";
 
 /**
- * Events — one markdown file per event in src/content/events/.
+ * Events: one markdown file per event in src/content/events/.
  * Officers: copy an existing file, edit the frontmatter, done.
  * Events are split into upcoming/past automatically by `date`.
  */
@@ -24,7 +24,7 @@ const events = defineCollection({
     }),
 });
 
-/** Officer board — src/content/team.yaml */
+/** Officer board: src/content/team.yaml */
 const team = defineCollection({
   loader: file("src/content/team.yaml"),
   schema: ({ image }) =>
@@ -38,7 +38,7 @@ const team = defineCollection({
     }),
 });
 
-/** Workshop slides archive — src/content/resources.yaml */
+/** Workshop slides archive: src/content/resources.yaml */
 const resources = defineCollection({
   loader: file("src/content/resources.yaml"),
   schema: z.object({

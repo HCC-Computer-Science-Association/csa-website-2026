@@ -7,7 +7,7 @@ const pillars = [
   {
     pin: "1",
     name: "Workshops",
-    body: "Hands-on sessions taught by students, for students — Git, Python, web dev, interview prep. 100+ and counting. You leave having built something.",
+    body: "Hands-on sessions taught by students, for students: Git, Python, web dev, interview prep. 100+ and counting. You leave having built something.",
   },
   {
     pin: "2",
@@ -23,15 +23,15 @@ const pillars = [
 ---
 
 <Base
-  title={`About — ${SITE.name} at ${SITE.college}`}
-  description="What the Computer Science Association at Houston City College is, and why it exists."
+  title={`About · ${SITE.name} at ${SITE.college}`}
+  description="What Computer Science Association at Houston City College is, and why it exists."
 >
   <div class="mx-auto max-w-6xl px-5 pt-16 pb-24 sm:px-8">
-    <SectionHeader as="h1" designator="U2 — ROM" title="About CSA" />
+    <SectionHeader as="h1" designator="U2 · ROM" title="About CSA" />
 
     <p class="max-w-[65ch] text-xl leading-relaxed text-silk">
-      The Computer Science Association is {SITE.college}'s student-run CS club.
-      We exist because learning to build things is easier — and a lot more fun —
+      Computer Science Association is {SITE.college}'s student-run CS club.
+      We exist because learning to build things is easier, and a lot more fun,
       when you're not doing it alone.
     </p>
     <div class="mt-6 max-w-[65ch] space-y-4 text-silk-dim">
@@ -51,7 +51,7 @@ const pillars = [
 
     {/* the schematic: what the club is made of */}
     <div class="mt-16 border border-silk-hair">
-      <p class="legend border-b border-silk-hair p-4 text-silk-faint">Block diagram — what we do</p>
+      <p class="legend border-b border-silk-hair p-4 text-silk-faint">Block diagram · what we do</p>
       {
         pillars.map(({ pin, name, body }) => (
           <div class="grid gap-2 border-b border-silk-hair p-6 last:border-b-0 sm:grid-cols-[6rem_10rem_1fr] sm:gap-6">
