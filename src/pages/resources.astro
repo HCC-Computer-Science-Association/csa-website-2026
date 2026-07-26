@@ -1,0 +1,61 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../layouts/Base.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import { SITE } from "../config";
+
+const resources = await getCollection("resources");
+const semesters = [...new Set(resources.map((r) => r.data.semester))];
+---
+
+<Base
+  title={`Resources — ${SITE.name} at ${SITE.college}`}
+  description="Slides, code, and materials from Computer Science Association workshops at Houston City College."
+>
+  <div class="mx-auto max-w-6xl px-5 pt-16 pb-24 sm:px-8">
+    <SectionHeader as="h1" designator="U3 — Flash" title="Resources" />
+    <p class="-mt-4 mb-14 max-w-[65ch] text-silk-dim">
+      Everything we teach gets stored: slides, starter repos, and links from our
+      workshops. The archive is being back-filled — 100+ workshops' worth.
+    </p>
+
+    {
+      semesters.map((semester) => (
+        <section aria-label={semester} class="mb-12">
+          <h2 class="legend mb-4 flex items-center gap-3 text-silk-dim">
+            <span class="via" aria-hidden="true" />
+            {semester}
+          </h2>
+          <div class="border border-silk-hair">
+            {resources
+              .filter((r) => r.data.semester === semester)
+              .map(({ data }) => (
+                <div class="flex flex-wrap items-baseline gap-x-4 gap-y-1 border-b border-silk-hair p-4 last:border-b-0">
+                  <span class="legend w-20 text-silk-faint">[{data.kind}]</span>
+                  {data.pending ? (
+                    <>
+                      <span class="text-sm text-silk-dim">{data.title}</span>
+                      <span class="legend border border-silk-faint px-2 py-0.5 text-silk-faint">pending</span>
+                    </>
+                  ) : (
+                    <a
+                      href={data.url}
+                      rel="noopener"
+                      class="text-sm text-signal-bright underline-offset-4 hover:underline"
+                    >
+                      {data.title} <span aria-hidden="true">↗</span>
+                    </a>
+                  )}
+                  <span class="legend ml-auto text-silk-faint">{data.topic}</span>
+                </div>
+              ))}
+          </div>
+        </section>
+      ))
+    }
+
+    <p class="legend text-silk-faint">
+      Missing something from a workshop you attended? Ping an officer in the Discord.
+    </p>
+  </div>
+</Base>

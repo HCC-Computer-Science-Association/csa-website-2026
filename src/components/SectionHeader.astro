@@ -1,0 +1,20 @@
+---
+interface Props {
+  designator: string;
+  title: string;
+  as?: "h1" | "h2";
+}
+
+const { designator, title, as: Tag = "h2" } = Astro.props;
+---
+
+<div class="mb-10">
+  <p class="legend text-gold">{designator}</p>
+  <div class="mt-2 flex items-center gap-5">
+    <Tag class="font-display text-3xl font-bold tracking-wide text-silk uppercase sm:text-4xl">
+      {title}
+    </Tag>
+    <span class="h-px min-w-8 flex-1 bg-silk-hair" aria-hidden="true"></span>
+    <span class="via" aria-hidden="true"></span>
+  </div>
+</div>

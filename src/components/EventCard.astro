@@ -1,0 +1,91 @@
+---
+import { Image } from "astro:assets";
+import { render, type CollectionEntry } from "astro:content";
+import { formatEventDate } from "../utils";
+
+interface Props {
+  event: CollectionEntry<"events">;
+  refdes: string;
+  past?: boolean;
+}
+
+const { event, refdes, past = false } = Astro.props;
+const { title, date, endDate, time, location, type, registrationUrl, websiteUrl, cover, coverAlt, recap } = event.data;
+const { Content } = await render(event);
+
+const typeStyles: Record<string, string> = {
+  workshop: "border-silk-faint text-silk-dim",
+  hackathon: "border-gold text-gold",
+  social: "border-signal-bright text-signal-bright",
+  other: "border-silk-faint text-silk-dim",
+};
+---
+
+<article class="card-ic flex flex-col">
+  {
+    past && cover && (
+      <Image
+        src={cover}
+        alt={coverAlt ?? `Photo from ${title}`}
+        width={720}
+        class="aspect-[16/9] w-full border-b border-silk-hair object-cover"
+      />
+    )
+  }
+  <div class="flex grow flex-col p-6 pt-5">
+    <div class="mb-4 flex items-baseline justify-between gap-4 pl-4">
+      <span class="legend text-silk-faint">{refdes}</span>
+      <span class:list={["legend border px-2 py-0.5", typeStyles[type]]}>{type}</span>
+    </div>
+    <h3 class="font-display text-2xl font-semibold tracking-wide text-silk uppercase">{title}</h3>
+    <p class="legend mt-3 text-silk-dim">
+      <span class="text-gold">{formatEventDate(date, endDate)}</span>
+      {time && <> · {time}</>}
+      {location && <> · {location}</>}
+    </p>
+    <div class="mt-4 max-w-[65ch] text-sm leading-relaxed text-silk-dim">
+      {past && recap ? <p>{recap}</p> : <Content />}
+    </div>
+    {
+      !past && (
+        <p class="legend mt-6 flex flex-wrap gap-x-6 gap-y-2 pt-1">
+          {registrationUrl && (
+            <a
+              href={registrationUrl}
+              rel="noopener"
+              class="text-gold underline-offset-4 hover:underline"
+              aria-label={`Register for ${title}`}
+            >
+              Register <span aria-hidden="true">↗</span>
+            </a>
+          )}
+          {websiteUrl && (
+            <a
+              href={websiteUrl}
+              rel="noopener"
+              class="text-signal-bright underline-offset-4 hover:underline"
+              aria-label={`${title} website`}
+            >
+              Event site <span aria-hidden="true">↗</span>
+            </a>
+          )}
+          {!registrationUrl && !websiteUrl && <span class="text-silk-faint">Details in the Discord</span>}
+        </p>
+      )
+    }
+    {
+      past && websiteUrl && (
+        <p class="legend mt-6 pt-1">
+          <a
+            href={websiteUrl}
+            rel="noopener"
+            class="text-signal-bright underline-offset-4 hover:underline"
+            aria-label={`${title} website`}
+          >
+            Event site <span aria-hidden="true">↗</span>
+          </a>
+        </p>
+      )
+    }
+  </div>
+</article>

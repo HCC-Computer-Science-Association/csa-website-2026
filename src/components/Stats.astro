@@ -1,0 +1,21 @@
+---
+import { STATS } from "../config";
+---
+
+{/* Test points: where you put the probe to verify the board is alive. */}
+<section aria-label="Club statistics" class="border-y border-silk-hair">
+  <div class="mx-auto grid max-w-6xl sm:grid-cols-3">
+    {
+      STATS.map(({ value, label }, i) => (
+        <div class="relative border-b border-silk-hair p-8 last:border-b-0 sm:border-r sm:border-b-0 sm:last:border-r-0 sm:p-10">
+          <p class="legend text-silk-faint">TP{i + 1}</p>
+          <p class="mt-2 font-display text-5xl font-bold tracking-wide text-silk uppercase">{value}</p>
+          <p class="legend mt-2 text-silk-dim">{label}</p>
+          {i < STATS.length - 1 && (
+            <span class="via absolute -right-1 bottom-6 hidden bg-mask-deep sm:inline-block" aria-hidden="true" />
+          )}
+        </div>
+      ))
+    }
+  </div>
+</section>

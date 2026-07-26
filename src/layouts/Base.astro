@@ -1,0 +1,61 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE } from "../config";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = SITE.description } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#070c29" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL("/og.png", Astro.site)} />
+    <meta property="og:site_name" content={`${SITE.name} — ${SITE.fullName}`} />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body class="grid-ground min-h-screen">
+    <a
+      href="#main"
+      class="legend sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:bg-gold focus:px-4 focus:py-2 focus:text-mask-deep"
+    >
+      Skip to content
+    </a>
+
+    {/* Board outline + corner fiducials: the page is one physical board. */}
+    <div class="pointer-events-none fixed inset-3 z-40 hidden border border-silk-hair lg:block" aria-hidden="true">
+      {
+        ["top-0 left-0", "top-0 right-0", "bottom-0 left-0", "bottom-0 right-0"].map((pos) => (
+          <svg class={`absolute ${pos} m-1.5 opacity-40`} width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <circle cx="7" cy="7" r="4.5" stroke="#f2f4ff" stroke-opacity="0.6" />
+            <path d="M7 0v3M7 11v3M0 7h3M11 7h3" stroke="#f2f4ff" stroke-opacity="0.6" />
+          </svg>
+        ))
+      }
+    </div>
+
+    <Header />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

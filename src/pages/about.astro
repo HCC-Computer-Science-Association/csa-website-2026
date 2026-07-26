@@ -1,0 +1,71 @@
+---
+import Base from "../layouts/Base.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import { SITE, DISCORD_URL } from "../config";
+
+const pillars = [
+  {
+    pin: "1",
+    name: "Workshops",
+    body: "Hands-on sessions taught by students, for students — Git, Python, web dev, interview prep. 100+ and counting. You leave having built something.",
+  },
+  {
+    pin: "2",
+    name: "hackHCC",
+    body: "Our flagship hackathon: 24 hours, beginner-friendly tracks, teams formed on the spot. If you've never hacked before, this is where you start.",
+  },
+  {
+    pin: "3",
+    name: "Community",
+    body: "700+ members who answer questions at midnight, share internship leads, and sit next to you in the hard classes. The club is the people.",
+  },
+];
+---
+
+<Base
+  title={`About — ${SITE.name} at ${SITE.college}`}
+  description="What the Computer Science Association at Houston City College is, and why it exists."
+>
+  <div class="mx-auto max-w-6xl px-5 pt-16 pb-24 sm:px-8">
+    <SectionHeader as="h1" designator="U2 — ROM" title="About CSA" />
+
+    <p class="max-w-[65ch] text-xl leading-relaxed text-silk">
+      The Computer Science Association is {SITE.college}'s student-run CS club.
+      We exist because learning to build things is easier — and a lot more fun —
+      when you're not doing it alone.
+    </p>
+    <div class="mt-6 max-w-[65ch] space-y-4 text-silk-dim">
+      <p>
+        Nobody here is paid and nobody here is a professor. Officers are students
+        who plan the workshops, run the hackathon, and keep the Discord alive.
+        What started as a handful of people has grown into one of the most active
+        student communities on campus: 700+ members and more than a hundred
+        workshops taught.
+        {/* TODO(officers): add founding year / origin story specifics. */}
+      </p>
+      <p>
+        You don't need to be a CS major, and you don't need experience. Plenty of
+        members wrote their first line of code at one of our workshops.
+      </p>
+    </div>
+
+    {/* the schematic: what the club is made of */}
+    <div class="mt-16 border border-silk-hair">
+      <p class="legend border-b border-silk-hair p-4 text-silk-faint">Block diagram — what we do</p>
+      {
+        pillars.map(({ pin, name, body }) => (
+          <div class="grid gap-2 border-b border-silk-hair p-6 last:border-b-0 sm:grid-cols-[6rem_10rem_1fr] sm:gap-6">
+            <span class="legend text-silk-faint">PIN {pin}</span>
+            <h2 class="font-display text-xl font-semibold tracking-wide text-silk uppercase">{name}</h2>
+            <p class="max-w-[60ch] text-sm leading-relaxed text-silk-dim">{body}</p>
+          </div>
+        ))
+      }
+    </div>
+
+    <div class="mt-16 flex flex-wrap items-center gap-4">
+      <a href={DISCORD_URL} rel="noopener" class="btn-pad">Join the Discord <span aria-hidden="true">↗</span></a>
+      <a href="/events/" class="legend text-signal-bright underline-offset-4 hover:underline">See what's coming up →</a>
+    </div>
+  </div>
+</Base>

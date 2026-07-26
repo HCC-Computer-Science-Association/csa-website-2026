@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-26T06:25:00Z",
+  "title": "Design System: CSA — Computer Science Association",
+  "extensions": {
+    "colorMeta": {
+      "soldermask-deep": { "role": "neutral", "displayName": "Soldermask Deep", "canonical": "#070c29", "tonalRamp": ["#02040e", "#070c29", "#0d1541", "#16204f", "#243273", "#3c4fa3", "#6d7dff", "#c6cdff"] },
+      "soldermask": { "role": "neutral", "displayName": "Soldermask", "canonical": "#0d1541" },
+      "copper-pour": { "role": "neutral", "displayName": "Copper Pour", "canonical": "#16204f" },
+      "mask-purple": { "role": "neutral", "displayName": "Mask Purple", "canonical": "#3e376e" },
+      "signal-blue": { "role": "primary", "displayName": "Signal Blue", "canonical": "#2001ed", "tonalRamp": ["#08004a", "#10007e", "#1801b6", "#2001ed", "#4a43ff", "#6d7dff", "#9aa5ff", "#ccd1ff"] },
+      "signal-bright": { "role": "primary", "displayName": "Signal Bright", "canonical": "#6d7dff" },
+      "enig-gold": { "role": "secondary", "displayName": "ENIG Gold", "canonical": "#edb100", "tonalRamp": ["#4a3700", "#7a5b00", "#a97e00", "#edb100", "#ffc61a", "#ffd45c", "#ffe29e", "#fff1d1"] },
+      "jumper-yellow": { "role": "secondary", "displayName": "Jumper Yellow", "canonical": "#edea00" },
+      "tin": { "role": "neutral", "displayName": "Tin", "canonical": "#6e6e61" },
+      "silkscreen": { "role": "neutral", "displayName": "Silkscreen", "canonical": "#f2f4ff" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Page heroes only; always uppercase, tracked +0.025em." },
+      "label": { "displayName": "Legend", "purpose": "Designators, meta, nav, buttons — what a real board would print." }
+    },
+    "shadows": [
+      { "name": "pad-lift", "value": "0 8px 20px -6px rgba(237, 177, 0, 0.45)", "purpose": "Primary pad on hover only — the one shadow in the system; the pad physically lifts." }
+    ],
+    "motion": [
+      { "name": "ease-power", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Default easing for all state transitions." },
+      { "name": "power-pulse", "value": "5s infinite, stroke-dashoffset 620 → -620", "purpose": "The site's one authored motion: current traveling the hero trace. Static under reduced motion." },
+      { "name": "led-breathe", "value": "3.2s ease-in-out infinite opacity 0.35↔1", "purpose": "The PWR LED beside the hero join pad." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px (board outline + fiducials appear)" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Pad Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The gold-plated pad — one per viewport region, reserved for the join action.",
+      "html": "<button class=\"ds-btn-pad\">JOIN THE DISCORD ↗</button>",
+      "css": ".ds-btn-pad { display: inline-flex; align-items: center; gap: 10px; background: #edb100; color: #070c29; font-family: 'B612 Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; padding: 14px 28px; border: none; border-radius: 2px; transition: transform .2s cubic-bezier(.16,1,.3,1), box-shadow .2s, background .2s; } .ds-btn-pad:hover { background: #ffc61a; transform: translateY(-2px); box-shadow: 0 8px 20px -6px rgba(237,177,0,.45); } .ds-btn-pad:focus-visible { outline: 2px solid #edea00; outline-offset: 2px; }"
+    },
+    {
+      "name": "Silkscreen Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Secondary action printed in silkscreen outline.",
+      "html": "<button class=\"ds-btn-silk\">SEE EVENTS</button>",
+      "css": ".ds-btn-silk { display: inline-flex; align-items: center; gap: 10px; background: transparent; color: #f2f4ff; border: 1px solid rgba(242,244,255,.55); font-family: 'B612 Mono', monospace; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; padding: 14px 28px; border-radius: 2px; transition: border-color .2s, background .2s; } .ds-btn-silk:hover { border-color: #f2f4ff; background: rgba(242,244,255,.06); } .ds-btn-silk:focus-visible { outline: 2px solid #edea00; outline-offset: 2px; }"
+    },
+    {
+      "name": "IC Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Event/officer card drawn as an IC footprint with a pin-1 dot that turns gold on hover.",
+      "html": "<article class=\"ds-card-ic\"><div class=\"ds-card-head\"><span class=\"ds-refdes\">WS1</span><span class=\"ds-chip\">WORKSHOP</span></div><h3 class=\"ds-card-title\">Intro to Git &amp; GitHub</h3><p class=\"ds-card-meta\"><span class=\"ds-gold\">MAR 5, 2026</span> · 6:00 PM</p><p class=\"ds-card-body\">Version control from zero — repos, commits, branches, and your first pull request.</p></article>",
+      "css": ".ds-card-ic { position: relative; border: 1px solid rgba(242,244,255,.16); border-radius: 2px; background: rgba(13,21,65,.45); padding: 24px; max-width: 340px; transition: border-color .2s, background .2s; } .ds-card-ic::before { content: ''; position: absolute; top: 10px; left: 10px; width: 6px; height: 6px; border-radius: 999px; background: rgba(242,244,255,.55); transition: background .2s; } .ds-card-ic:hover { border-color: rgba(242,244,255,.55); } .ds-card-ic:hover::before { background: #edb100; } .ds-card-head { display: flex; justify-content: space-between; margin: 0 0 14px 14px; } .ds-refdes { font-family: 'B612 Mono', monospace; font-size: 12px; letter-spacing: .08em; color: rgba(242,244,255,.55); } .ds-chip { font-family: 'B612 Mono', monospace; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; border: 1px solid rgba(242,244,255,.55); color: rgba(242,244,255,.66); padding: 2px 8px; } .ds-card-title { font-family: 'Saira Condensed', sans-serif; font-weight: 600; font-size: 24px; letter-spacing: .025em; text-transform: uppercase; color: #f2f4ff; margin: 0; } .ds-card-meta { font-family: 'B612 Mono', monospace; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: rgba(242,244,255,.66); margin: 12px 0 0; } .ds-gold { color: #edb100; } .ds-card-body { font-family: 'B612', sans-serif; font-size: 14px; line-height: 1.6; color: rgba(242,244,255,.66); margin: 16px 0 0; }"
+    },
+    {
+      "name": "Nav Link",
+      "kind": "nav",
+      "description": "Legend-style nav with a powered node dot on the active page.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" class=\"ds-nav-link ds-active\"><span class=\"ds-node\"></span>EVENTS</a><a href=\"#\" class=\"ds-nav-link\">ABOUT</a><a href=\"#\" class=\"ds-nav-link\">TEAM</a></nav>",
+      "css": ".ds-nav { display: flex; gap: 24px; background: #070c29; padding: 12px 16px; border-bottom: 1px solid rgba(242,244,255,.16); } .ds-nav-link { display: inline-flex; align-items: center; gap: 8px; font-family: 'B612 Mono', monospace; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: rgba(242,244,255,.66); text-decoration: none; transition: color .2s; } .ds-nav-link:hover { color: #f2f4ff; } .ds-nav-link.ds-active { color: #6d7dff; } .ds-node { width: 6px; height: 6px; border-radius: 999px; background: #6d7dff; }"
+    },
+    {
+      "name": "Section Header",
+      "kind": "custom",
+      "description": "Designator eyebrow + condensed headline + hairline rule ending in a via ring.",
+      "html": "<div class=\"ds-section\"><p class=\"ds-designator\">Y1 — OSCILLATOR</p><div class=\"ds-section-row\"><h2 class=\"ds-headline\">Upcoming events</h2><span class=\"ds-rule\"></span><span class=\"ds-via\"></span></div></div>",
+      "css": ".ds-section { background: #070c29; padding: 16px; } .ds-designator { font-family: 'B612 Mono', monospace; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: #edb100; margin: 0; } .ds-section-row { display: flex; align-items: center; gap: 20px; margin-top: 8px; } .ds-headline { font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 36px; letter-spacing: .025em; text-transform: uppercase; color: #f2f4ff; margin: 0; } .ds-rule { height: 1px; flex: 1; min-width: 32px; background: rgba(242,244,255,.16); } .ds-via { width: 8px; height: 8px; border: 2px solid rgba(242,244,255,.55); border-radius: 999px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Silkscreen",
+    "overview": "The site is a printed circuit board, not a website wearing circuit clip-art. Every surface behaves like board material: the page ground is deep blue soldermask, all text is silkscreen legend printed on it, interactive targets are gold-plated pads, and attention is routed — literally — along copper traces with 45° bends, vias, and test points. The CSA logo is already drawn in circuit traces; the site is the board that logo was always part of. The register is engineering documentation, not sci-fi: reference designators, dimension callouts, pin-1 dots, a title block. It stays legible and warm to a non-CS freshman: the board grammar decorates and organizes, plain language persuades.",
+    "keyCharacteristics": [
+      "One material world: soldermask ground, silkscreen foreground, gold interaction.",
+      "Traces are structural — they route the eye between real elements, never confetti.",
+      "Engineering wit over hacker cliché: no glow, no glitch, no matrix rain.",
+      "Dark-only, dense with quiet detail, generous with space."
+    ],
+    "rules": [
+      { "name": "The Gold Standard Rule", "body": "ENIG Gold belongs to the highest-value action on the page — normally exactly one Join pad per viewport region. If gold is everywhere, nothing is plated.", "section": "colors" },
+      { "name": "The Routed Attention Rule", "body": "A trace exists only if it connects two real things (U1→J1). Traces bend at 45°, end in pads or vias, and never cross text.", "section": "colors" },
+      { "name": "The Legend Rule", "body": "Mono is for what a real board would print: designators, values, dates, pinouts, controls. Prose is never mono.", "section": "typography" }
+    ],
+    "dos": [
+      "Do route attention with traces that connect real elements, and keep the hero pulse as the site's only authored motion moment.",
+      "Do use designators, dimension callouts, and pinout tables where a real drawing would.",
+      "Do keep persuasion copy in plain, warm English; the board speaks in the margins.",
+      "Do hold WCAG AA: silkscreen tints on any mask surface, Soldermask Deep on gold; focus is always the jumper-yellow 2px outline."
+    ],
+    "donts": [
+      "Don't use neon glow, glassmorphism, gradient blobs, glitch effects, matrix rain, or scanlines — this is an engineering artifact, not a hacker movie.",
+      "Don't bend a trace at 90°, cross text with a trace, or scatter traces as texture.",
+      "Don't print body prose in mono or set Tin (#6e6e61) as text on blue.",
+      "Don't use emoji in UI chrome; icons are drawn as board glyphs (vias, pads, traces) in the silkscreen grammar."
+    ]
+  }
+}

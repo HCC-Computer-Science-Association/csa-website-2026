@@ -1,0 +1,66 @@
+---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+import Base from "../layouts/Base.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import { SITE, DISCORD_URL } from "../config";
+
+const team = (await getCollection("team")).sort((a, b) => a.data.order - b.data.order);
+---
+
+<Base
+  title={`Team — ${SITE.name} at ${SITE.college}`}
+  description="The student officers who run the Computer Science Association at Houston City College."
+>
+  <div class="mx-auto max-w-6xl px-5 pt-16 pb-24 sm:px-8">
+    <SectionHeader as="h1" designator="J2 — Pin header" title="The officers" />
+    <p class="-mt-4 mb-14 max-w-[65ch] text-silk-dim">
+      Students, all of us — the ones keeping the club running: planning
+      workshops, organizing hackHCC, and answering your questions.
+    </p>
+
+    <div class="grid gap-4 sm:gap-5 [grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr))]">
+      {
+        team.map(({ data }, i) => (
+          <article class="card-ic p-6">
+            {data.photo ? (
+              <Image
+                src={data.photo}
+                alt={`Portrait of ${data.name}`}
+                width={480}
+                class="mb-5 aspect-square w-full border border-silk-hair object-cover"
+              />
+            ) : (
+              <div class="mb-5 flex aspect-square w-full flex-col items-center justify-center gap-2 border border-dashed border-silk-faint">
+                <span class="legend text-silk-faint">DNP</span>
+                <span class="legend text-silk-faint">headshot pending</span>
+              </div>
+            )}
+            <p class="legend text-silk-faint">PIN {i + 1}</p>
+            <h2 class="mt-1 font-display text-xl font-semibold tracking-wide text-silk uppercase">{data.name}</h2>
+            <p class="legend mt-1 text-gold">{data.role}</p>
+            {(data.linkedin || data.github) && (
+              <p class="legend mt-4 flex gap-4">
+                {data.linkedin && (
+                  <a href={data.linkedin} rel="noopener" class="text-signal-bright underline-offset-4 hover:underline">
+                    LinkedIn <span aria-hidden="true">↗</span>
+                  </a>
+                )}
+                {data.github && (
+                  <a href={data.github} rel="noopener" class="text-signal-bright underline-offset-4 hover:underline">
+                    GitHub <span aria-hidden="true">↗</span>
+                  </a>
+                )}
+              </p>
+            )}
+          </article>
+        ))
+      }
+    </div>
+
+    <p class="mt-14 max-w-[60ch] text-sm text-silk-dim">
+      Want a seat here someday? Officers come from the community —
+      <a href={DISCORD_URL} rel="noopener" class="text-signal-bright underline underline-offset-4">join the Discord</a>, show up, and get involved.
+    </p>
+  </div>
+</Base>

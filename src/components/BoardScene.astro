@@ -1,0 +1,85 @@
+{/*
+  The hero's authored asset: a routed corner of the CSA board.
+  U1 (the club core) routes power through 45° traces to J1 — the join pad.
+  One powered net carries the site's single authored motion: the pulse.
+*/}
+<svg
+  viewBox="0 0 520 420"
+  fill="none"
+  role="img"
+  aria-label="Stylized circuit board: a trace routes power from the CSA core chip to the join connector"
+  class="h-auto w-full max-w-[560px]"
+>
+  <!-- U1: the club core -->
+  <g>
+    <rect x="40" y="50" width="150" height="110" rx="2" stroke="#f2f4ff" stroke-opacity="0.65" stroke-width="1.5"></rect>
+    <circle cx="54" cy="64" r="3" fill="#edb100"></circle>
+    {[68, 93, 118, 143].map((y) => <path d={`M30 ${y} h10 M190 ${y} h10`} stroke="#f2f4ff" stroke-opacity="0.4" stroke-width="2" />)}
+    {[70, 100, 130, 160].map((x) => <path d={`M${x} 40 v10 M${x} 160 v10`} stroke="#f2f4ff" stroke-opacity="0.4" stroke-width="2" />)}
+    <text x="54" y="98" fill="#f2f4ff" fill-opacity="0.9" font-family="B612 Mono, monospace" font-size="15" letter-spacing="1">U1</text>
+    <text x="54" y="120" fill="#f2f4ff" fill-opacity="0.55" font-family="B612 Mono, monospace" font-size="10" letter-spacing="1">CSA-CORE</text>
+  </g>
+
+  <!-- passive nets off U1's east side -->
+  <path d="M200 68 H300 L340 108 V160" stroke="#edb100" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"></path>
+  <circle cx="340" cy="166" r="4" stroke="#f2f4ff" stroke-opacity="0.45" stroke-width="1.5"></circle>
+  <path d="M200 93 H280 L312 125 V160" stroke="#edb100" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"></path>
+  <circle cx="312" cy="166" r="4" stroke="#f2f4ff" stroke-opacity="0.45" stroke-width="1.5"></circle>
+
+  <!-- R1/R2: pull-ups — tops end in pads, bottoms join a shared net with a via -->
+  <g>
+    <rect x="368" y="52" width="16" height="34" rx="2" stroke="#f2f4ff" stroke-opacity="0.45" stroke-width="1.5"></rect>
+    <path d="M376 44 v8 M376 86 v18" stroke="#edb100" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"></path>
+    <circle cx="376" cy="41" r="2.5" fill="#edb100" fill-opacity="0.5"></circle>
+    <text x="392" y="66" fill="#f2f4ff" fill-opacity="0.5" font-family="B612 Mono, monospace" font-size="10" letter-spacing="1">R1</text>
+    <rect x="424" y="52" width="16" height="34" rx="2" stroke="#f2f4ff" stroke-opacity="0.45" stroke-width="1.5"></rect>
+    <path d="M432 44 v8 M432 86 v18" stroke="#edb100" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"></path>
+    <circle cx="432" cy="41" r="2.5" fill="#edb100" fill-opacity="0.5"></circle>
+    <text x="448" y="66" fill="#f2f4ff" fill-opacity="0.5" font-family="B612 Mono, monospace" font-size="10" letter-spacing="1">R2</text>
+    <path d="M376 104 H432" stroke="#edb100" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"></path>
+    <circle cx="404" cy="104" r="4" stroke="#f2f4ff" stroke-opacity="0.45" stroke-width="1.5" fill="#070c29"></circle>
+  </g>
+
+  <!-- C3: decoupling cap by the connector -->
+  <g>
+    <rect x="366" y="330" width="28" height="16" rx="2" stroke="#f2f4ff" stroke-opacity="0.45" stroke-width="1.5"></rect>
+    <text x="366" y="366" fill="#f2f4ff" fill-opacity="0.5" font-family="B612 Mono, monospace" font-size="10" letter-spacing="1">C3 100n</text>
+  </g>
+
+  <!-- Y1: the clock — events run on it -->
+  <g>
+    <rect x="70" y="240" width="84" height="40" rx="2" stroke="#f2f4ff" stroke-opacity="0.5" stroke-width="1.5"></rect>
+    <text x="82" y="264" fill="#f2f4ff" fill-opacity="0.65" font-family="B612 Mono, monospace" font-size="11" letter-spacing="1">Y1 · 16MHz</text>
+  </g>
+  <path d="M154 260 H286 L300 246 V244" stroke="#edb100" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"></path>
+
+  <!-- ground stitching vias along the south edge -->
+  {[80, 150, 220].map((x) => <circle cx={x} cy="380" r="3.5" stroke="#f2f4ff" stroke-opacity="0.3" stroke-width="1.5" />)}
+
+  <!-- MH1: mounting hole, bottom-left -->
+  <circle cx="36" cy="380" r="9" stroke="#f2f4ff" stroke-opacity="0.35" stroke-width="1.5"></circle>
+  <circle cx="36" cy="380" r="4" stroke="#f2f4ff" stroke-opacity="0.25" stroke-width="1"></circle>
+
+  <!-- the powered net: U1 → J1 -->
+  <path d="M200 130 H255 L300 175 V240 L355 295 H428" stroke="#2001ed" stroke-opacity="0.7" stroke-width="3" stroke-linecap="round"></path>
+  <path
+    d="M200 130 H255 L300 175 V240 L355 295 H428"
+    pathLength="620"
+    class="trace-pulse"
+    stroke="#6d7dff"
+    stroke-width="3"
+    stroke-linecap="round"></path>
+  <circle cx="300" cy="240" r="4" stroke="#f2f4ff" stroke-opacity="0.55" stroke-width="1.5" fill="#070c29"></circle>
+
+  <!-- J1: the join pad -->
+  <circle cx="450" cy="295" r="22" fill="#edb100"></circle>
+  <circle cx="450" cy="295" r="8" fill="#070c29"></circle>
+  <text x="474" y="300" fill="#f2f4ff" fill-opacity="0.75" font-family="B612 Mono, monospace" font-size="12" letter-spacing="1">J1</text>
+
+  <!-- PWR LED -->
+  <circle cx="450" cy="240" r="5" fill="#edea00" class="led"></circle>
+  <text x="462" y="244" fill="#f2f4ff" fill-opacity="0.55" font-family="B612 Mono, monospace" font-size="10" letter-spacing="1">PWR</text>
+
+  <!-- drafting note -->
+  <text x="404" y="24" fill="#f2f4ff" fill-opacity="0.35" font-family="B612 Mono, monospace" font-size="10" letter-spacing="1.5">NOT TO SCALE</text>
+</svg>

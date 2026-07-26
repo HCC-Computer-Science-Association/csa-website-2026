@@ -1,0 +1,66 @@
+---
+import { SITE, SOCIALS } from "../config";
+
+const year = new Date().getFullYear();
+
+const pins = [
+  { pin: "1", label: "Discord", href: SOCIALS.discord },
+  { pin: "2", label: "Instagram", href: SOCIALS.instagram },
+  { pin: "3", label: "LinkedIn", href: SOCIALS.linkedin },
+  { pin: "4", label: "Email", href: `mailto:${SOCIALS.email}` },
+];
+---
+
+{/* Engineering-drawing title block: every real board drawing ends in one. */}
+<footer class="border-t border-silk-hair bg-mask-deep">
+  <div class="mx-auto max-w-6xl px-5 py-12 sm:px-8">
+    <div class="grid border border-silk-hair sm:grid-cols-[1fr_auto]">
+      <div class="grid sm:grid-cols-3">
+        <div class="border-b border-silk-hair p-4 sm:border-r">
+          <p class="legend text-silk-faint">Project</p>
+          <p class="legend mt-1 text-silk">{SITE.name}-WEB</p>
+        </div>
+        <div class="border-b border-silk-hair p-4 sm:border-r">
+          <p class="legend text-silk-faint">Drawn by</p>
+          <p class="legend mt-1 text-silk">CSA Officers</p>
+        </div>
+        <div class="border-b border-silk-hair p-4">
+          <p class="legend text-silk-faint">Rev</p>
+          <p class="legend mt-1 text-silk">A — {year}</p>
+        </div>
+        <div class="col-span-full p-4">
+          <p class="legend text-silk-faint">Title</p>
+          <p class="mt-1 font-display text-xl font-semibold tracking-wide text-silk uppercase">
+            {SITE.fullName} — {SITE.college}
+          </p>
+          <p class="mt-2 max-w-[60ch] text-sm text-silk-dim">
+            Student-run. Free. Every major, every level. The fastest way to reach us is the Discord.
+          </p>
+        </div>
+      </div>
+      <div class="border-t border-silk-hair sm:border-t-0 sm:border-l">
+        <p class="legend border-b border-silk-hair p-3 text-silk-faint">J3 — Connect</p>
+        <ul>
+          {
+            pins.map(({ pin, label, href }) => (
+              <li class="border-b border-silk-hair last:border-b-0">
+                <a
+                  href={href}
+                  rel="me noopener"
+                  class="legend flex items-center gap-3 p-3 text-silk-dim transition-colors hover:bg-pour hover:text-silk"
+                >
+                  <span class="text-silk-faint">PIN {pin}</span>
+                  {label}
+                  <span aria-hidden="true" class="ml-auto">↗</span>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+    <p class="legend mt-6 text-silk-faint">
+      © {year} {SITE.fullName} at {SITE.college} · Built by CSA members · Not to scale
+    </p>
+  </div>
+</footer>

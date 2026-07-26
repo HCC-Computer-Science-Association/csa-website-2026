@@ -1,0 +1,252 @@
+@import "@fontsource/saira-condensed/600.css";
+@import "@fontsource/saira-condensed/700.css";
+@import "@fontsource/b612/400.css";
+@import "@fontsource/b612/700.css"; /* markdown bold in event bodies */
+@import "@fontsource/b612-mono/400.css";
+@import "@fontsource/b612-mono/700.css";
+@import "tailwindcss";
+
+/*
+  THE SILKSCREEN — CSA design tokens.
+  The page is a printed circuit board: deep blue soldermask ground,
+  white silkscreen legend, gold-plated interaction. See DESIGN.md.
+*/
+@theme {
+  --color-*: initial;
+
+  /* board materials */
+  --color-mask-deep: #070c29; /* page ground */
+  --color-mask: #0d1541; /* raised board surface */
+  --color-pour: #16204f; /* copper pour under mask — emphasized panels */
+  --color-mask-purple: #3e376e; /* brand navy — special surfaces */
+
+  /* powered copper */
+  --color-signal: #2001ed; /* energized fills, large marks */
+  --color-signal-bright: #6d7dff; /* text-scale powered: links, active nav */
+
+  /* metals */
+  --color-gold: #edb100; /* ENIG gold — the primary action */
+  --color-jumper: #edea00; /* bodge-wire yellow — focus, tiny highlights */
+  --color-tin: #6e6e61; /* muted metallic detail; never body text */
+
+  /* silkscreen ink */
+  --color-silk: #f2f4ff;
+  --color-silk-dim: rgba(242, 244, 255, 0.66);
+  --color-silk-faint: rgba(242, 244, 255, 0.55); /* ≥4.5:1 on every mask surface */
+  --color-silk-hair: rgba(242, 244, 255, 0.16);
+
+  --font-display: "Saira Condensed", "Arial Narrow", sans-serif;
+  --font-body: "B612", "Segoe UI", sans-serif;
+  --font-mono: "B612 Mono", "Courier New", monospace;
+
+  --ease-power: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-mask-deep);
+  }
+
+  body {
+    background-color: var(--color-mask-deep);
+    color: var(--color-silk);
+    font-family: var(--font-body);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background-color: var(--color-jumper);
+    color: var(--color-mask-deep);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-jumper);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Silkscreen legend label — designators, meta, nav */
+  .legend {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  /* Primary action: a gold-plated pad */
+  .btn-pad {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.625rem;
+    background-color: var(--color-gold);
+    color: var(--color-mask-deep);
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 0.8125rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.875rem 1.75rem;
+    border-radius: 2px;
+    transition:
+      transform 0.2s var(--ease-power),
+      box-shadow 0.2s var(--ease-power),
+      background-color 0.2s var(--ease-power);
+  }
+  .btn-pad:hover {
+    background-color: #ffc61a;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px -6px rgba(237, 177, 0, 0.45);
+  }
+  .btn-pad:active {
+    transform: translateY(0);
+    box-shadow: none;
+  }
+
+  /* Secondary action: printed outline */
+  .btn-silk {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.625rem;
+    border: 1px solid var(--color-silk-faint);
+    color: var(--color-silk);
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.875rem 1.75rem;
+    border-radius: 2px;
+    transition:
+      border-color 0.2s var(--ease-power),
+      background-color 0.2s var(--ease-power);
+  }
+  .btn-silk:hover {
+    border-color: var(--color-silk);
+    background-color: rgba(242, 244, 255, 0.06);
+  }
+
+  /* IC-outline card with a pin-1 dot */
+  .card-ic {
+    position: relative;
+    border: 1px solid var(--color-silk-hair);
+    border-radius: 2px;
+    background-color: rgba(13, 21, 65, 0.45);
+    transition:
+      border-color 0.2s var(--ease-power),
+      background-color 0.2s var(--ease-power);
+  }
+  .card-ic::before {
+    content: "";
+    position: absolute;
+    top: 0.625rem;
+    left: 0.625rem;
+    width: 0.375rem;
+    height: 0.375rem;
+    border-radius: 9999px;
+    background-color: var(--color-silk-faint);
+    transition: background-color 0.2s var(--ease-power);
+  }
+  .card-ic:hover {
+    border-color: var(--color-silk-faint);
+    background-color: rgba(22, 32, 79, 0.6);
+  }
+  .card-ic:hover::before {
+    background-color: var(--color-gold);
+  }
+
+  /* Via: the small drilled ring that ends a routed line */
+  .via {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border: 2px solid var(--color-silk-faint);
+    border-radius: 9999px;
+  }
+
+  /* Faint 24px layout grid on the ground */
+  .grid-ground {
+    background-image:
+      linear-gradient(rgba(242, 244, 255, 0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(242, 244, 255, 0.025) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  /* Card-edge connector: the row of gold fingers */
+  .edge-fingers {
+    height: 0.875rem;
+    background-image: repeating-linear-gradient(
+      90deg,
+      var(--color-gold) 0,
+      var(--color-gold) 1.75rem,
+      transparent 1.75rem,
+      transparent 2.375rem
+    );
+    opacity: 0.7;
+  }
+}
+
+/* The site's one authored motion: current flows through the hero trace. */
+@keyframes power-pulse {
+  0% {
+    stroke-dashoffset: 620;
+    opacity: 0;
+  }
+  8% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: -620;
+    opacity: 0;
+  }
+}
+
+.trace-pulse {
+  stroke-dasharray: 90 530;
+  animation: power-pulse 5s var(--ease-power) 0.6s infinite;
+}
+
+/* The LED next to the join pad breathes very slowly. */
+@keyframes led-breathe {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.led {
+  animation: led-breathe 3.2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* The pulse degrades to a single static powered segment mid-trace. */
+  .trace-pulse {
+    animation: none;
+    stroke-dashoffset: 310;
+    opacity: 0.9;
+  }
+  .led {
+    animation: none;
+    opacity: 1;
+  }
+}

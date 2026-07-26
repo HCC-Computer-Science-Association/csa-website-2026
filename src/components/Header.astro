@@ -1,0 +1,46 @@
+---
+import { Image } from "astro:assets";
+import logoWhite from "../assets/csa-white-logo.png";
+import { SITE } from "../config";
+
+const links = [
+  { href: "/events/", label: "Events" },
+  { href: "/about/", label: "About" },
+  { href: "/team/", label: "Team" },
+  { href: "/resources/", label: "Resources" },
+];
+
+const path = Astro.url.pathname;
+const isActive = (href: string) => path === href || path === href.replace(/\/$/, "");
+---
+
+<header class="sticky top-0 z-30 border-b border-silk-hair bg-mask-deep/90 backdrop-blur-sm">
+  <div class="mx-auto flex flex-wrap items-center gap-x-8 gap-y-2 px-5 py-3 sm:px-8 max-w-6xl">
+    <a href="/" class="order-1 mr-auto flex items-center gap-3" aria-label={`${SITE.name} — ${SITE.fullName}, home`}>
+      <Image src={logoWhite} alt="" height={30} densities={[1, 2]} loading="eager" class="h-[30px] w-auto" />
+      <span class="legend hidden text-silk-dim lg:inline">// {SITE.college}</span>
+    </a>
+    <a href="/join/" class="btn-pad order-2 !px-4 !py-2 md:order-3">Join</a>
+    <nav aria-label="Main" class="order-3 w-full md:order-2 md:w-auto">
+      <ul class="flex flex-wrap items-center gap-x-6 gap-y-2">
+        {
+          links.map(({ href, label }) => (
+            <li>
+              <a
+                href={href}
+                aria-current={isActive(href) ? "page" : undefined}
+                class:list={[
+                  "legend inline-flex items-center gap-2 py-1 transition-colors",
+                  isActive(href) ? "text-signal-bright" : "text-silk-dim hover:text-silk",
+                ]}
+              >
+                {isActive(href) && <span class="h-1.5 w-1.5 rounded-full bg-signal-bright" aria-hidden="true" />}
+                {label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</header>

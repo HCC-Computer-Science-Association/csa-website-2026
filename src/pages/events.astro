@@ -1,0 +1,72 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../layouts/Base.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import EventCard from "../components/EventCard.astro";
+import { SITE } from "../config";
+import { isUpcoming, byDateAsc, byDateDesc, refdesCounter } from "../utils";
+
+const events = await getCollection("events");
+const upcoming = events.filter(isUpcoming).sort(byDateAsc);
+const past = events.filter((e) => !isUpcoming(e)).sort(byDateDesc);
+const refdes = refdesCounter();
+const upcomingRefdes = upcoming.map((e) => refdes(e.data.type));
+const pastRefdes = past.map((e) => refdes(e.data.type));
+---
+
+<Base
+  title={`Events — ${SITE.name} at ${SITE.college}`}
+  description="Workshops, hackathons, and socials run by the Computer Science Association at Houston City College."
+>
+  <div class="mx-auto max-w-6xl px-5 pt-16 pb-24 sm:px-8">
+    <SectionHeader as="h1" designator="Y1 — Oscillator" title="Events" />
+    <p class="-mt-4 mb-14 max-w-[65ch] text-silk-dim">
+      Everything runs on this clock: hands-on workshops, socials, and hackHCC.
+      Registration links open per event; big events get their own site.
+    </p>
+
+    <section aria-labelledby="upcoming">
+      <h2 id="upcoming" class="legend mb-6 flex items-center gap-3 text-gold">
+        <span class="h-1.5 w-1.5 rounded-full bg-gold" aria-hidden="true"></span>
+        Upcoming
+      </h2>
+      {
+        upcoming.length > 0 ? (
+          <div class="grid gap-4 sm:gap-5 [grid-template-columns:repeat(auto-fill,minmax(min(100%,290px),1fr))]">
+            {upcoming.map((event, i) => (
+              <EventCard event={event} refdes={upcomingRefdes[i]} />
+            ))}
+          </div>
+        ) : (
+          <div class="border border-dashed border-silk-faint p-10">
+            <p class="legend text-silk-dim">No upcoming events routed yet.</p>
+            <p class="mt-2 max-w-[55ch] text-sm text-silk-dim">
+              The next schedule is being drawn — announcements land in the Discord first.
+            </p>
+          </div>
+        )
+      }
+    </section>
+
+    <section aria-labelledby="past" class="mt-20">
+      <h2 id="past" class="legend mb-6 flex items-center gap-3 text-silk-dim">
+        <span class="via" aria-hidden="true"></span>
+        Past — the log
+      </h2>
+      {
+        past.length > 0 ? (
+          <div class="grid gap-4 sm:gap-5 [grid-template-columns:repeat(auto-fill,minmax(min(100%,290px),1fr))]">
+            {past.map((event, i) => (
+              <EventCard event={event} refdes={pastRefdes[i]} past />
+            ))}
+          </div>
+        ) : (
+          <p class="text-sm text-silk-dim">The archive starts filling after our next event.</p>
+        )
+      }
+      <p class="legend mt-8 text-silk-faint">
+        Partial log — {SITE.name} has hosted 100+ workshops; the full archive is being back-filled.
+      </p>
+    </section>
+  </div>
+</Base>

@@ -1,0 +1,27 @@
+---
+import { DISCORD_URL } from "../config";
+---
+
+{/* The card-edge connector: where the board plugs into something bigger. */}
+<section aria-label="Join CSA" class="relative border-t border-silk-hair bg-mask">
+  <div class="mx-auto max-w-6xl px-5 py-20 sm:px-8 sm:py-24">
+    <p class="legend text-gold">J1 — Connector</p>
+    <h2 class="mt-3 font-display text-5xl font-bold tracking-wide text-silk uppercase sm:text-6xl">Plug in.</h2>
+    <p class="mt-4 max-w-[55ch] text-silk-dim">
+      Membership is free and takes one click — the club lives on Discord. Say hi, find a study group, hear about
+      every workshop first.
+    </p>
+    <div class="mt-8 flex flex-wrap items-center gap-4">
+      {/* the net arrives at the pad — the board's grammar, below the fold too */}
+      <svg width="96" height="40" viewBox="0 0 96 40" fill="none" aria-hidden="true" class="-mr-1 hidden sm:block">
+        <circle cx="6" cy="8" r="3.5" stroke="#f2f4ff" stroke-opacity="0.55" stroke-width="1.5"></circle>
+        <path d="M11 8 H48 L64 24 H96" stroke="#2001ed" stroke-opacity="0.6" stroke-width="2.5" stroke-linecap="round"></path>
+      </svg>
+      <a href={DISCORD_URL} rel="noopener" class="btn-pad">Join the Discord <span aria-hidden="true">↗</span></a>
+      <a href="/join/" class="legend text-silk-dim underline-offset-4 hover:text-silk hover:underline">
+        Why join →
+      </a>
+    </div>
+  </div>
+  <div class="edge-fingers" aria-hidden="true"></div>
+</section>

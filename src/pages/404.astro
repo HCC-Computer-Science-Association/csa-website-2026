@@ -1,0 +1,20 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE } from "../config";
+---
+
+<Base title={`Not found — ${SITE.name}`} description="Page not found.">
+  <div class="mx-auto max-w-6xl px-5 py-32 sm:px-8">
+    <p class="legend text-gold">TP404 — no signal</p>
+    <h1 class="mt-3 font-display text-5xl font-bold tracking-wide text-silk uppercase sm:text-6xl">
+      Net not routed
+    </h1>
+    <p class="mt-4 max-w-[55ch] text-silk-dim">
+      This address doesn't connect to anything on the board. The link may be
+      old, or the page moved.
+    </p>
+    <p class="mt-8">
+      <a href="/" class="btn-silk">Back to the board</a>
+    </p>
+  </div>
+</Base>

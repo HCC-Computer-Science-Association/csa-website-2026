@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hcc-csa.org/sitemap-index.xml

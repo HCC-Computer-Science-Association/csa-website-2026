@@ -1,0 +1,31 @@
+# Workshop slides archive.
+# TODO(officers): replace placeholder URLs with real slide decks / repos and
+# flip `pending: false` — pending entries render without a link.
+- id: git-github-slides
+  title: "Intro to Git & GitHub — slides"
+  url: "https://example.com/TODO-git-slides"
+  kind: slides
+  topic: "Tools"
+  semester: "Spring 2026"
+  pending: true
+- id: python-basics-slides
+  title: "Python Basics — slides"
+  url: "https://example.com/TODO-python-slides"
+  kind: slides
+  topic: "Programming"
+  semester: "Spring 2026"
+  pending: true
+- id: web-dev-starter-repo
+  title: "Intro to Web Dev — starter repo"
+  url: "https://example.com/TODO-webdev-repo"
+  kind: repo
+  topic: "Web"
+  semester: "Spring 2026"
+  pending: true
+- id: resume-template
+  title: "Tech resume template"
+  url: "https://example.com/TODO-resume-template"
+  kind: link
+  topic: "Career"
+  semester: "Spring 2026"
+  pending: true

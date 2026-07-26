@@ -1,0 +1,26 @@
+# Officer board — TODO(officers): real names, roles, headshots.
+# Add a photo by dropping the file in src/assets/team/ and setting:  photo: ../assets/team/name.jpg
+- id: president
+  name: "Name TBA"
+  role: "President"
+  order: 1
+- id: vice-president
+  name: "Name TBA"
+  role: "Vice President"
+  order: 2
+- id: secretary
+  name: "Name TBA"
+  role: "Secretary"
+  order: 3
+- id: treasurer
+  name: "Name TBA"
+  role: "Treasurer"
+  order: 4
+- id: events-coordinator
+  name: "Name TBA"
+  role: "Events Coordinator"
+  order: 5
+- id: tech-lead
+  name: "Name TBA"
+  role: "Tech Lead"
+  order: 6

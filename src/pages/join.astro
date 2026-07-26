@@ -1,0 +1,74 @@
+---
+import Base from "../layouts/Base.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import { SITE, SOCIALS, DISCORD_URL } from "../config";
+
+const pins = [
+  { pin: "1", body: "Every workshop and event, announced where you'll actually see it — first." },
+  { pin: "2", body: "hackHCC: find teammates before the rest of campus knows registration opened." },
+  { pin: "3", body: "Study partners, project teammates, and honest answers to beginner questions." },
+  { pin: "4", body: "Internship leads and resume feedback from students one step ahead of you." },
+];
+---
+
+<Base
+  title={`Join — ${SITE.name} at ${SITE.college}`}
+  description="Join the Computer Science Association at Houston City College — free, one click, every major welcome."
+>
+  <div class="mx-auto max-w-6xl px-5 pt-16 pb-24 sm:px-8">
+    <SectionHeader as="h1" designator="J1 — Connector" title="Join CSA" />
+
+    <div class="grid gap-14 lg:grid-cols-[1.2fr_1fr]">
+      <div>
+        <p class="max-w-[58ch] text-xl leading-relaxed text-silk">
+          The club lives on Discord. Joining is one click, costs nothing, and
+          requires zero experience — "I'm curious" is enough.
+        </p>
+
+        <div class="mt-10 border border-silk-hair">
+          <p class="legend border-b border-silk-hair p-4 text-silk-faint">J1 pinout — what you get</p>
+          {
+            pins.map(({ pin, body }) => (
+              <div class="grid grid-cols-[4.5rem_1fr] gap-4 border-b border-silk-hair p-5 last:border-b-0">
+                <span class="legend text-gold">PIN {pin}</span>
+                <p class="max-w-[55ch] text-sm leading-relaxed text-silk-dim">{body}</p>
+              </div>
+            ))
+          }
+        </div>
+
+        <div class="mt-10">
+          <a href={DISCORD_URL} rel="noopener" class="btn-pad !px-10 !py-4 !text-sm">
+            Join the Discord <span aria-hidden="true">↗</span>
+          </a>
+          <p class="legend mt-4 text-silk-faint">Free · no application · leave whenever</p>
+        </div>
+      </div>
+
+      <aside class="lg:border-l lg:border-silk-hair lg:pl-10">
+        <p class="legend text-silk-dim">Other channels</p>
+        <ul class="mt-4 space-y-3">
+          <li>
+            <a href={SOCIALS.instagram} rel="me noopener" class="legend text-signal-bright underline-offset-4 hover:underline">
+              Instagram <span aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a href={SOCIALS.linkedin} rel="me noopener" class="legend text-signal-bright underline-offset-4 hover:underline">
+              LinkedIn <span aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a href={`mailto:${SOCIALS.email}`} class="legend text-signal-bright underline-offset-4 hover:underline">
+              {SOCIALS.email}
+            </a>
+          </li>
+        </ul>
+        <p class="mt-8 max-w-[38ch] text-sm leading-relaxed text-silk-dim">
+          Not a CS major? Doesn't matter. A good number of us wrote our first
+          line of code at a CSA workshop.
+        </p>
+      </aside>
+    </div>
+  </div>
+</Base>
