@@ -8,5 +8,5 @@ type: social
 ---
 
 Start the semester with us: meet the officers, hear what CSA is running this
-fall (workshops, hackHCC, socials), and find your people. No experience
+fall (workshops, HackHCC, socials), and find your people. No experience
 required, every major welcome.

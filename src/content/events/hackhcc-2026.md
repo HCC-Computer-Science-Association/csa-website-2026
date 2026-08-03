@@ -1,6 +1,6 @@
 ---
-title: "hackHCC 2026"
-# TODO(officers): confirm exact dates and add the hackHCC site URL (websiteUrl)
+title: "HackHCC 2026"
+# TODO(officers): confirm exact dates and add the HackHCC site URL (websiteUrl)
 date: 2026-05-22
 endDate: 2026-05-23
 location: "Houston City College"

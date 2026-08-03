@@ -15,9 +15,9 @@ const isActive = (href: string) => path === href || path === href.replace(/\/$/,
 ---
 
 <header class="sticky top-0 z-30 border-b border-silk-hair bg-mask-deep/90 backdrop-blur-sm">
-  <div class="mx-auto flex flex-wrap items-center gap-x-8 gap-y-2 px-5 py-3 sm:px-8 max-w-6xl">
+  <div class="mx-auto flex flex-wrap items-center gap-x-8 gap-y-2 px-5 pt-5 pb-2 sm:px-8 max-w-6xl">
     <a href="/" class="order-1 mr-auto flex items-center gap-3" aria-label={`${SITE.name}, ${SITE.fullName}, home`}>
-      <Image src={logoWhite} alt="" height={30} densities={[1, 2]} loading="eager" class="h-[30px] w-auto" />
+      <Image src={logoWhite} alt="" height={50} densities={[1, 2]} loading="eager" class="h-[50px] w-auto" />
       <span class="legend hidden text-silk-dim lg:inline">// {SITE.college}</span>
     </a>
     <a href="/join/" class="btn-pad order-2 !px-4 !py-2 md:order-3">Join</a>

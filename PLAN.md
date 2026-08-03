@@ -30,7 +30,7 @@ Joining the club means joining the Discord. Every page funnels there.
    with a "More about us" link to the About page.
 3. **Upcoming events**: next 2 or 3 event cards, link to `/events`.
 4. **Photo strip**: real event photos (placeholder slots until photos are provided).
-5. **Stats bar**: real numbers. **700+ members · 100+ workshops · hackHCC (flagship hackathon)**.
+5. **Stats bar**: real numbers. **700+ members · 100+ workshops · HackHCC (flagship hackathon)**.
    (Phrase the single hackathon as the flagship event rather than "1 hackathon".)
 6. **Final join CTA**: repeat the Discord invite.
 
@@ -58,7 +58,7 @@ cover: image?           # shown on past-event cards / promo
 recap: string?          # one-liner shown after the event
 ```
 
-Launch content: backfill 4 to 8 real past events (workshops, hackHCC, kickoff) plus the Fall 2026
+Launch content: backfill 4 to 8 real past events (workshops, HackHCC, kickoff) plus the Fall 2026
 kickoff as upcoming.
 
 ## Page notes
@@ -68,7 +68,7 @@ kickoff as upcoming.
 - **Team**: grid of officers with headshot, name, role. Placeholder slots until photos arrive.
 - **Resources**: workshop slides archive with links to slides/repos from past workshops, grouped by
   semester. Starts partial and grows over time.
-- **About**: mission + story (founded, grown to 700+ members, ran hackHCC). No meeting-info
+- **About**: mission + story (founded, grown to 700+ members, ran HackHCC). No meeting-info
   section (scheduling lives in Events/Discord).
 
 ## Brand & design direction
@@ -109,7 +109,7 @@ kickoff as upcoming.
 - [ ] Event photos for the homepage strip, in `src/assets/photos/`
 - [ ] Past-event list to backfill (titles, dates, one-liners), in `src/content/events/`
 - [ ] Fall 2026 kickoff details (date, time, room, registration link), in `src/content/events/fall-2026-kickoff.md`
-- [ ] hackHCC site URL (`websiteUrl` in `src/content/events/hackhcc-2026.md`)
+- [ ] HackHCC site URL (`websiteUrl` in `src/content/events/HackHCC-2026.md`)
 - [ ] Founding year / origin story (`src/pages/about.astro`)
 - [ ] Workshop slides links for Resources, in `src/content/resources.yaml`
 - [ ] Exact tagline / mission wording sign-off

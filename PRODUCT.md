@@ -24,7 +24,7 @@ Secondary success: members find the next event and past workshop materials.
 ## Positioning
 
 The largest, most active tech community at HCC: 700+ members, 100+ workshops
-hosted, and hackHCC, the college's flagship student hackathon. Run entirely by
+hosted, and HackHCC, the college's flagship student hackathon. Run entirely by
 students, free, beginner-friendly, open to every major.
 
 ## Operating Context
@@ -47,7 +47,7 @@ students, free, beginner-friendly, open to every major.
   build time; past cards carry a cover photo and a one-line recap.
 - Undecided/pending from officers: permanent Discord invite URL, Instagram and
   LinkedIn URLs, contact email, officer names/headshots, event photos, workshop
-  slide links, exact kickoff details, hackHCC site URL.
+  slide links, exact kickoff details, HackHCC site URL.
 
 ## Brand Commitments
 
@@ -66,9 +66,9 @@ students, free, beginner-friendly, open to every major.
 
 ## Evidence on Hand
 
-- Real stats (truthful, confirmed): 700+ members, 100+ workshops, hackHCC
+- Real stats (truthful, confirmed): 700+ members, 100+ workshops, HackHCC
   flagship hackathon (first edition ran around May 2026).
-- Real past events exist to backfill (workshops, hackHCC, kickoffs); seed
+- Real past events exist to backfill (workshops, HackHCC, kickoffs); seed
   markdown in src/content/events/ with TODO-marked dates.
 - Event photos and officer headshots exist but are not yet provided. Build
   with clearly labeled placeholder slots; never fabricate photos of real people

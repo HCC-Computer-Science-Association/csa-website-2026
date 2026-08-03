@@ -26,5 +26,5 @@ export const SOCIALS = {
 export const STATS = [
   { value: "700+", label: "members" },
   { value: "100+", label: "workshops hosted" },
-  { value: "hackHCC", label: "our flagship hackathon" },
+  { value: "HackHCC", label: "our flagship hackathon" },
 ] as const;

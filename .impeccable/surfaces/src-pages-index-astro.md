@@ -14,7 +14,7 @@ returning member checking what's next.
 **Job:** Understand what CSA is → believe it's alive and credible → join the
 Discord (the club IS the Discord). Secondary action: see upcoming events.
 
-**Proof on hand:** 700+ members, 100+ workshops, hackHCC flagship hackathon;
+**Proof on hand:** 700+ members, 100+ workshops, HackHCC flagship hackathon;
 real event backfill in the events collection; photos exist but arrive later
 (labeled placeholder slots, never fake photos).
 
@@ -27,7 +27,7 @@ real event backfill in the events collection; photos exist but arrive later
 3. Upcoming events, next 2to3 event cards (IC-outline cards), link to /events.
 4. Photo strip, real event photos; until provided, DNP ("do not populate")
    footprint slots clearly labeled as awaiting photos.
-5. Stats, 700+ members · 100+ workshops · hackHCC, set as dimension/test-point
+5. Stats, 700+ members · 100+ workshops · HackHCC, set as dimension/test-point
    callouts, not a generic hero-metric row.
 6. Final Join CTA, edge-connector band with one gold pad.
 
