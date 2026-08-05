@@ -1,26 +1,75 @@
-# Officer board. TODO(officers): real names, roles, headshots.
-# Add a photo by dropping the file in src/assets/team/ and setting:  photo: ../assets/team/name.jpg
+# Officer board. TODO(officers): remaining names, headshots, LinkedIn URLs.
+#
+#   photo:    drop the file in src/assets/team/ then point at it:
+#             photo: ../assets/team/name.jpg
+#             Square source, 800x800 or larger. Face fills the frame.
+#   linkedin: full profile URL, https:// included. Uncomment when you have it.
+#
+# Both keys are optional. No photo renders the dashed "headshot pending"
+# footprint; no linkedin simply hides the link.
 - id: president
-  name: "Name TBA"
+  name: "John Pierre"
   role: "President"
   order: 1
+  photo: ../assets/team/john-p.png
+  # linkedin: "https://www.linkedin.com/in/"
 - id: vice-president
-  name: "Name TBA"
+  name: "Nelson Aviles"
   role: "Vice President"
   order: 2
-- id: secretary
-  name: "Name TBA"
-  role: "Secretary"
-  order: 3
+  photo: ../assets/team/nelson-a.jpg
+  # linkedin: "https://www.linkedin.com/in/"
 - id: treasurer
-  name: "Name TBA"
+  name: "Fancisco"
   role: "Treasurer"
+  order: 3
+  # photo: ../assets/team/francisco.jpg
+  # linkedin: "https://www.linkedin.com/in/"
+- id: director-of-events-workshops
+  name: "Name TBA"
+  role: "Director of Events & Workshops"
   order: 4
-- id: events-coordinator
-  name: "Name TBA"
-  role: "Events Coordinator"
+  # photo: ../assets/team/events-director.jpg
+  # linkedin: "https://www.linkedin.com/in/"
+- id: assistant-events-workshops-director
+  name: "Oyinade Balogun (Comfort)"
+  role: "Assistant Events & Workshops Director"
   order: 5
-- id: tech-lead
+  # photo: ../assets/team/oyinade-b.jpg
+  # linkedin: "https://www.linkedin.com/in/"
+- id: director-of-industry-career-development
   name: "Name TBA"
-  role: "Tech Lead"
+  role: "Director of Industry & Career Development"
   order: 6
+  # photo: ../assets/team/industry-director.jpg
+  # linkedin: "https://www.linkedin.com/in/"
+- id: director-of-technical-programs
+  name: "Khizar Ahmed"
+  role: "Director of Technical Programs"
+  order: 7
+  photo: ../assets/team/khizar-a.png
+  # linkedin: "https://www.linkedin.com/in/"
+- id: assistant-technical-programs-director
+  name: "Name TBA"
+  role: "Assistant Technical Programs Director"
+  order: 8
+  # photo: ../assets/team/technical-assistant.jpg
+  # linkedin: "https://www.linkedin.com/in/"
+- id: director-of-technology
+  name: "Gabriel Morales"
+  role: "Director of Technology"
+  order: 9
+  photo: ../assets/team/morales-g.png
+  linkedin: "https://www.linkedin.com/in/gabbo-mv/"
+- id: director-of-marketing-communications
+  name: "Madison Emshousen"
+  role: "Director of Marketing & Communications"
+  order: 10
+  photo: ../assets/team/maddie-e.jpg
+  # linkedin: "https://www.linkedin.com/in/"
+- id: assistant-marketing-communications-director
+  name: "Lara Iskander"
+  role: "Assistant Marketing & Communications Director"
+  order: 11
+  photo: ../assets/team/lara-i.jpg
+  # linkedin: "https://www.linkedin.com/in/"

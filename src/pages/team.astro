@@ -5,7 +5,19 @@ import Base from "../layouts/Base.astro";
 import SectionHeader from "../components/SectionHeader.astro";
 import { SITE, DISCORD_URL } from "../config";
 
-const team = (await getCollection("team")).sort((a, b) => a.data.order - b.data.order);
+/**
+ * Each officer is an IC on the board; their profile links are the connector
+ * pins printed along its bottom edge, same grammar as the footer's J3 block.
+ */
+const officers = (await getCollection("team"))
+  .sort((a, b) => a.data.order - b.data.order)
+  .map(({ data }) => ({
+    ...data,
+    links: [
+      data.linkedin ? { label: "LinkedIn", href: data.linkedin } : null,
+      data.github ? { label: "GitHub", href: data.github } : null,
+    ].filter((link) => link !== null),
+  }));
 ---
 
 <Base
@@ -21,37 +33,43 @@ const team = (await getCollection("team")).sort((a, b) => a.data.order - b.data.
 
     <div class="grid gap-4 sm:gap-5 [grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr))]">
       {
-        team.map(({ data }, i) => (
-          <article class="card-ic p-6">
-            {data.photo ? (
-              <Image
-                src={data.photo}
-                alt={`Portrait of ${data.name}`}
-                width={480}
-                class="mb-5 aspect-square w-full border border-silk-hair object-cover"
-              />
-            ) : (
-              <div class="mb-5 flex aspect-square w-full flex-col items-center justify-center gap-2 border border-dashed border-silk-faint">
-                <span class="legend text-silk-faint">DNP</span>
-                <span class="legend text-silk-faint">headshot pending</span>
-              </div>
-            )}
-            <p class="legend text-silk-faint">PIN {i + 1}</p>
-            <h2 class="mt-1 font-display text-xl font-semibold tracking-wide text-silk uppercase">{data.name}</h2>
-            <p class="legend mt-1 text-gold">{data.role}</p>
-            {(data.linkedin || data.github) && (
-              <p class="legend mt-4 flex gap-4">
-                {data.linkedin && (
-                  <a href={data.linkedin} rel="noopener" class="text-signal-bright underline-offset-4 hover:underline">
-                    LinkedIn <span aria-hidden="true">↗</span>
-                  </a>
-                )}
-                {data.github && (
-                  <a href={data.github} rel="noopener" class="text-signal-bright underline-offset-4 hover:underline">
-                    GitHub <span aria-hidden="true">↗</span>
-                  </a>
-                )}
-              </p>
+        officers.map((officer, i) => (
+          <article class="card-ic flex flex-col">
+            <div class="grow p-6">
+              {officer.photo ? (
+                <Image
+                  src={officer.photo}
+                  alt={`Portrait of ${officer.name}`}
+                  width={480}
+                  class="mb-5 aspect-square w-full border border-silk-hair object-cover"
+                />
+              ) : (
+                <div class="mb-5 flex aspect-square w-full flex-col items-center justify-center gap-2 border border-dashed border-silk-faint">
+                  <span class="legend text-silk-faint">DNP</span>
+                  <span class="legend text-silk-faint">headshot pending</span>
+                </div>
+              )}
+              <p class="legend text-silk-faint">PIN {i + 1}</p>
+              <h2 class="mt-1 font-display text-xl font-semibold tracking-wide text-silk uppercase">{officer.name}</h2>
+              <p class="legend mt-1 text-gold">{officer.role}</p>
+            </div>
+            {officer.links.length > 0 && (
+              <ul class="border-t border-silk-hair">
+                {officer.links.map(({ label, href }) => (
+                  <li class="border-t border-silk-hair first:border-t-0">
+                    <a
+                      href={href}
+                      rel="noopener"
+                      aria-label={`${officer.name} on ${label}`}
+                      class="legend group/pin flex items-center gap-3 px-6 py-3.5 text-silk-dim transition-colors hover:bg-pour hover:text-silk"
+                    >
+                      <span class="via shrink-0 transition-colors group-hover/pin:border-silk" />
+                      {label}
+                      <span aria-hidden="true" class="ml-auto">↗</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
             )}
           </article>
         ))
