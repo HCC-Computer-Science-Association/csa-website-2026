@@ -1,0 +1,27 @@
+# Local additions to Eagle Engage events.
+#
+# Engage is the source of truth: titles, dates, times, locations, descriptions
+# and cover images all come from https://eagleengage.hccs.edu/organization/csa
+# and are pulled in at build time. Edit those on Engage, not here.
+#
+# This file only covers the handful of things Engage has no field for. Key each
+# block by the event's slug (the lowercased, hyphenated title). Anything you
+# leave out keeps its value from Engage.
+#
+#   some-event-slug:
+#     websiteUrl: "https://..."   # a dedicated site, for big events
+#     registrationUrl: "https://..."  # idloom / Webex, when it isn't on Engage
+#     summary: "Overrides the blurb pulled from the Engage description."
+#     recap: "One line shown on the card after the event has happened."
+#     type: hackathon             # workshop | hackathon | social | other
+#
+# An unknown slug is a build error, so a renamed event on Engage fails loudly
+# here instead of silently dropping its link.
+
+hackhcc-coderunners:
+  # TODO(officers): add the HackHCC site URL once it is live.
+  recap: "CSA's first large official hackathon: a cyberpunk-themed 24 hour build at West Houston Institute."
+
+coding-club-weekly-meetup:
+  summary: "Open lab every week: bring homework, a side project, or a LeetCode problem and work through it with other members. No experience needed, and laptops are available to borrow."
+

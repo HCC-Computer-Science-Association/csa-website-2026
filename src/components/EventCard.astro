@@ -1,6 +1,5 @@
 ---
-import { Image } from "astro:assets";
-import { render, type CollectionEntry } from "astro:content";
+import type { CollectionEntry } from "astro:content";
 import { formatEventDate } from "../utils";
 
 interface Props {
@@ -10,8 +9,22 @@ interface Props {
 }
 
 const { event, refdes, past = false } = Astro.props;
-const { title, date, endDate, time, location, type, registrationUrl, websiteUrl, cover, coverAlt, recap } = event.data;
-const { Content } = await render(event);
+const {
+  title,
+  date,
+  endDate,
+  time,
+  location,
+  type,
+  summary,
+  recurrence,
+  registrationUrl,
+  websiteUrl,
+  coverUrl,
+  coverAlt,
+  sourceUrl,
+  recap,
+} = event.data;
 
 const typeStyles: Record<string, string> = {
   workshop: "border-silk-faint text-silk-dim",
@@ -19,16 +32,30 @@ const typeStyles: Record<string, string> = {
   social: "border-signal-bright text-signal-bright",
   other: "border-silk-faint text-silk-dim",
 };
+
+/**
+ * Covers live on the Engage CDN, which resizes via `preset`. Serving them
+ * straight from there keeps dozens of remote images out of the build.
+ * Valid presets: small-sq, med-sq, med-w (600x360), large-w (1000x600). The
+ * wide pair is 5:3, which is why the card frames covers at that ratio rather
+ * than cropping them to 16:9.
+ */
+const cover = (preset: string) => `${coverUrl}?preset=${preset}`;
 ---
 
 <article class="card-ic flex flex-col">
   {
-    past && cover && (
-      <Image
-        src={cover}
-        alt={coverAlt ?? `Photo from ${title}`}
-        width={720}
-        class="aspect-[16/9] w-full border-b border-silk-hair object-cover"
+    past && (
+      <img
+        src={cover("med-w")}
+        srcset={`${cover("med-w")} 600w, ${cover("large-w")} 1000w`}
+        sizes="(min-width: 640px) 290px, 100vw"
+        alt={coverAlt}
+        width="1000"
+        height="600"
+        loading="lazy"
+        decoding="async"
+        class="aspect-[5/3] w-full border-b border-silk-hair object-cover"
       />
     )
   }
@@ -41,41 +68,34 @@ const typeStyles: Record<string, string> = {
     <p class="legend mt-3 text-silk-dim">
       <span class="text-gold">{formatEventDate(date, endDate)}</span>
       {time && <> · {time}</>}
-      {location && <> · {location}</>}
     </p>
-    <div class="mt-4 max-w-[65ch] text-sm leading-relaxed text-silk-dim">
-      {past && recap ? <p>{recap}</p> : <Content />}
-    </div>
     {
-      !past && (
-        <p class="legend mt-6 flex flex-wrap gap-x-6 gap-y-2 pt-1">
-          {registrationUrl && (
-            <a
-              href={registrationUrl}
-              rel="noopener"
-              class="text-gold underline-offset-4 hover:underline"
-              aria-label={`Register for ${title}`}
-            >
-              Register <span aria-hidden="true">↗</span>
-            </a>
-          )}
-          {websiteUrl && (
-            <a
-              href={websiteUrl}
-              rel="noopener"
-              class="text-signal-bright underline-offset-4 hover:underline"
-              aria-label={`${title} website`}
-            >
-              Event site <span aria-hidden="true">↗</span>
-            </a>
-          )}
-          {!registrationUrl && !websiteUrl && <span class="text-silk-faint">Details in the Discord</span>}
+      (recurrence || location) && (
+        <p class="legend mt-1 text-silk-faint">
+          {recurrence}
+          {recurrence && location && <> · </>}
+          {location}
         </p>
       )
     }
-    {
-      past && websiteUrl && (
-        <p class="legend mt-6 pt-1">
+    <p class="mt-4 max-w-[65ch] text-sm leading-relaxed text-silk-dim">
+      {past && recap ? recap : summary}
+    </p>
+    <p class="legend mt-auto flex flex-wrap gap-x-6 gap-y-2 pt-6">
+      {
+        !past && registrationUrl && (
+          <a
+            href={registrationUrl}
+            rel="noopener"
+            class="text-gold underline-offset-4 hover:underline"
+            aria-label={`Register for ${title}`}
+          >
+            Register <span aria-hidden="true">↗</span>
+          </a>
+        )
+      }
+      {
+        websiteUrl && (
           <a
             href={websiteUrl}
             rel="noopener"
@@ -84,8 +104,19 @@ const typeStyles: Record<string, string> = {
           >
             Event site <span aria-hidden="true">↗</span>
           </a>
-        </p>
-      )
-    }
+        )
+      }
+      <a
+        href={sourceUrl}
+        rel="noopener"
+        class:list={[
+          "underline-offset-4 hover:underline",
+          !past && !registrationUrl && !websiteUrl ? "text-gold" : "text-silk-dim",
+        ]}
+        aria-label={past ? `${title} on Eagle Engage` : `Details and RSVP for ${title}`}
+      >
+        {past ? "On Eagle Engage" : "Details and RSVP"} <span aria-hidden="true">↗</span>
+      </a>
+    </p>
   </div>
 </article>
