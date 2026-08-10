@@ -17,7 +17,10 @@ Two things follow from that:
 - **Engage is the source of truth.** Don't try to correct an event by editing
   this repo, the next rebuild would overwrite it.
 - **Upload a cover graphic on Engage.** Events without one are skipped, since
-  the past-event cards are built around the image.
+  the cards are built around the image. Design it **wide, at 5:3** (e.g.
+  1500x900). Engage center-crops whatever you give it to that shape when it
+  stores the file, so a portrait flyer arrives here with its top and bottom
+  already cut off and the site cannot recover them.
 
 Events move from **Upcoming** to **Past** on their own, and a daily scheduled
 rebuild means that happens even when nobody pushes anything.
