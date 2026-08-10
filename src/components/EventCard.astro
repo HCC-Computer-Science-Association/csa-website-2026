@@ -43,22 +43,23 @@ const typeStyles: Record<string, string> = {
 const cover = (preset: string) => `${coverUrl}?preset=${preset}`;
 ---
 
-<article class="card-ic flex flex-col">
-  {
-    past && (
-      <img
-        src={cover("med-w")}
-        srcset={`${cover("med-w")} 600w, ${cover("large-w")} 1000w`}
-        sizes="(min-width: 640px) 290px, 100vw"
-        alt={coverAlt}
-        width="1000"
-        height="600"
-        loading="lazy"
-        decoding="async"
-        class="aspect-[5/3] w-full border-b border-silk-hair object-cover"
-      />
-    )
-  }
+{/* The Eagle Engage link below stretches over the whole card, so clicking
+    anywhere opens the event. Keyboard focus lands on that link, hence the
+    focus ring on the card itself. */}
+<article
+  class="card-ic flex flex-col focus-within:border-gold focus-within:outline focus-within:outline-gold"
+>
+  <img
+    src={cover("med-w")}
+    srcset={`${cover("med-w")} 600w, ${cover("large-w")} 1000w`}
+    sizes="(min-width: 640px) 290px, 100vw"
+    alt={coverAlt}
+    width="1000"
+    height="600"
+    loading={past ? "lazy" : "eager"}
+    decoding="async"
+    class="aspect-[5/3] w-full border-b border-silk-hair object-cover"
+  />
   <div class="flex grow flex-col p-6 pt-5">
     <div class="mb-4 flex items-baseline justify-between gap-4 pl-4">
       <span class="legend text-silk-faint">{refdes}</span>
@@ -87,7 +88,7 @@ const cover = (preset: string) => `${coverUrl}?preset=${preset}`;
           <a
             href={registrationUrl}
             rel="noopener"
-            class="text-gold underline-offset-4 hover:underline"
+            class="relative z-10 text-gold underline-offset-4 hover:underline"
             aria-label={`Register for ${title}`}
           >
             Register <span aria-hidden="true">↗</span>
@@ -99,7 +100,7 @@ const cover = (preset: string) => `${coverUrl}?preset=${preset}`;
           <a
             href={websiteUrl}
             rel="noopener"
-            class="text-signal-bright underline-offset-4 hover:underline"
+            class="relative z-10 text-signal-bright underline-offset-4 hover:underline"
             aria-label={`${title} website`}
           >
             Event site <span aria-hidden="true">↗</span>
@@ -110,7 +111,10 @@ const cover = (preset: string) => `${coverUrl}?preset=${preset}`;
         href={sourceUrl}
         rel="noopener"
         class:list={[
-          "underline-offset-4 hover:underline",
+          "underline-offset-4 hover:underline focus-visible:outline-none",
+          // Stretches to cover the card. `.card-ic` is already position:relative,
+          // and its ::before is the corner pin, so this uses ::after.
+          "after:absolute after:inset-0 after:content-['']",
           !past && !registrationUrl && !websiteUrl ? "text-gold" : "text-silk-dim",
         ]}
         aria-label={past ? `${title} on Eagle Engage` : `Details and RSVP for ${title}`}
