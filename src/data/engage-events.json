@@ -1,14 +1,6 @@
 [
   {
     "id": "11571409",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Assosiation",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "CSA Kick off",
     "description": "<p>CSA FALL 2025 Kick-Off</p>\r\n<p>🔥🎉 <strong>Hello fellow coders and AI enthusiasts!</strong> 🎉🔥</p>\r\n<p>We&rsquo;re back and ready to go <strong>BIGGER than ever</strong>! The <strong>CSA Semester Kick-Off Event</strong> is happening, and you do <strong>NOT</strong> want to miss it. This is your chance to meet new friends, connect with fellow students, and start the semester with some serious energy! ✨</p>\r\n<p>📅 <strong>Date:</strong> Friday, September 12<br />⏰ <strong>Time:</strong> 2:00 PM &ndash; 4:00 PM<br />📍 <strong>Location:</strong> HCC - West Loop Campus (5601 W Loop S, Houston, TX 77081), The auditorium in the front entrance.</p>\r\n<p>💫 <strong>What&rsquo;s Happening:</strong></p>\r\n<ul>\r\n<li>🍴 <strong>Lunch &amp; Networking</strong> &ndash; grab some food, meet new people, and chat with fellow students!</li>\r\n<li>👋 <strong>Meet Current CSA Members</strong> &ndash; learn about who we are, what we do, and how you can get involved.</li>\r\n<li>🎲 <strong>Fun Game to Close the Event</strong> &ndash; laugh, play, and maybe even win some bragging rights!</li>\r\n</ul>\r\n<p>✨ <strong>Everyone is welcome</strong>, so bring a friend and come hang out! Whether you&rsquo;re new to campus or returning, this is the perfect chance to <strong>connect, make friends, and get hyped for the semester ahead</strong>. We promise good vibes, great food, and a lot of fun!</p>\r\n<p>🚀 <strong>Mark your calendars, bring your energy, and join us</strong> &mdash; let&rsquo;s make this semester unforgettable!</p>",
     "location": "Houston City College - West Loop Campus",
@@ -16,35 +8,15 @@
     "endsOn": "2025-09-12T21:00:00+00:00",
     "imagePath": "b4c42993-0778-4a90-aa71-f5682e835cdbf028b278-50a4-4bf5-917a-a9c46406a988.png",
     "theme": "Social",
-    "categoryIds": [
-      "23398",
-      "23399"
-    ],
     "categoryNames": [
       "Service",
       "Social"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721470",
-    "longitude": "-95.457460",
-    "recScore": null,
-    "rsvpTotal": 78,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "11782300",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Building Modern Web Applications WorkShop - Part 1",
     "description": "<p>Building Modern Web Applications Workshop</p>\r\n<p>Join the Computer Science Association for an exciting hands-on workshop exploring modern web development! Learn Vue.js, one of today's most popular JavaScript frameworks, and discover the fundamentals of client-server architecture and real-time data handling.</p>\r\n<p>Event Details:<br />Date: October 15, 2025<br />Time: 3:00 PM - 5:00 PM<br />Location: Apple Lab 150</p>\r\n<p>Whether you're new to web development or looking to expand your skills, this workshop offers a practical introduction to building dynamic, interactive web applications. Participants will gain hands-on experience with Vue.js and learn essential concepts that form the foundation of modern web development.</p>\r\n<p>Registration: Sign up now on Eagle Engage to reserve your spot!</p>\r\n<p>Perfect for students interested in computer science, web development, or anyone curious about how modern websites and applications are built. No prior Vue.js experience required!</p>",
     "location": "Apple Lab - Room 150 - West Loop Campus",
@@ -52,31 +24,14 @@
     "endsOn": "2025-10-15T22:00:00+00:00",
     "imagePath": "43dd6514-d357-4728-beca-83bded77ce0ea099968a-e94f-4514-ae4d-a031b77d82fb.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721470",
-    "longitude": "-95.457460",
-    "recScore": null,
-    "rsvpTotal": 25,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "11782267",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding club returns",
     "description": "<p>🎉 CSA&rsquo;s Coding Club Returns! 🎉<br /><br />🚀Attention coding enthusiasts: CSA&rsquo;s Coding Club is returning! Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.<br /><br />Since this is the first meetup of the semester, we&rsquo;re keeping things open-ended! We&rsquo;ll get to know each other, share cool stuff, and brainstorm what kind of activities we&rsquo;d like to have going forward. Other potential activities include helping each other with coding related homework or projects, practicing on Leetcode, and discussing other relevant events. A faculty member will be on site to assist with any difficulties!<br /><br />&nbsp;We hope to see you there!<br /><br />📅 When: Friday, October 17th<br />📍 Where: HCC West Loop, AI Lab (Room 151)<br />🕒 Time: 4:00 PM - 6:00 PM</p>",
     "location": "West Loop - AI LAB - Room 151",
@@ -84,27 +39,12 @@
     "endsOn": "2025-10-17T23:00:00+00:00",
     "imagePath": "aad5517c-6855-4eb9-9604-775a6f12e123cf451936-b962-45a9-9544-3a95905ebb6d.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [],
     "categoryNames": [],
-    "benefitNames": [],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 13,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "11831077",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Cybersecurity Fundamentals Workshop",
     "description": "<p><span data-olk-copy-source=\"MessageBody\">🎊Join us for a hands-on workshop featuring Khizar Ahmed from CSA, who will teach participants the fundamentals of cybersecurity through Capture the Flag.</span></p>\r\n<p><span data-olk-copy-source=\"MessageBody\"> You will be able to solve security-related puzzles and strengthen your understanding of cybersecurity concepts in a collaborative environment. 🖥️Computers will be available for those who don't own a laptop and wish to follow along!</span></p>\r\n<p><span class=\"emojiContainer__75abc emojiContainerClickable__75abc\" tabindex=\"0\" role=\"button\" aria-expanded=\"false\"><img class=\"emoji\" draggable=\"false\" src=\"https://discord.com/assets/709563a23303e337.svg\" alt=\"🧩\" aria-label=\"🧩\" data-type=\"emoji\" data-name=\":jigsaw:\" /></span> No prior experience required &mdash; just bring your enthusiasm!</p>\r\n<p>&nbsp;</p>\r\n<p>📅 Wednesday, October 29</p>\r\n<p>📍 West Loop Campus, Cybersecurity (SOC) Lab, Room C145</p>\r\n<p>🕑 12:00 PM until 2:00 PM</p>\r\n<p>🔔 To ask questions and receive the latest updates, join us on <a href=\"https://discord.gg/cqj36SQfVu\" target=\"_blank\" rel=\"noopener\">Discord</a> and <a href=\"https://teams.microsoft.com/l/team/19%3A662cc3bf244547f98e8f725ec61630b3%40thread.skype/conversations?groupId=3c9d28d8-2b7c-4748-a185-45d34805454e&amp;tenantId=bedc536d-9380-4d10-9954-ddfc8f5b5bdd\" target=\"_blank\" rel=\"noopener\">Teams</a>!</p>",
     "location": "HCC West Loop Campus - Cybersecurity (SOC) Lab - Room C145",
@@ -112,35 +52,15 @@
     "endsOn": "2025-10-29T19:00:00+00:00",
     "imagePath": "5373aef5-ab1c-49d0-923c-0aff39bf87ca71ea8293-a61b-4888-b788-98bb2d4f80b4.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23400"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Workshop"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 6,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "11831089",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Building Modern Web Applications Workshop, Part 2 (Backend)",
     "description": "<p>🎊 Join us for a hands-on workshop featuring Gabriel Morales from CSA in exploring the fundamentals of the client-server model, with a strong focus on backend (server) architecture and practical implementation using Django. This is part two of a three part series.</p>\r\n<p>You will learn how servers process client requests, manage data, and return secured responses through the Django framework. If you wish to follow along, we will guide you through building a simple REST API, handling authentication, and connecting to a database.</p>\r\n<p>&nbsp;</p>\r\n<p>🖥️Computers will be available for those who don't own a laptop and wish to follow along!</p>\r\n<p>🧩 No prior experience required &mdash; just bring your enthusiasm!</p>\r\n<p>&nbsp;</p>\r\n<p>📅 Wednesday, October 29</p>\r\n<p>📍 West Loop Campus, AI Lab, Room 151</p>\r\n<p>🕑 2:00 PM until 5:00 PM</p>\r\n<p>🔔 To ask questions and receive the latest updates, join us on <a href=\"https://discord.gg/cqj36SQfVu\" target=\"_blank\" rel=\"noopener\">Discord</a> and <a href=\"https://teams.microsoft.com/l/team/19%3A662cc3bf244547f98e8f725ec61630b3%40thread.skype/conversations?groupId=3c9d28d8-2b7c-4748-a185-45d34805454e&amp;tenantId=bedc536d-9380-4d10-9954-ddfc8f5b5bdd\" target=\"_blank\" rel=\"noopener\">Teams</a>!</p>",
     "location": "HCC West Loop Campus - AI Lab - Room 151",
@@ -148,35 +68,15 @@
     "endsOn": "2025-10-29T22:00:00+00:00",
     "imagePath": "d723bcbd-01c4-4001-9431-a95b38048f5cd3307654-ca62-42f5-acd8-9563d84da9ac.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23400"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Workshop"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 1,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "11825984",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meeting",
     "description": "<p>🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</p>\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -184,35 +84,15 @@
     "endsOn": "2025-10-31T23:00:00+00:00",
     "imagePath": "ab8abbb0-b4e9-4d4c-98f5-cf7354c273a2203a850a-0535-4944-9515-36a6ee993bb1.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23399"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Social"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 8,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "11825989",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Red Teaming 101 with Casey Campbell - An Introduction to the Offensive Side of Cybersecurity",
     "description": "<p style=\"text-align: center;\">🔔 Join us on a webinar featuring <a title=\"LinkedIn\" href=\"https://www.linkedin.com/in/casey-campbell-a63255264\" target=\"_blank\" rel=\"noopener\">Casey Campbell</a> from TCM Security, a technical support engineer with over 15 years of experience in exploring Red Teaming, a simulated cybersecurity attack that tests an organization's security.</p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\">🤵 <strong>About our speaker, Casey Campbell</strong>:</p>\r\n<p>&nbsp; &nbsp; Throughout his 15+ years of experience, Casey Campbell has worked as a technical support engineer, a Machining/Industrial Automation Lead, SOC (Security Operations Center) analyst, and in robotics support. For more information, make sure to check his <a title=\"Casey's LinkedIn\" href=\"https://www.linkedin.com/in/casey-campbell-a63255264/\" target=\"_blank\" rel=\"noopener\">LinkedIn.</a></p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\">📜&nbsp;<strong>About the webinar:</strong></p>\r\n<p style=\"text-align: left;\"><strong>&nbsp; &nbsp;&nbsp;</strong>In the webinar, Casey will introduce you to red teaming through a practical walkthrough. Through HackSmarter labs, Casey will share his professional insights and draw connections from his professional experience. If you're interested in cybersecurity, you can't miss this webinar! At the end, Casey will host a QNA session where you will be able to questions.</p>\r\n<p style=\"text-align: left;\">&nbsp;</p>\r\n<p>📅 Saturday, November 1st</p>\r\n<p>🕑 2:00 - 4:00 PM</p>\r\n<p>📌 Location: Online. After registering, you will receive the link to join in your email</p>\r\n<p>📢 For the latest updates, join us on <a title=\"Invite to our discord server\" href=\"https://discord.gg/cqj36SQfVu\" target=\"_blank\" rel=\"noopener\">Discord</a>, <a title=\"Link to Teams\" href=\"https://teams.microsoft.com/l/team/19%3A662cc3bf244547f98e8f725ec61630b3%40thread.skype/conversations?groupId=3c9d28d8-2b7c-4748-a185-45d34805454e&amp;tenantId=bedc536d-9380-4d10-9954-ddfc8f5b5bdd\">Teams</a>, and all of our socials.</p>",
     "location": "Online",
@@ -220,33 +100,15 @@
     "endsOn": "2025-11-01T21:00:00+00:00",
     "imagePath": "a690cc89-6819-4f1f-ae1f-80d1b6be069253f4abd4-67f0-4d5c-b164-7421dd8572aa.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23400"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Workshop"
     ],
-    "benefitNames": [],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 28,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "11825990",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Introduction to homelabbing featuring Ben Heater",
     "description": "<p style=\"text-align: center;\">🔔 Join us on a webinar featuring <a title=\"LinkedIn\" href=\"https://www.linkedin.com/in/benjaminheater/\" target=\"_blank\" rel=\"noopener\">Ben Heater</a> from Dark Wolf Solutions, a systems and security engineer and penetration tester, in exploring the world of home labs.</p>\r\n<p style=\"text-align: center;\">&nbsp;</p>\r\n<p style=\"text-align: center;\">🤔 <strong>What are Home Labs:</strong></p>\r\n<p style=\"text-align: left;\">&nbsp; &nbsp; A home lab is a personal tech playground where you can experiment, learn, and build. The practice includes setting up servers, playing with networks, trying out cybersecurity tools - the possibilities are endless. A practical use-case is setting up a \"self-hosted\" server to keep your files and media to avoid paying a pricey subscription. In Ben Heater's own words, \"home labs are one of the single greatest ways to develop core skill sets in IT.\"</p>\r\n<p style=\"text-align: left;\">&nbsp;</p>\r\n<p style=\"text-align: center;\">🤵 <strong>About our speaker, Ben Heater</strong>:</p>\r\n<p>&nbsp; &nbsp; Ben Heater works for Dark Wolf Solutions as a Senior Associate Penetration Tester. In the past, he's worked as a cyber network analysis tech, security specialist, IT systems engineer/admin, and more.&nbsp;For more information about his professional experience, make sure to check his <a title=\"Ben Heater's LinkedIn\" href=\"https://www.linkedin.com/in/benjaminheater/details/experience/\" target=\"_blank\" rel=\"noopener\">LinkedIn</a>. Outside of work, Ben also keeps a blog where he shares information about home labs, ethical hacking, and other IT/Cybersecurity topics, make sure to check it out <a title=\"Ben's blog (personal website)\" href=\"https://benheater.com/\" target=\"_blank\" rel=\"noopener\">here</a>.</p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\">📜 <strong>About the webinar:</strong></p>\r\n<p style=\"text-align: left;\"><strong>&nbsp; &nbsp;&nbsp;</strong>In this webinar, Ben Heater will introduce you to home labs, why they're important, and walk you through the steps to building your own home lab. He will share the pros and cons of a home lab, the typical progression of a home lab setup, common designs, equipment, where and how to start. By the end of the event, you will be equipped with the knowledge of what can be accomplished through homelabbing, and how to dive into this amazing practice.&nbsp;If you're interested in tech or cybersecurity, you can't miss this webinar!</p>\r\n<p>&nbsp;</p>\r\n<p>📅 Friday, November 7</p>\r\n<p>🕑 12:00 - 2:00 PM</p>\r\n<p>📌 Location: <a title=\"Link to join\" href=\"https://events.teams.microsoft.com/event/4cc6542e-b304-4e7e-b08c-63efdfeb7abf@bedc536d-9380-4d10-9954-ddfc8f5b5bdd\" target=\"_blank\" rel=\"noopener\">Online</a>, after signing up you will receive the meeting link in your email</p>\r\n<p>📢 For the latest updates, join us on <a title=\"Discord Server\" href=\"https://discord.gg/cqj36SQfVu\" target=\"_blank\" rel=\"noopener\">Discord</a>, <a title=\"Teams channel\" href=\"https://teams.microsoft.com/l/team/19%3A662cc3bf244547f98e8f725ec61630b3%40thread.skype/conversations?groupId=3c9d28d8-2b7c-4748-a185-45d34805454e&amp;tenantId=bedc536d-9380-4d10-9954-ddfc8f5b5bdd\" target=\"_blank\" rel=\"noopener\">Teams</a>, and all of our socials.</p>",
     "location": "Online",
@@ -254,31 +116,14 @@
     "endsOn": "2025-11-07T20:00:00+00:00",
     "imagePath": "ffc0a2bf-bd1a-4d52-a115-5823137af3256332cf18-7cd7-494b-af4b-b04a18d924be.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 19,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "11825985",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meeting",
     "description": "<p>🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</p>\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -286,35 +131,15 @@
     "endsOn": "2025-11-08T00:00:00+00:00",
     "imagePath": "ab8abbb0-b4e9-4d4c-98f5-cf7354c273a2203a850a-0535-4944-9515-36a6ee993bb1.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23399"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Social"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 19,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "11872695",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Version Control with Git & Collaboration on GitHub Workshop",
     "description": "<p>🔔 Join us for a hands-on workshop on mastering Git and GitHub!</p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: center;\">👨&zwj;💻 <strong>About the workshop</strong>:</p>\r\n<p style=\"text-align: left;\">In this session, participants will learn how to track and manage code changes using Git, collaborate effectively with others through GitHub, and follow best practices for version control. Through live demonstrations, you&rsquo;ll see how to create repositories, commit changes, branch and merge code, and contribute to projects using pull requests. By the end of the workshop, you&rsquo;ll have the practical skills to confidently manage projects and collaborate in a team environment.</p>\r\n<p style=\"text-align: left;\">&nbsp;</p>\r\n<p style=\"text-align: center;\">❓<strong>What is Git/Github</strong>?</p>\r\n<p><strong>Git</strong> is a &ldquo;version control system&rdquo; that lets you track and manage changes to your code over time, like a &ldquo;save history&rdquo; for your projects. It helps you experiment, fix mistakes, and keep everything organized. It is an essential tool for anyone working with code.</p>\r\n<p><strong>GitHub</strong> is an online platform that works with Git, making it easy to share code, collaborate with others, and contribute to open-source projects. Together, they&rsquo;re essential tools for any developer working in a team or managing personal projects. Github is used by millions of developers, and you will be expected to know it at some point in your software development journey.</p>\r\n<p>More details in the workshop, we hope to see you there!</p>\r\n<p>&nbsp;</p>\r\n<p>📅 <strong>Wednesday, November 12</strong><br />🕓 <strong>3:00 &ndash; 5:00 PM</strong><br />📌 <strong>Location: West Loop Campus, SOC Lab (C145)</strong></p>\r\n<p><strong>Note</strong>: If you're not familiar with the room, a campus map will be posted in discord and teams on the day of the event. Links are below.</p>\r\n<p>📢 <strong>For updates</strong>, join us on Discord, Teams, or follow us on our socials.</p>",
     "location": "HCC West Loop Campus - Cybersecurity (SOC) Lab - Room C145",
@@ -322,35 +147,15 @@
     "endsOn": "2025-11-12T23:00:00+00:00",
     "imagePath": "f2dd4d37-9ff5-472b-8716-e7e60efd595b4457395b-2b3e-462b-a492-0bb30e584965.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23400"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Workshop"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 10,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "11825986",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meeting",
     "description": "<p>🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</p>\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -358,35 +163,15 @@
     "endsOn": "2025-11-15T00:00:00+00:00",
     "imagePath": "ab8abbb0-b4e9-4d4c-98f5-cf7354c273a2203a850a-0535-4944-9515-36a6ee993bb1.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23399"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Social"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 5,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "11878424",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Understanding Databases: SQL vs NoSQL (PostgreSQL & MongoDB) Workshop",
     "description": "<p style=\"text-align: center;\">🔔 <strong>Join us for an interactive workshop on mastering databases with PostgreSQL and MongoDB!</strong></p>\r\n<p style=\"text-align: center;\">&nbsp;</p>\r\n<p style=\"text-align: center;\">👨&zwj;💻&nbsp;<strong>About the workshop</strong>:</p>\r\n<p style=\"text-align: left;\">In this session, participants will explore the fundamental concepts that power modern data management. You&rsquo;ll dive into the key differences between relational and non-relational databases, focusing on two leading technologies: PostgreSQL and MongoDB. Through guided explanations and live demonstrations, you&rsquo;ll see how data is structured, stored, and queried in each system. By the end, you&rsquo;ll have a solid foundation in both SQL and NoSQL paradigms and a better understanding of how databases drive real-world software systems.</p>\r\n<p style=\"text-align: center;\">&nbsp;</p>\r\n<p style=\"text-align: center;\">🧠 <strong>What you&rsquo;ll learn:</strong></p>\r\n<p style=\"text-align: left;\">- The role and purpose of databases<br />- Differences between SQL and NoSQL systems<br />- Overview of relational databases (PostgreSQL) and non-relational databases (MongoDB)<br />- Practical examples with Redis and other database technologies<br />- Live PostgreSQL demo: creating tables, inserting data, and running queries</p>\r\n<p style=\"text-align: left;\">&nbsp;</p>\r\n<p style=\"text-align: center;\">🤵 <strong>About our speaker</strong>:</p>\r\n<p style=\"text-align: left;\">This workshop will be led by <strong>Gabriel Morales</strong>, a CSA board member and experienced developer passionate about backend systems and data-driven applications. This session marks the <strong>third part of our ongoing workshop series</strong>, following previous events on <strong>frontend</strong> and <strong>backend</strong> development.</p>\r\n<p style=\"text-align: left;\">&nbsp;</p>\r\n<p>📅 <strong>Tuesday, November 19</strong><br />🕓 <strong>3:00 &ndash; 5:00 PM</strong><br />📌 <strong>Location: West Loop Campus, SOC Lab (C145)</strong></p>\r\n<p>📢 For updates, join us on <a title=\"Invite to our discord server\" href=\"https://discord.gg/cqj36SQfVu\" target=\"_blank\" rel=\"noopener\">Discord</a>, <a title=\"Link to join Team\" href=\"https://teams.microsoft.com/l/team/19%3A662cc3bf244547f98e8f725ec61630b3%40thread.skype/conversations?groupId=3c9d28d8-2b7c-4748-a185-45d34805454e&amp;tenantId=bedc536d-9380-4d10-9954-ddfc8f5b5bdd\" target=\"_blank\" rel=\"noopener\">Teams</a>, and follow us on our socials.</p>",
     "location": "HCC West Loop Campus - Cybersecurity (SOC) Lab - Room C145",
@@ -394,35 +179,15 @@
     "endsOn": "2025-11-19T23:00:00+00:00",
     "imagePath": "75ac5578-725c-4766-8a73-adb6cdb8960ba161583f-77d6-41c9-bd97-2d568969965a.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23400"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Workshop"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 39,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "11825987",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meeting",
     "description": "<p>🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</p>\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -430,35 +195,15 @@
     "endsOn": "2025-11-22T00:00:00+00:00",
     "imagePath": "ab8abbb0-b4e9-4d4c-98f5-cf7354c273a2203a850a-0535-4944-9515-36a6ee993bb1.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23399"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Social"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 10,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "11910548",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "CSA's Semester Wrap-Up",
     "description": "<p style=\"text-align: center;\">🎉 <strong>CSA&rsquo;s Semester Wrap-Up!&nbsp;🎉</strong></p>\r\n<p>We made it through the semester, and now it&rsquo;s time to celebrate! 🎊<br />Come hang out with us as we look back on everything we built, learned, and accomplished together this fall. We&rsquo;ll share some highlights, get your take on the semester, and relive a few of the moments that made this year unforgettable.</p>\r\n<p>Plus, you&rsquo;ll get an early look at what we&rsquo;ve got cooking for next semester: new workshops, bigger events, and some surprises we can&rsquo;t wait to reveal.</p>\r\n<p>Whether you&rsquo;re a familiar face or brand new to CSA, pull up and meet CSA members, grab a plate 🥘, and celebrate the end of the semester with the squad. You earned it. 🙌</p>\r\n<p>📅 <strong>Date:</strong>&nbsp;Wednesday, December 3rd<br />📌 <strong>Location:</strong>&nbsp;West Loop Campus Auditorium (#101)<br />🕓 <strong>Time:</strong> 2:00-4:00 PM<br />📢 For the latest updates, join us on <a title=\"Invite to join our discord server, come chat!\" href=\"https://discord.gg/cqj36SQfVu\" target=\"_blank\" rel=\"noopener\">Discord</a>, <a title=\"Invite to join our Teams!\" href=\"https://teams.microsoft.com/l/team/19%3A662cc3bf244547f98e8f725ec61630b3%40thread.skype/conversations?groupId=3c9d28d8-2b7c-4748-a185-45d34805454e&amp;tenantId=bedc536d-9380-4d10-9954-ddfc8f5b5bdd\" target=\"_blank\" rel=\"noopener\">Teams</a>, and all of our socials.</p>",
     "location": "HCC West Loop Campus - Auditorium (#101)",
@@ -466,34 +211,14 @@
     "endsOn": "2025-12-03T22:00:00+00:00",
     "imagePath": "f2ad3242-d3a8-463a-a629-75318d3f42bc9e215931-5876-4af8-911d-f363bc6f5a1b.png",
     "theme": "Social",
-    "categoryIds": [
-      "23399"
-    ],
     "categoryNames": [
       "Social"
     ],
-    "benefitNames": [
-      "Free Food",
-      "Free Stuff"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 36,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "11825988",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meeting",
     "description": "<p>🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</p>\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -501,35 +226,15 @@
     "endsOn": "2025-12-06T00:00:00+00:00",
     "imagePath": "ab8abbb0-b4e9-4d4c-98f5-cf7354c273a2203a850a-0535-4944-9515-36a6ee993bb1.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23399"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Social"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 7,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "11941671",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meeting",
     "description": "<p>🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</p>\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -537,35 +242,15 @@
     "endsOn": "2025-12-13T00:00:00+00:00",
     "imagePath": "072ddf8a-a253-4bbc-b196-d3300c45a1499f321eac-6b92-43bc-a92f-127f39628557.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23399"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Social"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 9,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "11941672",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meeting",
     "description": "<p>🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</p>\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -573,35 +258,15 @@
     "endsOn": "2025-12-20T00:00:00+00:00",
     "imagePath": "072ddf8a-a253-4bbc-b196-d3300c45a1499f321eac-6b92-43bc-a92f-127f39628557.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23399"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Social"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 9,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12029170",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2 style=\"text-align: center;\"><span style=\"font-size: 14px;\">🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</span></h2>\r\n<div class=\"DescriptionText\">\r\n<p style=\"text-align: center;\">Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p style=\"text-align: center;\">💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p style=\"text-align: center;\">🍕 Also, free pizza&nbsp;🍕</p>\r\n<p style=\"text-align: center;\">We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n<p>&nbsp;</p>\r\n</div>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -609,33 +274,14 @@
     "endsOn": "2026-01-17T00:00:00+00:00",
     "imagePath": "b97f615f-d76d-4ea8-888a-0b3880ef4613d7f68162-ef5c-4884-9841-07935904ab92.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 5,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12029186",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Interview Prep with LeetCode",
     "description": "<p style=\"text-align: center;\" data-start=\"129\" data-end=\"202\">🔔 <strong data-start=\"132\" data-end=\"200\">Join us for a hands-on workshop on interview prep with LeetCode!</strong></p>\r\n<p style=\"text-align: center;\" data-start=\"1304\" data-end=\"1676\">💡 <strong data-start=\"1307\" data-end=\"1330\">About the workshop:</strong><br data-start=\"1330\" data-end=\"1333\" />If technical interviews feel intimidating, this workshop is for you. In this workshop led by Meta Data Analyst <a href=\"https://www.linkedin.com/in/madison-emshousen/\" target=\"_blank\" rel=\"noopener\">Madison Emshousen</a>, we&rsquo;ll break down common LeetCode problems, explain how to think through them under pressure, and show you how to communicate your reasoning clearly. You&rsquo;ll also learn interview tips that go beyond coding like how to approach questions, handle mistakes, and stay confident.</p>\r\n<p style=\"text-align: center;\" data-start=\"1678\" data-end=\"1909\">❓ <strong data-start=\"1680\" data-end=\"1701\">What is LeetCode?</strong><br data-start=\"1701\" data-end=\"1704\" />LeetCode is a coding practice platform used by millions of developers to prepare for technical interviews. The problems you&rsquo;ll see here closely resemble real interview questions used by top tech companies.</p>\r\n<p style=\"text-align: center;\" data-start=\"1911\" data-end=\"1938\">👥 <strong data-start=\"1914\" data-end=\"1936\">Who should attend?</strong></p>\r\n<ul data-start=\"1939\" data-end=\"2140\">\r\n<li style=\"text-align: center;\" data-start=\"1939\" data-end=\"2002\">\r\n<p data-start=\"1941\" data-end=\"2002\">Anyone applying for internships, co-ops, or full-time roles</p>\r\n</li>\r\n<li style=\"text-align: center;\" data-start=\"2003\" data-end=\"2072\">\r\n<p data-start=\"2005\" data-end=\"2072\">Students grinding LeetCode but unsure if they&rsquo;re &ldquo;doing it right&rdquo;</p>\r\n</li>\r\n<li data-start=\"2073\" data-end=\"2140\">\r\n<p style=\"text-align: center;\" data-start=\"2075\" data-end=\"2140\">Anyone who wants to feel more confident in technical interviews</p>\r\n</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p data-start=\"783\" data-end=\"843\">📅 <strong data-start=\"786\" data-end=\"795\">Date:</strong>&nbsp;Wed, Jan 21<br data-start=\"799\" data-end=\"802\" />🕓 <strong data-start=\"805\" data-end=\"814\">Time:</strong>&nbsp;3PM-5PM<br data-start=\"818\" data-end=\"821\" />📌 <strong data-start=\"824\" data-end=\"837\">Location:</strong>&nbsp;West Loop Campus, AI Lab (C150)</p>\r\n<p data-start=\"783\" data-end=\"843\">- Will also be hosted virtually on Teams, use the Teams link below to be notified at the time of the event.</p>\r\n<p data-start=\"783\" data-end=\"843\">📢 For the latest updates, join us on <a href=\"https://discord.gg/cqj36SQfVu\" target=\"_blank\" rel=\"noopener\">Discord</a>, <a href=\"https://teams.microsoft.com/l/team/19%3A662cc3bf244547f98e8f725ec61630b3%40thread.skype/conversations?groupId=3c9d28d8-2b7c-4748-a185-45d34805454e&amp;tenantId=bedc536d-9380-4d10-9954-ddfc8f5b5bdd\" target=\"_blank\" rel=\"noopener\">Teams</a>, and all of our socials.</p>",
     "location": "West Loop Campus, AI Lab (C150)",
@@ -643,37 +289,16 @@
     "endsOn": "2026-01-21T23:00:00+00:00",
     "imagePath": "019b85dd-d3e0-4311-9aec-135dde640e194e4106b6-76df-4f88-9c4f-d769b1a9fe53.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23400",
-      "23483"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Workshop",
       "Career"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 8,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12029172",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2 style=\"text-align: center;\"><span style=\"font-size: 14px;\">🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</span></h2>\r\n<div class=\"DescriptionText\">\r\n<p style=\"text-align: center;\">Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p style=\"text-align: center;\">💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p style=\"text-align: center;\">🍕 Also, free pizza&nbsp;🍕</p>\r\n<p style=\"text-align: center;\">We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n<p>&nbsp;</p>\r\n</div>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -681,33 +306,14 @@
     "endsOn": "2026-01-31T00:00:00+00:00",
     "imagePath": "b97f615f-d76d-4ea8-888a-0b3880ef4613d7f68162-ef5c-4884-9841-07935904ab92.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 2,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12029173",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2 style=\"text-align: center;\"><span style=\"font-size: 14px;\">🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</span></h2>\r\n<div class=\"DescriptionText\">\r\n<p style=\"text-align: center;\">Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p style=\"text-align: center;\">💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p style=\"text-align: center;\">🍕 Also, free pizza&nbsp;🍕</p>\r\n<p style=\"text-align: center;\">We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n<p>&nbsp;</p>\r\n</div>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -715,33 +321,14 @@
     "endsOn": "2026-02-07T00:00:00+00:00",
     "imagePath": "b97f615f-d76d-4ea8-888a-0b3880ef4613d7f68162-ef5c-4884-9841-07935904ab92.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 4,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12029174",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2 style=\"text-align: center;\"><span style=\"font-size: 14px;\">🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</span></h2>\r\n<div class=\"DescriptionText\">\r\n<p style=\"text-align: center;\">Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p style=\"text-align: center;\">💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p style=\"text-align: center;\">🍕 Also, free pizza&nbsp;🍕</p>\r\n<p style=\"text-align: center;\">We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n<p>&nbsp;</p>\r\n</div>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -749,33 +336,14 @@
     "endsOn": "2026-02-14T00:00:00+00:00",
     "imagePath": "b97f615f-d76d-4ea8-888a-0b3880ef4613d7f68162-ef5c-4884-9841-07935904ab92.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 6,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12229823",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Rust Programming 101",
     "description": "<p data-start=\"242\" data-end=\"274\">💡 <strong data-start=\"279\" data-end=\"302\">About the workshop:</strong></p>\r\n<p data-start=\"276\" data-end=\"645\">Curious about Rust and why so many developers are excited about it? In this workshop, we&rsquo;ll introduce Rust from the ground up and explain what makes it different from other programming languages. You&rsquo;ll learn the basics of Rust syntax, how ownership and borrowing work, and why Rust is known for writing fast, safe, and reliable programs.</p>\r\n<p data-start=\"647\" data-end=\"735\">This session is designed to make Rust approachable, even if you&rsquo;ve never used it before.</p>\r\n<p data-start=\"647\" data-end=\"735\">&nbsp;</p>\r\n<p data-start=\"647\" data-end=\"735\"><strong>👤 About the speaker: Rui Jiang</strong></p>\r\n<p data-start=\"647\" data-end=\"735\">Rui Jiang is a Senior Full Stack Software Engineer with a Master's degree in Computer Science and years of industry experience building production software.</p>\r\n<p data-start=\"647\" data-end=\"735\">&nbsp;</p>\r\n<p data-start=\"737\" data-end=\"764\">👥 <strong data-start=\"740\" data-end=\"762\">Who should attend?</strong></p>\r\n<ul data-start=\"765\" data-end=\"911\">\r\n<li data-start=\"765\" data-end=\"811\">\r\n<p data-start=\"767\" data-end=\"811\">Students interested in systems programming</p>\r\n</li>\r\n<li data-start=\"812\" data-end=\"845\">\r\n<p data-start=\"814\" data-end=\"845\">Developers curious about Rust</p>\r\n</li>\r\n<li data-start=\"846\" data-end=\"911\">\r\n<p data-start=\"848\" data-end=\"911\">Anyone who wants to learn a modern, high-performance language</p>\r\n</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Event Details</strong></p>\r\n<p><strong>📅 Wednesday, February 18<br />🕑 3:00 - 5:00 PM<br />📌 Location: SoC lab (C145), West Loop Campus<br />📢 For the latest updates, join us on <a href=\"https://discord.gg/cqj36SQfVu\" target=\"_blank\" rel=\"noopener\">Discord</a>, <a href=\"https://teams.microsoft.com/l/team/19%3A662cc3bf244547f98e8f725ec61630b3%40thread.skype/conversations?groupId=3c9d28d8-2b7c-4748-a185-45d34805454e&amp;tenantId=bedc536d-9380-4d10-9954-ddfc8f5b5bdd\">Teams</a>, and all of our socials.<br /></strong></p>",
     "location": "West Loop Campus - Cybersecurity (SOC) Lab - (C145)",
@@ -783,35 +351,15 @@
     "endsOn": "2026-02-18T23:00:00+00:00",
     "imagePath": "a0a69164-abb2-4969-8dce-210d402b46b5c347ecc7-93e0-4872-a2bf-cbc2c2b50c0b.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23400"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Workshop"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 5,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12029175",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2 style=\"text-align: center;\"><span style=\"font-size: 14px;\">🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</span></h2>\r\n<div class=\"DescriptionText\">\r\n<p style=\"text-align: center;\">Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p style=\"text-align: center;\">💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p style=\"text-align: center;\">🍕 Also, free pizza&nbsp;🍕</p>\r\n<p style=\"text-align: center;\">We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n<p>&nbsp;</p>\r\n</div>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -819,33 +367,14 @@
     "endsOn": "2026-02-21T00:00:00+00:00",
     "imagePath": "b97f615f-d76d-4ea8-888a-0b3880ef4613d7f68162-ef5c-4884-9841-07935904ab92.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 12,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12256124",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Podman & Containerization Workshop",
     "description": "<p>A workshop about Podman by the Computer Science Association, featuring <a href=\"https://www.linkedin.com/in/evancarroll/\" target=\"_blank\" rel=\"noopener\">Evan Carroll</a>. Podman (pod manager) is an open source tool for managing containers (similar to Docker) available on Windows, Linux, and MacOS systems.</p>\r\n<p>What are containers?<br />Containers are a way to package an application together with everything it needs to run (libraries, tools, settings) so it behaves the same on any computer. Instead of installing software directly on your system, you can do it inside a container which is isolated, making it easy to start or remove. Podman is a tool, similar to Docker, which lets you download, start, stop, and delete these containerized applications.</p>\r\n<p>Why use Podman and similar tools?<br />Using tools like Podman helps avoid &ldquo;it works on my machine&rdquo; problems by ensuring software runs the same everywhere, while also reducing the risk of breaking your system.</p>\r\n<p>🤵 About our speaker, <a href=\"https://www.linkedin.com/in/evancarroll/\" target=\"_blank\" rel=\"noopener\">Evan Carroll:</a><br />Evan Carroll is a seasoned Software Engineer and a prominent figure in the Houston technology scene. Throughout his career, he has navigated nearly every layer of the stack, serving as a systems administrator, database specialist, and senior software engineer. Currently, he leverages his deep expertise in Rust and Linux systems to build high-performance software. For more information about his professional journey, make sure to check his [LinkedIn](https://www.linkedin.com/in/evancarroll/).</p>\r\n<p>Outside of his professional roles, Evan is a passionate advocate for the open-source movement. He is a founding member of the Houston Open Source Society (HOSS) and has contributed to massive global projects including Node.js, OpenStreetMap, and Wikidata. He is a frequent face at local tech meetups and hackathons, where he enjoys sharing his knowledge on everything from PostgreSQL optimization to modern containerization with Podman.</p>\r\n<p>&nbsp;</p>\r\n<p>📅 Monday, February 23<br />🕑 2:00 - 4:00 PM<br />📌 Location: West Loop SOC Lab (C145)<br />📢 For the latest updates, join us on <a href=\"https://discord.gg/cqj36SQfVu\" target=\"_blank\" rel=\"noopener\">Discord</a>, <a href=\"https://teams.microsoft.com/l/team/19%3A662cc3bf244547f98e8f725ec61630b3%40thread.skype/conversations?groupId=3c9d28d8-2b7c-4748-a185-45d34805454e&amp;tenantId=bedc536d-9380-4d10-9954-ddfc8f5b5bdd\" target=\"_blank\" rel=\"noopener\">Teams</a>, and all of our socials.</p>",
     "location": "West Loop Campus - Cybersecurity (SOC) Lab - (C145)",
@@ -853,35 +382,15 @@
     "endsOn": "2026-02-23T22:00:00+00:00",
     "imagePath": "98bf5616-efec-438f-a879-ad7e1f828cf96fc888fc-0577-4807-94bf-8184640e0018.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23400"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Workshop"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 3,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12256129",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Linux Fundamentals Workshop",
     "description": "<p>💻 About the workshop:</p>\r\n<p>Presented by Professors Hung Le and Orlando Penaloza!</p>\r\n<p>Linux powers servers, cloud infrastructure, cybersecurity environments, and much of modern software development. In this session, two HCC professors will explore what Linux is, how operating systems function at a high level, and why Linux skills are valuable in technical careers.</p>\r\n<p>Participants will learn core command-line concepts and practice essential terminal commands used in development and system administration. The workshop will also feature a live Linux installation, walking through the setup process and explaining key configuration steps.</p>\r\n<p>This is a great opportunity to build foundational knowledge that employers actively look for.</p>\r\n<p>&nbsp;</p>\r\n<p>👥 Who should attend?</p>\r\n<p>- CS, IT, and cybersecurity students</p>\r\n<p>- Students interested in learning how operating systems work</p>\r\n<p>- Students curious about Linux</p>\r\n<p><br />📅 Friday, February 27<br />🕑 1:00 - 3:00 PM<br />📌 Location:&nbsp;West Loop Campus, AI Lab (151)<br />📢 For the latest updates, join us on <a href=\"https://discord.gg/cqj36SQfVu\" target=\"_blank\" rel=\"noopener\">Discord</a>, <a href=\"https://teams.microsoft.com/l/team/19%3A662cc3bf244547f98e8f725ec61630b3%40thread.skype/conversations?groupId=3c9d28d8-2b7c-4748-a185-45d34805454e&amp;tenantId=bedc536d-9380-4d10-9954-ddfc8f5b5bdd\" target=\"_blank\" rel=\"noopener\">Teams</a>, and all of our socials.</p>",
     "location": "West Loop Campus, AI Lab (151)",
@@ -889,35 +398,15 @@
     "endsOn": "2026-02-27T21:00:00+00:00",
     "imagePath": "aea6e119-31b1-40d4-a0cd-cf60e007197c61d622bd-43ed-4ab2-b7e4-e5e3bd3f1cc1.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23400"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Workshop"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 10,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12029176",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2 style=\"text-align: center;\"><span style=\"font-size: 14px;\">🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</span></h2>\r\n<div class=\"DescriptionText\">\r\n<p style=\"text-align: center;\">Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p style=\"text-align: center;\">💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p style=\"text-align: center;\">🍕 Also, free pizza&nbsp;🍕</p>\r\n<p style=\"text-align: center;\">We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n<p>&nbsp;</p>\r\n</div>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -925,33 +414,14 @@
     "endsOn": "2026-02-28T00:00:00+00:00",
     "imagePath": "b97f615f-d76d-4ea8-888a-0b3880ef4613d7f68162-ef5c-4884-9841-07935904ab92.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 10,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12029177",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2 style=\"text-align: center;\"><span style=\"font-size: 14px;\">🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</span></h2>\r\n<div class=\"DescriptionText\">\r\n<p style=\"text-align: center;\">Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p style=\"text-align: center;\">💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p style=\"text-align: center;\">🍕 Also, free pizza&nbsp;🍕</p>\r\n<p style=\"text-align: center;\">We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n<p>&nbsp;</p>\r\n</div>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -959,33 +429,14 @@
     "endsOn": "2026-03-07T00:00:00+00:00",
     "imagePath": "b97f615f-d76d-4ea8-888a-0b3880ef4613d7f68162-ef5c-4884-9841-07935904ab92.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 9,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12340454",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Vibe Coding 101: Back-End with Cursor & Claude Code",
     "description": "<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">💡 <strong>About the workshop:</strong></p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Ever wanted to build a full back-end in record time using AI? In this workshop, we'll dive into <strong>vibe coding</strong> &mdash; the art of building software fast with AI tools like Cursor and Claude Code. You'll learn how to plan, structure, and execute AI-generated projects while staying in the driver's seat, supervising and confirming every change along the way.</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">This is Part 1 of our Vibe Coding series, focused entirely on the back-end. We'll go from zero to a fully containerized FastAPI application, complete with database migrations, service endpoints, and unit tests &mdash; all built with AI assistance.</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><br />👤 <strong>About the speaker: Gabriel Morales</strong></p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Gabriel Morales is a software engineer and educator passionate about modern development workflows and AI-assisted tooling. He brings hands-on experience building production back-end systems and a talent for making cutting-edge tools accessible to students.</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><br />🗂️ <strong>What you'll cover:</strong></p>\r\n<ul class=\"[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3\">\r\n<li class=\"whitespace-normal break-words pl-2\">Setting up Cursor and Claude Code accounts</li>\r\n<li class=\"whitespace-normal break-words pl-2\">Defining your tech stack and configuring project context &amp; rules in Cursor for FastAPI</li>\r\n<li class=\"whitespace-normal break-words pl-2\">Initial project setup and automation methodologies in Cursor</li>\r\n<li class=\"whitespace-normal break-words pl-2\">Running a Python development environment inside a Docker container</li>\r\n<li class=\"whitespace-normal break-words pl-2\">Database migrations and ORM model creation with Alembic and SQLAlchemy</li>\r\n<li class=\"whitespace-normal break-words pl-2\">Building services and API endpoints in FastAPI with Docker</li>\r\n<li class=\"whitespace-normal break-words pl-2\">Writing unit tests with pytest and mocking</li>\r\n</ul>\r\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><br />👥 <strong>Who should attend?</strong></p>\r\n<ul class=\"[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3\">\r\n<li class=\"whitespace-normal break-words pl-2\">Students curious about AI-assisted development</li>\r\n<li class=\"whitespace-normal break-words pl-2\">Developers who want to ship back-end projects faster</li>\r\n<li class=\"whitespace-normal break-words pl-2\">Anyone interested in tools like Cursor, Claude Code, FastAPI, or Docker</li>\r\n</ul>\r\n<hr class=\"border-border-200 border-t-0.5 my-3 mx-1.5\" />\r\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">📅 Thursday, March 19 <br />🕑 2:00 PM <br />📌 Location: West Houston Institute, Computer Lab 107 &mdash; Learning Commons <br />📢 For the latest updates, join us on <a href=\"https://discord.gg/cqj36SQfVu\">Discord</a>, <a href=\"https://teams.microsoft.com/l/team/19%3A662cc3bf244547f98e8f725ec61630b3%40thread.skype/conversations?groupId=3c9d28d8-2b7c-4748-a185-45d34805454e&amp;tenantId=bedc536d-9380-4d10-9954-ddfc8f5b5bdd\" target=\"_blank\" rel=\"noopener\">Teams</a>, and all of our socials.</p>",
     "location": "HCC West Houston Institute Campus - Computer Lab #107, Learning Commons",
@@ -993,35 +444,16 @@
     "endsOn": "2026-03-19T21:00:00+00:00",
     "imagePath": "5b9f6240-2a9e-4097-b712-96d2373058cf8adff150-6c4b-4753-b20b-da2826d5ae74.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23400",
-      "23483"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Workshop",
       "Career"
     ],
-    "benefitNames": [],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.736120",
-    "longitude": "-95.575000",
-    "recScore": null,
-    "rsvpTotal": 7,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12029178",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2 style=\"text-align: center;\"><span style=\"font-size: 14px;\">🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</span></h2>\r\n<div class=\"DescriptionText\">\r\n<p style=\"text-align: center;\">Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p style=\"text-align: center;\">💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p style=\"text-align: center;\">🍕 Also, free pizza&nbsp;🍕</p>\r\n<p style=\"text-align: center;\">We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n<p>&nbsp;</p>\r\n</div>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -1029,33 +461,14 @@
     "endsOn": "2026-03-20T23:00:00+00:00",
     "imagePath": "b97f615f-d76d-4ea8-888a-0b3880ef4613d7f68162-ef5c-4884-9841-07935904ab92.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 6,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12314380",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Demystifying Behavioral Interviews",
     "description": "<p>Do you feel socially anxious or unable to hold conversations with tact? Limited Spots available for an upcoming workshop that aids students cultivate soft skills.</p>\r\n<p>This workshop equips technical professionals with the soft skills needed to excel in behavioral interviews by learning how to structure clear, impactful responses.</p>\r\n<p>On top of that, we will have group exercises to retain the lecture aspect of the workshop.</p>\r\n<p>Participants will explore proven frameworks, analyze real interview scenarios, and practice communicating their experiences with confidence. Through guided exercises and feedback, attendees will strengthen storytelling, self-awareness, and professional presence.</p>",
     "location": "HCC West Loop",
@@ -1063,33 +476,14 @@
     "endsOn": "2026-03-24T21:00:00+00:00",
     "imagePath": "dd180929-21fe-4f9f-aa10-642dca5ae28cf779368d-5a85-4d56-a772-5672b4b34f23.png",
     "theme": "Social",
-    "categoryIds": [
-      "23483"
-    ],
     "categoryNames": [
       "Career"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721470",
-    "longitude": "-95.457460",
-    "recScore": null,
-    "rsvpTotal": 4,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12029179",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2 style=\"text-align: center;\"><span style=\"font-size: 14px;\">🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</span></h2>\r\n<div class=\"DescriptionText\">\r\n<p style=\"text-align: center;\">Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p style=\"text-align: center;\">💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p style=\"text-align: center;\">🍕 Also, free pizza&nbsp;🍕</p>\r\n<p style=\"text-align: center;\">We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n<p>&nbsp;</p>\r\n</div>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -1097,33 +491,14 @@
     "endsOn": "2026-03-27T23:00:00+00:00",
     "imagePath": "b97f615f-d76d-4ea8-888a-0b3880ef4613d7f68162-ef5c-4884-9841-07935904ab92.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 6,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12289796",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "AI INNOVATION  SYMPOSIUM & EXPO",
     "description": "<p>Join us for a daylong gathering of industry leaders,&nbsp;experts, educators, and students exploring&nbsp;the latest in artificial intelligence and how&nbsp;AI is fueling innovation, education, and economic growth across Greater Houston. Supported by Google.org, the HCC symposium is part of a broader series examining how AI strengthens communities, expands access to technology, and builds a resilient talent pipeline.</p>\r\n<p>🥇 Additionally, students are encouraged to submit either&nbsp;<strong>individual</strong>&nbsp;or&nbsp;<strong>team</strong>&nbsp;AI projects for consideration <strong>by March 18</strong>. Selected participants will have the opportunity to showcase their work through a&nbsp;<strong>live demo, presentation, or poster display</strong>. If you are interested in submitting a project, go to <a href=\"https://hcc.idloom.events/artificial-intelligence-symposium-2026/pages/student-ai-projects-showcase\" target=\"_blank\" rel=\"noopener\">this website</a>.</p>\r\n<p>📑 Even if you don't submit a project, you will be able to go to several workshops to learn useful skills that will support you in your professional journey.</p>\r\n<p>📜 For more information about the event and <strong>registration</strong>, go to <a href=\"https://hcc.idloom.events/artificial-intelligence-symposium-2026\" target=\"_blank\" rel=\"noopener\">this website</a>.</p>\r\n<p>🚨 Note that RSVP'ing on Eagle Engage (this site) does not count as registration. To register, go to the above website and click on the&nbsp;<strong>RSVP</strong> link.</p>\r\n<p>&nbsp;</p>\r\n<p>Details</p>\r\n<p>📅 Wednesday, April 1st<br />🕑 9:00 AM - 7:00 PM<br />📌 Location: West Loop Auditorium<br />📢 For the latest updates, join us on <a href=\"https://discord.gg/cqj36SQfVu\" target=\"_blank\" rel=\"noopener\">Discord</a>, <a href=\"https://teams.microsoft.com/l/team/19%3A662cc3bf244547f98e8f725ec61630b3%40thread.skype/conversations?groupId=3c9d28d8-2b7c-4748-a185-45d34805454e&amp;tenantId=bedc536d-9380-4d10-9954-ddfc8f5b5bdd\" target=\"_blank\" rel=\"noopener\">Teams</a>, and all of our socials.</p>",
     "location": "West Loop Campus - Auditorium (101)",
@@ -1131,40 +506,17 @@
     "endsOn": "2026-04-02T00:00:00+00:00",
     "imagePath": "54f5d539-86d6-48dc-88df-04a4e318a9b2db358a8c-e81e-4bf3-98af-22eac2667656.png",
     "theme": "Social",
-    "categoryIds": [
-      "23391",
-      "23399",
-      "23400",
-      "23483"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Social",
       "Workshop",
       "Career"
     ],
-    "benefitNames": [
-      "Free Food",
-      "Free Stuff"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 5,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12407102",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Resume Workshop: How to Make Your Resume Stand Out",
     "description": "<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">💡 <strong>About the workshop:</strong> Breaking into the IT &amp; Tech field starts with a resume that gets noticed &mdash; but what does that actually look like? In this workshop, we'll pull back the curtain on what IT employers and recruiters are genuinely looking for, from technical skills and project experience to formatting and presentation. Whether you're building your resume from scratch or refining an existing one, you'll walk away with a clearer, stronger document and a better shot at landing interviews.</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">👤 <strong>Speaker:</strong>&nbsp;Clare Brown, Career Specialist at HCC's Career &amp; Transfer Services Dept.</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">🗂️ <strong>What you'll cover:</strong></p>\r\n<ul class=\"[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3\">\r\n<li class=\"whitespace-normal break-words pl-2\">What IT employers and recruiters actually look for in candidates</li>\r\n<li class=\"whitespace-normal break-words pl-2\">How to structure a professional, easy-to-read resume</li>\r\n<li class=\"whitespace-normal break-words pl-2\">Writing a compelling summary and organizing your technical skills</li>\r\n<li class=\"whitespace-normal break-words pl-2\">Showcasing projects and hands-on experience effectively</li>\r\n<li class=\"whitespace-normal break-words pl-2\">How to frame both IT and non-IT work experience to demonstrate your value</li>\r\n</ul>\r\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">👥 <strong>Who should attend?</strong></p>\r\n<ul class=\"[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3\">\r\n<li class=\"whitespace-normal break-words pl-2\">Students preparing to apply for IT internships or entry-level tech roles</li>\r\n<li class=\"whitespace-normal break-words pl-2\">Anyone looking to strengthen or restructure their current resume</li>\r\n<li class=\"whitespace-normal break-words pl-2\">Students unsure how to present non-technical experience alongside technical skills</li>\r\n</ul>\r\n<p style=\"text-align: left;\">&nbsp;</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\" style=\"text-align: left;\">📅 Wednesday, April 8</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\" style=\"text-align: left;\">🕑 3:30 &ndash; 5:00 PM</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\" style=\"text-align: left;\">📌 Location: West Loop Campus Library, Room 140-O</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\" style=\"text-align: left;\">📢 For the latest updates, join us on <a href=\"https://discord.gg/cqj36SQfVu\">Discord</a>, <a href=\"https://teams.microsoft.com/l/team/19%3A662cc3bf244547f98e8f725ec61630b3%40thread.skype/conversations?groupId=3c9d28d8-2b7c-4748-a185-45d34805454e&amp;tenantId=bedc536d-9380-4d10-9954-ddfc8f5b5bdd\">Teams</a>, and all of our socials.</p>",
     "location": "West Loop Campus - Library Room 140-O",
@@ -1172,37 +524,16 @@
     "endsOn": "2026-04-08T22:00:00+00:00",
     "imagePath": "38df7e49-8d3f-4f08-82ff-de4847ebfd6e0c11b1fc-fc6a-4e64-9bf4-ee82db914292.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23400",
-      "23483"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Workshop",
       "Career"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 1,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12029180",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2 style=\"text-align: center;\"><span style=\"font-size: 14px;\">🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</span></h2>\r\n<div class=\"DescriptionText\">\r\n<p style=\"text-align: center;\">Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p style=\"text-align: center;\">💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p style=\"text-align: center;\">🍕 Also, free pizza&nbsp;🍕</p>\r\n<p style=\"text-align: center;\">We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n<p>&nbsp;</p>\r\n</div>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -1210,33 +541,14 @@
     "endsOn": "2026-04-10T23:00:00+00:00",
     "imagePath": "b97f615f-d76d-4ea8-888a-0b3880ef4613d7f68162-ef5c-4884-9841-07935904ab92.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 6,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12433477",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Hands-on-Linux: Bootable USB, CLI & Scripting",
     "description": "<p data-start=\"0\" data-end=\"374\">💡 <strong data-start=\"3\" data-end=\"26\">About the workshop:</strong><br data-start=\"26\" data-end=\"29\" />Interested in trying Linux but not sure where to start? Join us for a hands-on workshop where you&rsquo;ll learn how to create a Linux bootable USB and take your first steps using the Linux command line. We&rsquo;ll also introduce basic scripting and show you how to edit and run a simple script using beginner-friendly text editors like <strong data-start=\"355\" data-end=\"361\">vi</strong> or <strong data-start=\"365\" data-end=\"373\">nano</strong>.</p>\r\n<p data-start=\"376\" data-end=\"744\">👤 <strong data-start=\"379\" data-end=\"418\">About the speaker: Orlando Penaloza</strong><br data-start=\"418\" data-end=\"421\" />This workshop will be presented by <strong data-start=\"456\" data-end=\"490\">HCC Professor Orlando Penaloza</strong>. With his teaching experience and practical approach, Professor Penaloza will guide students through the fundamentals of working with Linux in a way that is approachable for beginners and useful for students looking to strengthen their technical skills.</p>\r\n<p data-start=\"746\" data-end=\"774\">🗂️ <strong data-start=\"750\" data-end=\"772\">What you'll cover:</strong></p>\r\n<ul data-start=\"775\" data-end=\"995\">\r\n<li data-section-id=\"18ccpdk\" data-start=\"775\" data-end=\"813\">How to create a Linux bootable USB</li>\r\n<li data-section-id=\"xealu2\" data-start=\"814\" data-end=\"858\">What a bootable USB is and how it&rsquo;s used</li>\r\n<li data-section-id=\"17qzunu\" data-start=\"859\" data-end=\"898\">Basic Linux command-line navigation</li>\r\n<li data-section-id=\"1b53lm6\" data-start=\"899\" data-end=\"954\">How to use a text editor such as <strong data-start=\"934\" data-end=\"940\">vi</strong> or <strong data-start=\"944\" data-end=\"952\">nano</strong></li>\r\n<li data-section-id=\"1h9nijb\" data-start=\"955\" data-end=\"995\">How to build and run a simple script</li>\r\n</ul>\r\n<p data-start=\"997\" data-end=\"1024\">👥 <strong data-start=\"1000\" data-end=\"1022\">Who should attend?</strong></p>\r\n<ul data-start=\"1025\" data-end=\"1227\">\r\n<li data-section-id=\"15hb5z4\" data-start=\"1025\" data-end=\"1092\">Students who are new to Linux and want a practical introduction</li>\r\n<li data-section-id=\"1woqge1\" data-start=\"1093\" data-end=\"1152\">Students interested in command-line tools and scripting</li>\r\n<li data-section-id=\"ycgl3s\" data-start=\"1153\" data-end=\"1227\">CS students who want more hands-on experience with technical workflows</li>\r\n</ul>\r\n<p data-start=\"1229\" data-end=\"1400\" data-is-last-node=\"\" data-is-only-node=\"\">📅 <strong data-start=\"1232\" data-end=\"1252\">Friday, April 17</strong><br data-start=\"1252\" data-end=\"1255\" />🕑 <strong data-start=\"1258\" data-end=\"1279\">1:00 PM &ndash; 3:00 PM</strong><br data-start=\"1279\" data-end=\"1282\" />📌 <strong data-start=\"1285\" data-end=\"1316\">Location: West Loop Campus - AI Lab (Room 151)</strong><br data-start=\"1316\" data-end=\"1319\" />📢 <strong data-start=\"1322\" data-end=\"1400\" data-is-last-node=\"\">For the latest updates, join us on <a href=\"https://discord.gg/cqj36SQfVu\">Discord</a>, <a href=\"https://teams.microsoft.com/l/team/19%3A662cc3bf244547f98e8f725ec61630b3%40thread.skype/conversations?groupId=3c9d28d8-2b7c-4748-a185-45d34805454e&amp;tenantId=bedc536d-9380-4d10-9954-ddfc8f5b5bdd\">Teams</a>, and all of our socials.</strong></p>",
     "location": "West Loop Campus - AI Lab (151)",
@@ -1244,39 +556,17 @@
     "endsOn": "2026-04-17T20:00:00+00:00",
     "imagePath": "3945b84a-8135-4ca5-8232-e6cf7dea6a766e09d95d-819a-409b-b434-3fbd17d59fbd.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23396",
-      "23400",
-      "23483"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Meeting",
       "Workshop",
       "Career"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 6,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12029181",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2 style=\"text-align: center;\"><span style=\"font-size: 14px;\">🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</span></h2>\r\n<div class=\"DescriptionText\">\r\n<p style=\"text-align: center;\">Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p style=\"text-align: center;\">💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p style=\"text-align: center;\">🍕 Also, free pizza&nbsp;🍕</p>\r\n<p style=\"text-align: center;\">We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n<p>&nbsp;</p>\r\n</div>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -1284,33 +574,14 @@
     "endsOn": "2026-04-17T23:00:00+00:00",
     "imagePath": "b97f615f-d76d-4ea8-888a-0b3880ef4613d7f68162-ef5c-4884-9841-07935904ab92.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 3,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12029182",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2 style=\"text-align: center;\"><span style=\"font-size: 14px;\">🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</span></h2>\r\n<div class=\"DescriptionText\">\r\n<p style=\"text-align: center;\">Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p style=\"text-align: center;\">💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p style=\"text-align: center;\">🍕 Also, free pizza&nbsp;🍕</p>\r\n<p style=\"text-align: center;\">We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n<p>&nbsp;</p>\r\n</div>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -1318,33 +589,14 @@
     "endsOn": "2026-04-24T23:00:00+00:00",
     "imagePath": "b97f615f-d76d-4ea8-888a-0b3880ef4613d7f68162-ef5c-4884-9841-07935904ab92.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 7,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12441761",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Git & GitHub 101: Version Control from the Command Line",
     "description": "<p>💡 <strong>About the workshop:</strong></p>\r\n<p>Whether you're pushing your first commit or trying to finally wrap your head around branching, this workshop has you covered. Join us for a hands-on deep dive into Git and GitHub, two tools that are practically non-negotiable in modern software development. Through live command-line demos, you'll build real, practical fluency with version control from the ground up.</p>\r\n<p>👤 <strong>About the speaker:</strong> Nelson Aviles</p>\r\n<p>Nelson is a second-year Computer Science student and officer of the Computer Science Association. Having experienced the frustration of not knowing how to use Git in a team setting, he's here to teach you the basics so you don't go through the same struggles.</p>\r\n<p>🗂️ <strong>What you'll cover:</strong></p>\r\n<ul>\r\n<li>Setting up and initializing a Git repository</li>\r\n<li>Staging, committing, and tracking changes from the command line</li>\r\n<li>Working with branches and merging strategies</li>\r\n<li>Resolving merge conflicts</li>\r\n<li>Collaborating on GitHub via pull requests and code review workflows</li>\r\n</ul>\r\n<p>👥 <strong>Who should attend?</strong></p>\r\n<ul>\r\n<li>Students who are new to version control and want to learn it right from the start</li>\r\n<li>Developers who've used Git casually but want a more confident, structured understanding</li>\r\n<li>Anyone preparing for internships, projects, or open-source contributions</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p>📅 Friday, May 1st 🕑 2:00 PM &ndash; 4:00 PM 📌 Location: AI Lab (151), Online to be decided, join socials below to be updated</p>\r\n<p>📢 For the latest updates, join us on <a href=\"https://discord.gg/cqj36SQfVu\">Discord</a>, <a href=\"https://teams.microsoft.com/l/team/19%3A662cc3bf244547f98e8f725ec61630b3%40thread.skype/conversations?groupId=3c9d28d8-2b7c-4748-a185-45d34805454e&amp;tenantId=bedc536d-9380-4d10-9954-ddfc8f5b5bdd\" target=\"_blank\" rel=\"noopener\">Teams</a>, and all of our socials.</p>",
     "location": "West Loop Campus - AI Lab (151)",
@@ -1352,37 +604,16 @@
     "endsOn": "2026-05-01T21:00:00+00:00",
     "imagePath": "eeb7c37e-dcd7-4d48-b080-c1f1cad051c527359e25-a8be-4851-8a56-78113ae1f070.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23400",
-      "23483"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Workshop",
       "Career"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 5,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12029183",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2 style=\"text-align: center;\"><span style=\"font-size: 14px;\">🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</span></h2>\r\n<div class=\"DescriptionText\">\r\n<p style=\"text-align: center;\">Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p style=\"text-align: center;\">💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p style=\"text-align: center;\">🍕 Also, free pizza&nbsp;🍕</p>\r\n<p style=\"text-align: center;\">We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n<p>&nbsp;</p>\r\n</div>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -1390,33 +621,14 @@
     "endsOn": "2026-05-01T23:00:00+00:00",
     "imagePath": "b97f615f-d76d-4ea8-888a-0b3880ef4613d7f68162-ef5c-4884-9841-07935904ab92.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 6,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12029184",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2 style=\"text-align: center;\"><span style=\"font-size: 14px;\">🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</span></h2>\r\n<div class=\"DescriptionText\">\r\n<p style=\"text-align: center;\">Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p style=\"text-align: center;\">💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p style=\"text-align: center;\">🍕 Also, free pizza&nbsp;🍕</p>\r\n<p style=\"text-align: center;\">We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n<p>&nbsp;</p>\r\n</div>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -1424,33 +636,14 @@
     "endsOn": "2026-05-08T23:00:00+00:00",
     "imagePath": "b97f615f-d76d-4ea8-888a-0b3880ef4613d7f68162-ef5c-4884-9841-07935904ab92.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 6,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12029185",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f577b11f-8455-405f-a59e-0dd94d2fe724bb5465f1-74a3-4bf0-83bd-9d06814a5304.jpg",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2 style=\"text-align: center;\"><span style=\"font-size: 14px;\">🚀Attention coding enthusiasts: Join us every Friday and meet fellow CSA members, collaborate on ideas, and learn from each other.</span></h2>\r\n<div class=\"DescriptionText\">\r\n<p style=\"text-align: center;\">Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p style=\"text-align: center;\">💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p style=\"text-align: center;\">🍕 Also, free pizza&nbsp;🍕</p>\r\n<p style=\"text-align: center;\">We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n<p>&nbsp;</p>\r\n</div>",
     "location": "HCC West Loop Campus, AI Lab (Room 151)",
@@ -1458,33 +651,14 @@
     "endsOn": "2026-05-15T23:00:00+00:00",
     "imagePath": "b97f615f-d76d-4ea8-888a-0b3880ef4613d7f68162-ef5c-4884-9841-07935904ab92.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 4,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12224673",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f9696948-4a01-4ac2-9656-29d17b983fa088dd6fe1-b7d5-4af8-a4a7-d5719d6512de.png",
-    "organizationNames": [],
     "name": "HackHCC: CodeRunners",
     "description": "<p data-start=\"181\" data-end=\"246\">⚡ <strong data-start=\"185\" data-end=\"209\">HackHCC: CodeRunners&nbsp;</strong>⚡&nbsp;<br data-start=\"213\" data-end=\"216\" /><em data-start=\"216\" data-end=\"246\">A Cyberpunk-themed Hackathon</em></p>\r\n<p data-start=\"248\" data-end=\"552\">Step into the neon-lit future and put your skills to the test at <strong data-start=\"313\" data-end=\"337\">HackHCC: CodeRunners</strong>, Houston Community College&rsquo;s first large, official hackathon. Inspired by Cyberpunk 2077, this event brings together creativity, technology, and collaboration for an unforgettable 24+ hour build experience.</p>\r\n<p data-start=\"554\" data-end=\"851\">💡 <strong data-start=\"557\" data-end=\"581\">What is a hackathon?</strong><br data-start=\"581\" data-end=\"584\" />A hackathon is an event where participants form teams and build a project (an app, game, website, or tool) within a limited time. You&rsquo;ll learn by doing, collaborate with others, and turn ideas into something real, all in a supportive and fast-paced environment.</p>\r\n<p data-start=\"853\" data-end=\"1249\">🌱 <strong data-start=\"856\" data-end=\"888\">Why beginners should attend:</strong><br data-start=\"888\" data-end=\"891\" />You do not need to be an expert to participate. Hackathons are one of the best ways to learn new skills, meet other students, and gain real experience outside the classroom. Whether you&rsquo;re brand new to coding or already building projects, there&rsquo;s a place for you here. Mentors, workshops, and team collaboration will help guide you every step of the way.</p>\r\n<p data-start=\"1251\" data-end=\"1275\">🚀 <strong data-start=\"1254\" data-end=\"1273\">What to expect:</strong></p>\r\n<ul data-start=\"1276\" data-end=\"1487\">\r\n<li data-start=\"1276\" data-end=\"1309\">\r\n<p data-start=\"1278\" data-end=\"1309\">A cyberpunk-themed atmosphere</p>\r\n</li>\r\n<li data-start=\"1310\" data-end=\"1341\">\r\n<p data-start=\"1312\" data-end=\"1341\">Team-based project building</p>\r\n</li>\r\n<li data-start=\"1310\" data-end=\"1341\">Networking opportunities with sponsors</li>\r\n<li data-start=\"1342\" data-end=\"1374\">\r\n<p data-start=\"1344\" data-end=\"1374\">Workshops and mentor support</p>\r\n</li>\r\n<li data-start=\"1375\" data-end=\"1406\">\r\n<p data-start=\"1377\" data-end=\"1406\">Prizes, swag, and surprises</p>\r\n</li>\r\n<li data-start=\"1407\" data-end=\"1439\">\r\n<p data-start=\"1409\" data-end=\"1439\">Overnight hacking experience</p>\r\n</li>\r\n<li data-start=\"1440\" data-end=\"1487\">\r\n<p data-start=\"1442\" data-end=\"1487\">200&ndash;300 students from across HCC and beyond</p>\r\n</li>\r\n</ul>\r\n<p data-start=\"1489\" data-end=\"1642\">🤝 <strong data-start=\"1492\" data-end=\"1521\">Powered by collaboration:</strong><br data-start=\"1521\" data-end=\"1524\" />HackHCC: CodeRunners is organized in partnership with <strong data-start=\"1578\" data-end=\"1608\">Major League Hacking (MLH)</strong>. Sponsors will be announced soon.</p>\r\n<p data-start=\"1644\" data-end=\"1728\">📍 <strong data-start=\"1647\" data-end=\"1657\">Venue:</strong><br data-start=\"1657\" data-end=\"1660\" /><strong data-start=\"1660\" data-end=\"1699\">West Houston Institute &ndash; Auditorium</strong><br data-start=\"1699\" data-end=\"1702\" />(Overnight stay permitted)</p>\r\n<p data-start=\"1730\" data-end=\"1823\">📅 <strong data-start=\"1733\" data-end=\"1742\">Date:</strong><br data-start=\"1742\" data-end=\"1745\" /><strong data-start=\"1745\" data-end=\"1782\">Friday, May 22 &ndash; Saturday, May 23&nbsp;</strong>(Week after final exams)<br data-start=\"1782\" data-end=\"1785\" />⏱️ <em data-start=\"1788\" data-end=\"1823\">Event times are subject to change</em></p>\r\n<p data-start=\"1825\" data-end=\"1856\">🌐 <strong data-start=\"1828\" data-end=\"1854\">Learn more &amp; register:</strong></p>\r\n<ul data-start=\"1857\" data-end=\"1928\">\r\n<li data-start=\"1857\" data-end=\"1891\">\r\n<p data-start=\"1859\" data-end=\"1891\"><a href=\"http://hackhcc.org/\" target=\"_blank\" rel=\"noopener\">Event website</a></p>\r\n</li>\r\n<li data-start=\"1892\" data-end=\"1928\">\r\n<p data-start=\"1894\" data-end=\"1928\"><a href=\"https://registration.socio.events/e/hackhcc\" target=\"_blank\" rel=\"noopener\">Registration page</a></p>\r\n</li>\r\n</ul>\r\n<p data-start=\"1930\" data-end=\"2081\">⚠️ <strong data-start=\"1933\" data-end=\"1947\">Important:</strong><br data-start=\"1947\" data-end=\"1950\" />RSVP&rsquo;ing to this event <strong data-start=\"1973\" data-end=\"1985\">does NOT</strong> count as registration. You must register through the official registration page to participate.</p>\r\n<p data-start=\"1930\" data-end=\"2081\">Note: As spots are limited, make sure to register early to ensure acceptance.</p>",
     "location": "West Houston Institute Auditorium",
@@ -1492,38 +666,16 @@
     "endsOn": "2026-05-23T20:00:00+00:00",
     "imagePath": "dd026fc6-36c9-49d9-8c91-d39477bb97f039d9adee-e1e9-4aca-93e1-8e71980dbd1b.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391",
-      "23399",
-      "23483"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Social",
       "Career"
     ],
-    "benefitNames": [
-      "Free Food",
-      "Free Stuff"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.734380",
-    "longitude": "-95.574520",
-    "recScore": null,
-    "rsvpTotal": 8,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12479415",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f9696948-4a01-4ac2-9656-29d17b983fa088dd6fe1-b7d5-4af8-a4a7-d5719d6512de.png",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2>🚀Attention coding enthusiasts:</h2>\r\n<div class=\"DescriptionText\">\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>🍕 Also, free pizza&nbsp;🍕</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n</div>",
     "location": "West Loop Campus - AI Lab (151)",
@@ -1531,33 +683,14 @@
     "endsOn": "2026-05-29T23:00:00+00:00",
     "imagePath": "ff1f0166-eb0a-411f-ad29-f665c5d1f3da16abcce0-cf7c-4b21-bfcd-b4b2793c684c.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721420",
-    "longitude": "-95.458120",
-    "recScore": null,
-    "rsvpTotal": 0,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12479416",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f9696948-4a01-4ac2-9656-29d17b983fa088dd6fe1-b7d5-4af8-a4a7-d5719d6512de.png",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2>🚀Attention coding enthusiasts:</h2>\r\n<div class=\"DescriptionText\">\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>🍕 Also, free pizza&nbsp;🍕</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n</div>",
     "location": "West Loop Campus - AI Lab (151)",
@@ -1565,33 +698,14 @@
     "endsOn": "2026-06-05T22:00:00+00:00",
     "imagePath": "ff1f0166-eb0a-411f-ad29-f665c5d1f3da16abcce0-cf7c-4b21-bfcd-b4b2793c684c.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 2,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12479417",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f9696948-4a01-4ac2-9656-29d17b983fa088dd6fe1-b7d5-4af8-a4a7-d5719d6512de.png",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2>🚀Attention coding enthusiasts:</h2>\r\n<div class=\"DescriptionText\">\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>🍕 Also, free pizza&nbsp;🍕</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n</div>",
     "location": "West Loop Campus - AI Lab (151)",
@@ -1599,33 +713,14 @@
     "endsOn": "2026-06-12T22:00:00+00:00",
     "imagePath": "ff1f0166-eb0a-411f-ad29-f665c5d1f3da16abcce0-cf7c-4b21-bfcd-b4b2793c684c.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 2,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12479418",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f9696948-4a01-4ac2-9656-29d17b983fa088dd6fe1-b7d5-4af8-a4a7-d5719d6512de.png",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2>🚀Attention coding enthusiasts:</h2>\r\n<div class=\"DescriptionText\">\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>🍕 Also, free pizza&nbsp;🍕</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n</div>",
     "location": "West Loop Campus - AI Lab (151)",
@@ -1633,33 +728,14 @@
     "endsOn": "2026-06-26T22:00:00+00:00",
     "imagePath": "ff1f0166-eb0a-411f-ad29-f665c5d1f3da16abcce0-cf7c-4b21-bfcd-b4b2793c684c.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 1,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12479419",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f9696948-4a01-4ac2-9656-29d17b983fa088dd6fe1-b7d5-4af8-a4a7-d5719d6512de.png",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2>🚀Attention coding enthusiasts:</h2>\r\n<div class=\"DescriptionText\">\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>🍕 Also, free pizza&nbsp;🍕</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n</div>",
     "location": "West Loop Campus - AI Lab (151)",
@@ -1667,33 +743,14 @@
     "endsOn": "2026-07-10T22:00:00+00:00",
     "imagePath": "ff1f0166-eb0a-411f-ad29-f665c5d1f3da16abcce0-cf7c-4b21-bfcd-b4b2793c684c.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 5,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12517345",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f9696948-4a01-4ac2-9656-29d17b983fa088dd6fe1-b7d5-4af8-a4a7-d5719d6512de.png",
-    "organizationNames": [],
     "name": "Development Environment Setup Workshop ",
     "description": "<div class=\"[content-visibility:auto] [contain-intrinsic-size:auto_400px] px-2 -mx-2 pb-8 -mb-8 print:[content-visibility:visible]\">\r\n<div data-test-render-count=\"2\">\r\n<div class=\"contents\">\r\n<div class=\"mb-1 mt-[var(--msg-gap,1.5rem)] group\">\r\n<div class=\"flex flex-col items-end gap-1\">\r\n<div class=\"group relative inline-flex gap-2 bg-bg-300 rounded-xl pl-2.5 py-[var(--msg-bubble-py,0.625rem)] break-words text-text-100 transition-all max-w-[75ch] flex-col !px-[var(--msg-bubble-px,1rem)] max-w-[85%]\" data-user-message-bubble=\"true\">\r\n<div class=\"flex flex-row gap-2 relative\">\r\n<div class=\"flex-1\">\r\n<div class=\"font-large !font-user-message py-0.5 grid grid-cols-1 gap-2 relative [&amp;_ul]:!space-y-0 [&amp;_ol]:!space-y-0 [&amp;_ul]:pl-8 [&amp;_ol]:pl-8\" data-testid=\"user-message\">&nbsp;</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div>\r\n<div data-test-render-count=\"1\">\r\n<div class=\"group\">\r\n<div class=\"contents\">\r\n<div class=\"group relative relative pb-[var(--msg-assistant-pb,0.75rem)]\" data-is-streaming=\"false\">\r\n<h2 class=\"sr-only select-none\" data-find-omitted=\"\">💻 Your coding era starts NOW.</h2>\r\n<div class=\"font-claude-response relative leading-[1.65rem] [&amp;_pre&gt;div]:bg-bg-000/50 [&amp;_pre&gt;div]:border-0.5 [&amp;_pre&gt;div]:border-border-400 [&amp;_.ignore-pre-bg&gt;div]:bg-transparent [&amp;_.standard-markdown_:is(p,blockquote,h1,h2,h3,h4,h5,h6)]:pl-2 [&amp;_.standard-markdown_:is(p,blockquote,ul,ol,h1,h2,h3,h4,h5,h6)]:pr-8 [&amp;_.progressive-markdown_:is(p,blockquote,h1,h2,h3,h4,h5,h6)]:pl-2 [&amp;_.progressive-markdown_:is(p,blockquote,ul,ol,h1,h2,h3,h4,h5,h6)]:pr-8\">\r\n<div class=\"standard-markdown grid-cols-1 grid [&amp;_&gt;_*]:min-w-0 gap-3 standard-markdown\">\r\n<p class=\"font-claude-response-body break-words whitespace-normal\">Never set up a coding environment before? No worries &mdash; that's exactly what this workshop is for! Join CSA's <strong>Development Environment Setup Workshop</strong> and go from zero to ready-to-build in one session. No experience needed, just bring your laptop and your curiosity. 🦅</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal\">Here's what we'll cover:<br />🖥️ Basic terminal usage<br />📦 Package management (pip/uv)<br />🔒 Managing secrets &amp; environment variables<br />🐙 Git &amp; GitHub basics<br />📚 Free learning resources to keep building after the workshop</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal\">📅 June 27, 2026<br />🕙 10:00 AM<br />📍 C155 AI Lab</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal\">Scan the QR code to sign up on <strong>Eagle Engage</strong> and save your spot &mdash; see you there! 🦅💙</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>",
     "location": "C155 AI Lab",
@@ -1701,31 +758,14 @@
     "endsOn": "2026-07-13T21:00:00+00:00",
     "imagePath": "b9cedb5f-fa1c-4d5e-afa9-50320d487fa6e8e7700d-dc2a-4cef-b7fe-d3d68ff6222d.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23400"
-    ],
     "categoryNames": [
       "Workshop"
     ],
-    "benefitNames": [],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721280",
-    "longitude": "-95.456760",
-    "recScore": null,
-    "rsvpTotal": 0,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12479420",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f9696948-4a01-4ac2-9656-29d17b983fa088dd6fe1-b7d5-4af8-a4a7-d5719d6512de.png",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2>🚀Attention coding enthusiasts:</h2>\r\n<div class=\"DescriptionText\">\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>🍕 Also, free pizza&nbsp;🍕</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n</div>",
     "location": "West Loop Campus - AI Lab (151)",
@@ -1733,33 +773,14 @@
     "endsOn": "2026-07-17T22:00:00+00:00",
     "imagePath": "ff1f0166-eb0a-411f-ad29-f665c5d1f3da16abcce0-cf7c-4b21-bfcd-b4b2793c684c.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 3,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12517320",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f9696948-4a01-4ac2-9656-29d17b983fa088dd6fe1-b7d5-4af8-a4a7-d5719d6512de.png",
-    "organizationNames": [],
     "name": "Pi-Hole & DNS Workshop",
     "description": "<div class=\"[content-visibility:auto] [contain-intrinsic-size:auto_400px] px-2 -mx-2 pb-8 -mb-8 print:[content-visibility:visible]\">\r\n<div data-test-render-count=\"2\">\r\n<div class=\"contents\">\r\n<div class=\"mb-1 mt-[var(--msg-gap,1.5rem)] group\">\r\n<div class=\"flex flex-col items-end gap-1\">\r\n<div class=\"group relative inline-flex gap-2 bg-bg-300 rounded-xl pl-2.5 py-[var(--msg-bubble-py,0.625rem)] break-words text-text-100 transition-all max-w-[75ch] flex-col !px-[var(--msg-bubble-px,1rem)] max-w-[85%]\" data-user-message-bubble=\"true\">\r\n<div class=\"flex flex-row gap-2 relative\">\r\n<div class=\"flex-1\">\r\n<div class=\"font-large !font-user-message py-0.5 grid grid-cols-1 gap-2 relative [&amp;_ul]:!space-y-0 [&amp;_ol]:!space-y-0 [&amp;_ul]:pl-8 [&amp;_ol]:pl-8\" data-testid=\"user-message\">&nbsp;</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div>\r\n<div data-test-render-count=\"1\">\r\n<div class=\"group\">\r\n<div class=\"contents\">\r\n<div class=\"group relative relative pb-[var(--msg-assistant-pb,0.75rem)]\" data-is-streaming=\"false\">\r\n<div class=\"font-claude-response relative leading-[1.65rem] [&amp;_pre&gt;div]:bg-bg-000/50 [&amp;_pre&gt;div]:border-0.5 [&amp;_pre&gt;div]:border-border-400 [&amp;_.ignore-pre-bg&gt;div]:bg-transparent [&amp;_.standard-markdown_:is(p,blockquote,h1,h2,h3,h4,h5,h6)]:pl-2 [&amp;_.standard-markdown_:is(p,blockquote,ul,ol,h1,h2,h3,h4,h5,h6)]:pr-8 [&amp;_.progressive-markdown_:is(p,blockquote,h1,h2,h3,h4,h5,h6)]:pl-2 [&amp;_.progressive-markdown_:is(p,blockquote,ul,ol,h1,h2,h3,h4,h5,h6)]:pr-8\">\r\n<div>\r\n<div class=\"standard-markdown grid-cols-1 grid [&amp;_&gt;_*]:min-w-0 gap-3 standard-markdown\">\r\n<p class=\"font-claude-response-body break-words whitespace-normal\">🌐 <strong>Block ads. Own your network. Learn how it all works.</strong> 🔒</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal\">CSA is hosting a <strong>Pi-Hole &amp; DNS Workshop,</strong> and it's going to be a good one! Ever wonder how the internet actually knows where to send you? We'll break down DNS from scratch and then get hands-on with Pi-Hole &mdash; a tool that blocks ads and trackers across your <em>entire</em> network using a tiny Raspberry Pi. No experience needed, just bring your curiosity! 🥧</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal\">Here's what you'll learn:<br />🌐 How DNS works &amp; why it matters<br />🚫 What Pi-Hole is &amp; how it protects your network<br />🥧 Intro to Raspberry Pi<br />🛠️ Hands-on setup &amp; walkthrough</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal\">📅 July 24th<br />🕑 2:00 &ndash; 4:00 PM<br />📍 C155 AI Lab</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal\">Scan the QR code to sign up on <strong>Eagle Engage</strong> &mdash; see you there, Eagles! 🦅💙</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>",
     "location": "C155 AI Lab",
@@ -1767,31 +788,14 @@
     "endsOn": "2026-07-24T21:00:00+00:00",
     "imagePath": "707a89db-270e-42fe-bc34-f5093948e9b33a8cd704-d2e4-4311-b994-dae09a6646f7.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721280",
-    "longitude": "-95.456760",
-    "recScore": null,
-    "rsvpTotal": 2,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12479421",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f9696948-4a01-4ac2-9656-29d17b983fa088dd6fe1-b7d5-4af8-a4a7-d5719d6512de.png",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2>🚀Attention coding enthusiasts:</h2>\r\n<div class=\"DescriptionText\">\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>🍕 Also, free pizza&nbsp;🍕</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n</div>",
     "location": "West Loop Campus - AI Lab (151)",
@@ -1799,33 +803,14 @@
     "endsOn": "2026-07-24T22:00:00+00:00",
     "imagePath": "ff1f0166-eb0a-411f-ad29-f665c5d1f3da16abcce0-cf7c-4b21-bfcd-b4b2793c684c.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 3,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12517310",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f9696948-4a01-4ac2-9656-29d17b983fa088dd6fe1-b7d5-4af8-a4a7-d5719d6512de.png",
-    "organizationNames": [],
     "name": "Resume Workshop Essentials",
     "description": "<p>💼 Your resume is your first impression &mdash; make it count. ✨</p>\r\n<p>Whether you're building your resume from scratch or need a refresh, CSA's Resume Workshop Essentials is here to help! We'll break down exactly what hiring managers look for and how to tell your story in a way that stands out &mdash; especially for tech roles. Free, beginner-friendly, and open to ALL students! 🦅</p>\r\n<p>&nbsp;</p>\r\n<p>📅 July 24, 2026</p>\r\n<p>🕓 4:00 &ndash; 6:00 PM</p>\r\n<p>📍 AI Lab C151</p>\r\n<p>&nbsp;</p>\r\n<p>Scan the QR code to sign up &mdash; don't miss this one! 🔗</p>",
     "location": "C151 AI Lab",
@@ -1833,33 +818,14 @@
     "endsOn": "2026-07-24T23:00:00+00:00",
     "imagePath": "fe616067-5003-4921-bc4d-97c4421b04db622093c5-5e9e-4165-a944-a24b9e375579.png",
     "theme": "CommunityService",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 0,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12517323",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f9696948-4a01-4ac2-9656-29d17b983fa088dd6fe1-b7d5-4af8-a4a7-d5719d6512de.png",
-    "organizationNames": [],
     "name": "Resume Workshop Essentials",
     "description": "<p class=\"font-claude-response-body break-words whitespace-normal\">💼 <strong>Your resume is your first impression &mdash; make it count.</strong> ✨</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal\">Whether you're building your resume from scratch or need a refresh, CSA's <strong>Resume Workshop Essentials</strong> is here to help! We'll break down exactly what hiring managers look for and how to tell your story in a way that stands out &mdash; especially for tech roles. Free, beginner-friendly, and open to ALL students! 🦅</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal\">📅 July 24, 2026<br />🕓 4:00 &ndash; 6:00 PM<br />📍 AI Lab C155</p>\r\n<p class=\"font-claude-response-body break-words whitespace-normal\">Scan the QR code to sign up &mdash; don't miss this one! 🔗</p>",
     "location": "C155 AI Lab",
@@ -1867,35 +833,15 @@
     "endsOn": "2026-07-24T23:00:00+00:00",
     "imagePath": "c973f002-b41f-4ecb-8274-86f1496c0e887afcb311-bb17-41b1-9913-9d725d3109cd.png",
     "theme": "CommunityService",
-    "categoryIds": [
-      "23391",
-      "23483"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Career"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721280",
-    "longitude": "-95.456760",
-    "recScore": null,
-    "rsvpTotal": 2,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12479422",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f9696948-4a01-4ac2-9656-29d17b983fa088dd6fe1-b7d5-4af8-a4a7-d5719d6512de.png",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2>🚀Attention coding enthusiasts:</h2>\r\n<div class=\"DescriptionText\">\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>🍕 Also, free pizza&nbsp;🍕</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n</div>",
     "location": "West Loop Campus - AI Lab (151)",
@@ -1903,33 +849,14 @@
     "endsOn": "2026-07-31T22:00:00+00:00",
     "imagePath": "ff1f0166-eb0a-411f-ad29-f665c5d1f3da16abcce0-cf7c-4b21-bfcd-b4b2793c684c.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 3,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12479423",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f9696948-4a01-4ac2-9656-29d17b983fa088dd6fe1-b7d5-4af8-a4a7-d5719d6512de.png",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2>🚀Attention coding enthusiasts:</h2>\r\n<div class=\"DescriptionText\">\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>🍕 Also, free pizza&nbsp;🍕</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n</div>",
     "location": "West Loop Campus - AI Lab (151)",
@@ -1937,33 +864,14 @@
     "endsOn": "2026-08-07T22:00:00+00:00",
     "imagePath": "ff1f0166-eb0a-411f-ad29-f665c5d1f3da16abcce0-cf7c-4b21-bfcd-b4b2793c684c.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 5,
-    "@search.score": 1
+    "visibility": "Public"
   },
   {
     "id": "12479424",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f9696948-4a01-4ac2-9656-29d17b983fa088dd6fe1-b7d5-4af8-a4a7-d5719d6512de.png",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2>🚀Attention coding enthusiasts:</h2>\r\n<div class=\"DescriptionText\">\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>🍕 Also, free pizza&nbsp;🍕</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n</div>",
     "location": "West Loop Campus - AI Lab (151)",
@@ -1971,33 +879,14 @@
     "endsOn": "2026-08-14T22:00:00+00:00",
     "imagePath": "ff1f0166-eb0a-411f-ad29-f665c5d1f3da16abcce0-cf7c-4b21-bfcd-b4b2793c684c.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 3,
-    "@search.score": 99.56703
+    "visibility": "Public"
   },
   {
     "id": "12479425",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f9696948-4a01-4ac2-9656-29d17b983fa088dd6fe1-b7d5-4af8-a4a7-d5719d6512de.png",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2>🚀Attention coding enthusiasts:</h2>\r\n<div class=\"DescriptionText\">\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>🍕 Also, free pizza&nbsp;🍕</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n</div>",
     "location": "West Loop Campus - AI Lab (151)",
@@ -2005,33 +894,14 @@
     "endsOn": "2026-08-21T22:00:00+00:00",
     "imagePath": "ff1f0166-eb0a-411f-ad29-f665c5d1f3da16abcce0-cf7c-4b21-bfcd-b4b2793c684c.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 2,
-    "@search.score": 98.8108
+    "visibility": "Public"
   },
   {
     "id": "12479426",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f9696948-4a01-4ac2-9656-29d17b983fa088dd6fe1-b7d5-4af8-a4a7-d5719d6512de.png",
-    "organizationNames": [],
     "name": "Coding Club Weekly Meetup",
     "description": "<h2>🚀Attention coding enthusiasts:</h2>\r\n<div class=\"DescriptionText\">\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>🍕 Also, free pizza&nbsp;🍕</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n</div>",
     "location": "West Loop Campus - AI Lab (151)",
@@ -2039,33 +909,14 @@
     "endsOn": "2026-08-28T22:00:00+00:00",
     "imagePath": "ff1f0166-eb0a-411f-ad29-f665c5d1f3da16abcce0-cf7c-4b21-bfcd-b4b2793c684c.png",
     "theme": "ThoughtfulLearning",
-    "categoryIds": [
-      "23391"
-    ],
     "categoryNames": [
       "Academic/Educational"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": null,
-    "longitude": null,
-    "recScore": null,
-    "rsvpTotal": 2,
-    "@search.score": 98.04103
+    "visibility": "Public"
   },
   {
     "id": "12547167",
-    "institutionId": 3464,
-    "organizationId": 415695,
-    "organizationIds": [],
-    "branchId": 407281,
-    "branchIds": [],
-    "organizationName": "Computer Science Association",
-    "organizationProfilePicture": "f9696948-4a01-4ac2-9656-29d17b983fa088dd6fe1-b7d5-4af8-a4a7-d5719d6512de.png",
-    "organizationNames": [],
     "name": "CSA Fall Kickoff Showcase",
     "description": "<p>🍂💻 Fall into Innovation with the HCC Computer Science Association! 🍁<br /><br />Ready to kick off the semester? Join us for the CSA Fall Kickoff Showcase&mdash;an afternoon of tech, creativity, and community!<br /><br />🌟 Bring your favorite project and showcase what you've been building for a chance to win prizes for the top projects!<br /><br />You'll also get:<br />🎮 The official reveal of this year's Hackathon theme<br />💡 A preview of our upcoming workshops, competitions, and events<br />🤝 Opportunities to network with fellow students, faculty, and tech enthusiasts<br />🚀 Learn how you can get involved with the Computer Science Association this year<br /><br />Whether you're an experienced developer or just starting your coding journey, this is the perfect opportunity to connect, get inspired, and see what CSA has planned for an exciting year ahead.<br /><br />📅 September 25<br />🕑 2:00 PM &ndash; 4:00 PM<br />📍 West Loop Campus Auditorium<br /><br />📲 RSVP today and submit your project using the QR codes on the flyer!<br /><br />RSVP:<a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg2VA_HC7&amp;urlhash=HGFi&amp;mt=t0XlhjlGWBj3L7Y7GGKIk8aOigWwenzfVkqdHPWe7T7o7wRcOWE-H58St7d42w8mT8XstdRS5_gdLP9gLTL7i8K9f3UmAVEUhHfswLS8tZ0MIuVqEMglkjhXcA&amp;isSdui=true\" target=\"_blank\" rel=\"noopener\"><span class=\"_4066ee1b _36e38d67\"><strong>https://lnkd.in/g2VA_HC7</strong></span></a><br />Project Submissions: <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgV_Afuj9&amp;urlhash=P0BQ&amp;mt=j5KBCTqXdOGLBPkcF3ij66M6m5FeIRZHT69WBpQ-ZUVECsPPf5Cl4s8BJL_pWTf3TtTwZYH6x7qLOWSDpmHHKbkP2Xpz4M-RIdQI3dvqd8jnYTgyR9MPAgSPpw&amp;isSdui=true\" target=\"_blank\" rel=\"noopener\"><span class=\"_4066ee1b _36e38d67\"><strong>https://lnkd.in/gV_Afuj9</strong></span></a> (Submissions close Friday, September 11)<br /><br /><a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23hcc&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#HCC</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23hcccsa&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#HCCCSA</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23computerscienceassociation&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#ComputerScienceAssociation</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23fallkickoff&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#FallKickoff</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23projectshowcase&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#ProjectShowcase</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23hackathon&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#Hackathon</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23stem&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#STEM</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23coding&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#Coding</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23programming&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#Programming</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23softwareengineering&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#SoftwareEngineering</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23houston&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#Houston</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23techcommunity&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#TechCommunity</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23networking&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#Networking</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23studentlife&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#StudentLife</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23innovation&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#Innovation</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23buildtogether&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#BuildTogether</strong></span></a></p>",
     "location": "R101 Auditorium",
@@ -2073,23 +924,11 @@
     "endsOn": "2026-09-25T21:00:00+00:00",
     "imagePath": "0b80b902-4eca-4cf9-9451-3ff11c62e1fb8a488371-1e77-495e-9ac7-3460b805c8ae.png",
     "theme": "Social",
-    "categoryIds": [
-      "23391",
-      "23399"
-    ],
     "categoryNames": [
       "Academic/Educational",
       "Social"
     ],
-    "benefitNames": [
-      "Free Food"
-    ],
-    "visibility": "Public",
     "status": "Approved",
-    "latitude": "29.721280",
-    "longitude": "-95.456760",
-    "recScore": null,
-    "rsvpTotal": 2,
-    "@search.score": 94.82622
+    "visibility": "Public"
   }
 ]

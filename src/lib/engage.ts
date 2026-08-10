@@ -89,8 +89,29 @@ function readSnapshot(): EngageEvent[] {
   return JSON.parse(readFileSync(SNAPSHOT_PATH, "utf8")) as EngageEvent[];
 }
 
+/**
+ * Only the fields the site reads are persisted. The full response carries a
+ * per-request `@search.score` that jitters on every call, which would leave
+ * the snapshot showing as modified after almost every build.
+ */
+function project(event: EngageEvent): EngageEvent {
+  return {
+    id: event.id,
+    name: event.name,
+    description: event.description,
+    location: event.location,
+    startsOn: event.startsOn,
+    endsOn: event.endsOn,
+    imagePath: event.imagePath,
+    theme: event.theme,
+    categoryNames: event.categoryNames,
+    status: event.status,
+    visibility: event.visibility,
+  };
+}
+
 function writeSnapshot(events: EngageEvent[]): void {
-  const next = `${JSON.stringify(events, null, 2)}\n`;
+  const next = `${JSON.stringify(events.map(project), null, 2)}\n`;
   try {
     if (readFileSync(SNAPSHOT_PATH, "utf8") === next) return;
   } catch {
