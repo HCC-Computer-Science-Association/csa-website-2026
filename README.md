@@ -21,7 +21,9 @@ pnpm preview    # serve the build locally
 ```
 src/
   config.ts            site name, Discord invite, socials, stats
-  content/events/      one markdown file per event (auto upcoming/past)
+  lib/engage.ts        pulls events from Eagle Engage at build time
+  data/engage-events.json  last good Engage response (offline fallback)
+  content/events.overrides.yaml  per-event extras Engage has no field for
   content/team.yaml    officer board
   content/resources.yaml  workshop slides archive
   components/          board-grammar UI (cards, pads, traces, title block)
