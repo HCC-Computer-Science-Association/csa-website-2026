@@ -1,28 +1,98 @@
 import { defineCollection, z } from "astro:content";
-import { glob, file } from "astro/loaders";
+import type { Loader } from "astro/loaders";
+import { file } from "astro/loaders";
+import { readFileSync } from "node:fs";
+import { parse as parseYaml } from "yaml";
+
+import { fetchEngageEvents, normalizeEvents, type NormalizedEvent } from "./lib/engage";
 
 /**
- * Events: one markdown file per event in src/content/events/.
- * Officers: copy an existing file, edit the frontmatter, done.
- * Events are split into upcoming/past automatically by `date`.
+ * Events come from Eagle Engage, not from files in this repo. See
+ * src/lib/engage.ts for the why and the fetching details; officers add and
+ * edit events at https://eagleengage.hccs.edu/organization/csa.
  */
-const events = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/events" }),
-  schema: ({ image }) =>
-    z.object({
-      title: z.string(),
-      date: z.coerce.date(),
-      endDate: z.coerce.date().optional(),
-      time: z.string().optional(),
-      location: z.string().optional(),
-      type: z.enum(["workshop", "hackathon", "social", "other"]).default("other"),
-      registrationUrl: z.string().url().optional(),
-      websiteUrl: z.string().url().optional(),
-      cover: image().optional(),
-      coverAlt: z.string().optional(),
-      recap: z.string().optional(),
-    }),
+const eventSchema = z.object({
+  title: z.string(),
+  date: z.coerce.date(),
+  endDate: z.coerce.date().optional(),
+  time: z.string().optional(),
+  location: z.string().optional(),
+  type: z.enum(["workshop", "hackathon", "social", "other"]).default("other"),
+  /** Card blurb, distilled from the Engage description. */
+  summary: z.string(),
+  /** Set on a collapsed recurring series, e.g. "Weekly, every Friday". */
+  recurrence: z.string().optional(),
+  occurrences: z.number().default(1),
+  registrationUrl: z.string().url().optional(),
+  websiteUrl: z.string().url().optional(),
+  /** Engage CDN graphic. Remote, so it is rendered as a plain <img>. */
+  coverUrl: z.string().url(),
+  coverAlt: z.string(),
+  /** The event's page on Eagle Engage, for RSVP and full details. */
+  sourceUrl: z.string().url(),
+  recap: z.string().optional(),
 });
+
+/** The fields events.overrides.yaml is allowed to set. */
+const overrideSchema = eventSchema
+  .pick({ type: true, summary: true, registrationUrl: true, websiteUrl: true, recap: true })
+  .partial();
+
+const OVERRIDES_PATH = new URL("./content/events.overrides.yaml", import.meta.url);
+
+function readOverrides(): Map<string, z.infer<typeof overrideSchema>> {
+  const raw = parseYaml(readFileSync(OVERRIDES_PATH, "utf8")) ?? {};
+  return new Map(
+    Object.entries(raw as Record<string, unknown>).map(([slug, value]) => [
+      slug,
+      overrideSchema.parse(value ?? {}),
+    ]),
+  );
+}
+
+/**
+ * Pulls the Engage feed, applies local overrides, and stores each event under
+ * its slug. Runs on `astro dev` start and on every `astro build`, so the daily
+ * scheduled rebuild is what keeps the live site in step with Engage.
+ */
+function engageEvents(): Loader {
+  return {
+    name: "eagle-engage",
+    load: async ({ store, parseData, logger }) => {
+      const { events: raw, source, error } = await fetchEngageEvents();
+      if (source === "snapshot") {
+        logger.warn(`Eagle Engage unreachable (${error}); using the committed snapshot.`);
+      }
+
+      const events = normalizeEvents(raw);
+      const overrides = readOverrides();
+
+      const slugs = new Set(events.map((event) => event.slug));
+      for (const slug of overrides.keys()) {
+        if (!slugs.has(slug)) {
+          throw new Error(
+            `events.overrides.yaml has an entry for "${slug}", which no longer matches an event ` +
+              `on Eagle Engage. Rename it to one of: ${[...slugs].sort().join(", ")}`,
+          );
+        }
+      }
+
+      store.clear();
+      for (const event of events) {
+        const { slug, engageId, ...fields } = event satisfies NormalizedEvent;
+        const data = await parseData({
+          id: slug,
+          data: { ...fields, ...overrides.get(slug) },
+        });
+        store.set({ id: slug, data, digest: `${engageId}:${JSON.stringify(data)}` });
+      }
+
+      logger.info(`Loaded ${events.length} events from Eagle Engage (${source}).`);
+    },
+  };
+}
+
+const events = defineCollection({ loader: engageEvents(), schema: eventSchema });
 
 /** Officer board: src/content/team.yaml */
 const team = defineCollection({
