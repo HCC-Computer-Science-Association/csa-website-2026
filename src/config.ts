@@ -16,9 +16,9 @@ export const JOIN_URL = "https://eagleengage.hccs.edu/organization/csa";
 
 export const SOCIALS = {
   join: JOIN_URL,
-  // TODO(officers): confirm handles/URLs
+  // TODO(officers): confirm handle/URL
   instagram: "https://www.instagram.com/TODO",
-  linkedin: "https://www.linkedin.com/company/TODO",
+  linkedin: "https://www.linkedin.com/company/hcccsa/",
   email: "contact@hcc-csa.org", // TODO(officers): confirm club email
 } as const;
 
