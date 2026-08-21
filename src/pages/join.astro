@@ -1,7 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import SectionHeader from "../components/SectionHeader.astro";
-import { SITE, SOCIALS, DISCORD_URL } from "../config";
+import { SITE, SOCIALS, JOIN_URL } from "../config";
 
 const pins = [
   { pin: "1", body: "Every workshop and event, announced where you'll actually see it first." },
@@ -38,8 +38,8 @@ const pins = [
         </div>
 
         <div class="mt-10">
-          <a href={DISCORD_URL} rel="noopener" class="btn-pad !px-10 !py-4 !text-sm">
-            Join the Discord <span aria-hidden="true">↗</span>
+          <a href={JOIN_URL} rel="noopener" class="btn-pad !px-10 !py-4 !text-sm">
+            Join <span aria-hidden="true">↗</span>
           </a>
           <p class="legend mt-4 text-silk-faint">Free · no application · leave whenever</p>
         </div>

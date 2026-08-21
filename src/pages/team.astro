@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import { Image } from "astro:assets";
 import Base from "../layouts/Base.astro";
 import SectionHeader from "../components/SectionHeader.astro";
-import { SITE, DISCORD_URL } from "../config";
+import { SITE, JOIN_URL } from "../config";
 
 /**
  * Each officer is an IC on the board; their profile links are the connector
@@ -78,7 +78,7 @@ const officers = (await getCollection("team"))
 
     <p class="mt-14 max-w-[60ch] text-sm text-silk-dim">
       Want a seat here someday? Officers come from the community.
-      <a href={DISCORD_URL} rel="noopener" class="text-signal-bright underline underline-offset-4">Join the Discord</a>, show up, and get involved.
+      <a href={JOIN_URL} rel="noopener" class="text-signal-bright underline underline-offset-4">Join</a>, show up, and get involved.
     </p>
   </div>
 </Base>
