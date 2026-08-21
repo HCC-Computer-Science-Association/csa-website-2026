@@ -21,7 +21,7 @@ import PhotoStrip from "../components/PhotoStrip.astro";
 import Stats from "../components/Stats.astro";
 import JoinBand from "../components/JoinBand.astro";
 import BoardScene from "../components/BoardScene.astro";
-import { SITE, DISCORD_URL } from "../config";
+import { SITE, JOIN_URL } from "../config";
 import { isUpcoming, byDateAsc, refdesCounter } from "../utils";
 
 const events = await getCollection("events");
@@ -42,7 +42,7 @@ const refdes = refdesCounter();
         HackHCC, and people who have your back. Every major. Every level. Free.
       </p>
       <div class="mt-9 flex flex-wrap items-center gap-4">
-        <a href={DISCORD_URL} rel="noopener" class="btn-pad">Join the Discord <span aria-hidden="true">↗</span></a>
+        <a href={JOIN_URL} rel="noopener" class="btn-pad">Join <span aria-hidden="true">↗</span></a>
         <a href="/events/" class="btn-silk">See events</a>
       </div>
       <p class="legend mt-10 text-silk-faint">REV A · Fall 2026 · hcc-csa.org</p>

@@ -12,14 +12,13 @@ export const SITE = {
     "Computer Science Association at Houston City College: workshops, hackathons, and a 700+ member community of students who build together.",
 } as const;
 
-// TODO(officers): replace with the permanent invite link
-export const DISCORD_URL = "https://discord.gg/TODO";
+export const JOIN_URL = "https://eagleengage.hccs.edu/organization/csa";
 
 export const SOCIALS = {
-  discord: DISCORD_URL,
-  // TODO(officers): confirm handles/URLs
+  join: JOIN_URL,
+  // TODO(officers): confirm handle/URL
   instagram: "https://www.instagram.com/TODO",
-  linkedin: "https://www.linkedin.com/company/TODO",
+  linkedin: "https://www.linkedin.com/company/hcccsa/",
   email: "contact@hcc-csa.org", // TODO(officers): confirm club email
 } as const;
 

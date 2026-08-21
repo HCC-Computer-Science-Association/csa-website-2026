@@ -1,7 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import SectionHeader from "../components/SectionHeader.astro";
-import { SITE, DISCORD_URL } from "../config";
+import { SITE, JOIN_URL } from "../config";
 
 const pillars = [
   {
@@ -69,7 +69,7 @@ const pillars = [
     </div>
 
     <div class="mt-16 flex flex-wrap items-center gap-4">
-      <a href={DISCORD_URL} rel="noopener" class="btn-pad">Join the Discord <span aria-hidden="true">↗</span></a>
+      <a href={JOIN_URL} rel="noopener" class="btn-pad">Join <span aria-hidden="true">↗</span></a>
       <a href="/events/" class="legend text-signal-bright underline-offset-4 hover:underline">See what's coming up →</a>
     </div>
   </div>
