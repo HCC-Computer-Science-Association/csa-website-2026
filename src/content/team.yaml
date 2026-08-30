@@ -26,19 +26,19 @@
   # photo: ../assets/team/francisco.jpg
   # linkedin: "https://www.linkedin.com/in/"
 - id: director-of-events-workshops
-  name: "Name TBA"
+  name: "Oyinade Balogun (Comfort)"
   role: "Director of Events & Workshops"
   order: 4
   # photo: ../assets/team/events-director.jpg
   # linkedin: "https://www.linkedin.com/in/"
 - id: assistant-events-workshops-director
-  name: "Oyinade Balogun (Comfort)"
+  name: "Elexis Robinson"
   role: "Assistant Events & Workshops Director"
   order: 5
   # photo: ../assets/team/oyinade-b.jpg
   # linkedin: "https://www.linkedin.com/in/"
 - id: director-of-industry-career-development
-  name: "Name TBA"
+  name: "William Oyouha"
   role: "Director of Industry & Career Development"
   order: 6
   # photo: ../assets/team/industry-director.jpg
@@ -50,7 +50,7 @@
   photo: ../assets/team/khizar-a.png
   # linkedin: "https://www.linkedin.com/in/"
 - id: assistant-technical-programs-director
-  name: "Name TBA"
+  name: "Idris Junaid"
   role: "Assistant Technical Programs Director"
   order: 8
   # photo: ../assets/team/technical-assistant.jpg
@@ -61,15 +61,21 @@
   order: 9
   photo: ../assets/team/morales-g.png
   linkedin: "https://www.linkedin.com/in/gabbo-mv/"
+- id: assistant-director-of-technology
+  name: "Andrei Bornstein"
+  role: "Assistant Director of Technology"
+  order: 10
+  photo: ../assets/team/andrei-b.png
+  linkedin: "https://www.linkedin.com/in/andrei-bornstein/"
 - id: director-of-marketing-communications
   name: "Madison Emshousen"
   role: "Director of Marketing & Communications"
-  order: 10
+  order: 11
   photo: ../assets/team/maddie-e.jpg
   # linkedin: "https://www.linkedin.com/in/"
 - id: assistant-marketing-communications-director
   name: "Lara Iskander"
   role: "Assistant Marketing & Communications Director"
-  order: 11
+  order: 12
   photo: ../assets/team/lara-i.jpg
   # linkedin: "https://www.linkedin.com/in/"
