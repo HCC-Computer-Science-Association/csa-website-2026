@@ -20,28 +20,28 @@
   photo: ../assets/team/nelson-a.jpg
   # linkedin: "https://www.linkedin.com/in/"
 - id: treasurer
-  name: "Fancisco"
+  name: "Francisco"
   role: "Treasurer"
   order: 3
-  # photo: ../assets/team/francisco.jpg
+  photo: ../assets/team/francisco.png
   # linkedin: "https://www.linkedin.com/in/"
 - id: director-of-events-workshops
   name: "Oyinade Balogun (Comfort)"
   role: "Director of Events & Workshops"
   order: 4
-  # photo: ../assets/team/events-director.jpg
+  photo: ../assets/team/oyinade-b.png
   # linkedin: "https://www.linkedin.com/in/"
 - id: assistant-events-workshops-director
   name: "Elexis Robinson"
   role: "Assistant Events & Workshops Director"
   order: 5
-  # photo: ../assets/team/oyinade-b.jpg
+  photo: ../assets/team/elexis-r.png
   # linkedin: "https://www.linkedin.com/in/"
 - id: director-of-industry-career-development
   name: "William Oyouha"
   role: "Director of Industry & Career Development"
   order: 6
-  # photo: ../assets/team/industry-director.jpg
+  photo: ../assets/team/will-o.jpg
   # linkedin: "https://www.linkedin.com/in/"
 - id: director-of-technical-programs
   name: "Khizar Ahmed"
@@ -53,7 +53,7 @@
   name: "Idris Junaid"
   role: "Assistant Technical Programs Director"
   order: 8
-  # photo: ../assets/team/technical-assistant.jpg
+  photo: ../assets/team/idris-j.jpg
   # linkedin: "https://www.linkedin.com/in/"
 - id: director-of-technology
   name: "Gabriel Morales"
@@ -71,7 +71,7 @@
   name: "Madison Emshousen"
   role: "Director of Marketing & Communications"
   order: 11
-  photo: ../assets/team/maddie-e.jpg
+  photo: ../assets/team/maddie-e.png
   # linkedin: "https://www.linkedin.com/in/"
 - id: assistant-marketing-communications-director
   name: "Lara Iskander"
