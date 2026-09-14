@@ -20,10 +20,10 @@
   photo: ../assets/team/nelson-a.jpg
   # linkedin: "https://www.linkedin.com/in/"
 - id: treasurer
-  name: "Fancisco"
+  name: "Francisco"
   role: "Treasurer"
   order: 3
-  # photo: ../assets/team/francisco.jpg
+  photo: ../assets/team/francisco.jpg
   # linkedin: "https://www.linkedin.com/in/"
 - id: director-of-events-workshops
   name: "Oyinade Balogun (Comfort)"
@@ -35,7 +35,7 @@
   name: "Elexis Robinson"
   role: "Assistant Events & Workshops Director"
   order: 5
-  # photo: ../assets/team/oyinade-b.jpg
+  photo: ../assets/team/elexis-robinson.png
   # linkedin: "https://www.linkedin.com/in/"
 - id: director-of-industry-career-development
   name: "William Oyouha"
