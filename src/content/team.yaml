@@ -23,7 +23,7 @@
   name: "Francisco"
   role: "Treasurer"
   order: 3
-  photo: ../assets/team/francisco.png
+  photo: ../assets/team/francisco.jpg
   # linkedin: "https://www.linkedin.com/in/"
 - id: director-of-events-workshops
   name: "Oyinade Balogun (Comfort)"
@@ -35,7 +35,7 @@
   name: "Elexis Robinson"
   role: "Assistant Events & Workshops Director"
   order: 5
-  photo: ../assets/team/elexis-r.png
+  photo: ../assets/team/elexis-robinson.png
   # linkedin: "https://www.linkedin.com/in/"
 - id: director-of-industry-career-development
   name: "William Oyouha"
