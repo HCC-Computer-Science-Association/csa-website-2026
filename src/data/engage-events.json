@@ -886,6 +886,21 @@
     "visibility": "Public"
   },
   {
+    "id": "12560256",
+    "name": "IPv4 Workshop",
+    "description": "<div class=\"flex max-w-full flex-col gap-4 grow\">\r\n<div class=\"min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal outline-none keyboard-focused:focus-ring [.text-message+&amp;]:mt-1\" dir=\"auto\" tabindex=\"0\" data-message-author-role=\"assistant\" data-message-id=\"308de62f-d4cd-4035-866b-7371781ef56e\" data-turn-start-message=\"true\" data-message-model-slug=\"gpt-5-6\">\r\n<div class=\"flex w-full flex-col gap-1 empty:hidden\">\r\n<div class=\"markdown prose dark:prose-invert wrap-break-word w-full dark markdown-new-styling\">\r\n<p class=\"PDq2pG_selectionAnchorContainer\" data-start=\"0\" data-end=\"52\">🌐 <strong data-start=\"3\" data-end=\"52\">Ready to decode the backbone of the internet?</strong></p>\r\n<p data-start=\"54\" data-end=\"168\">Join CSA for our <strong data-start=\"71\" data-end=\"88\">IPv4 Workshop</strong> and learn the fundamentals of how devices communicate across the internet! 💻🔗</p>\r\n<p data-start=\"170\" data-end=\"248\">📍 <strong data-start=\"173\" data-end=\"187\">WLooP C151</strong><br data-start=\"187\" data-end=\"190\" />🕓 <strong data-start=\"193\" data-end=\"201\">4 PM</strong><br data-start=\"201\" data-end=\"204\" />🎤 <strong data-start=\"207\" data-end=\"248\">Speaker: Liene Lo, HCC Division Chair</strong></p>\r\n<p data-start=\"250\" data-end=\"403\">Whether you're brushing up on networking or learning it for the first time, this is a great opportunity to strengthen your tech skills and ask questions!</p>\r\n<p data-start=\"405\" data-end=\"515\">📲 <strong data-start=\"408\" data-end=\"421\">RSVP NOW!</strong><br data-start=\"421\" data-end=\"424\" />Scan the QR code on the flyer <strong data-start=\"454\" data-end=\"460\">OR</strong> RSVP through the <span class=\"contents\" data-content-reference-start=\"471\" data-content-reference-end=\"544\"><span class=\"\" data-state=\"closed\"><a class=\"decorated-link\" href=\"https://eagleengage.hccs.edu/organization/csa?utm_source=chatgpt.com\" target=\"_blank\" rel=\"noopener\">CSA Eagle Engage page</a></span></span></p>\r\n<p data-start=\"517\" data-end=\"580\">Come learn, connect, and level up your networking knowledge! 🚀</p>\r\n<p data-start=\"582\" data-end=\"679\" data-is-last-node=\"\" data-is-only-node=\"\">#CSA #HCC #IPv4 #Networking #ComputerScience #TechWorkshop #HCCStudents #LearnTech #Cybersecurity</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"z-0 flex min-h-[46px] justify-start\">&nbsp;</div>\r\n<div class=\"pointer-events-none -mb-px h-px w-full opacity-0\" aria-hidden=\"true\">&nbsp;</div>",
+    "location": "West Loop HCC C151",
+    "startsOn": "2026-08-14T21:00:00+00:00",
+    "endsOn": "2026-08-14T23:00:00+00:00",
+    "imagePath": "0b40732f-8d6e-4a6f-9427-66e943509ed6ddde051e-b3dd-4322-8c32-744b5ad7b018.png",
+    "theme": "ThoughtfulLearning",
+    "categoryNames": [
+      "Workshop"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
     "id": "12479425",
     "name": "Coding Club Weekly Meetup",
     "description": "<h2>🚀Attention coding enthusiasts:</h2>\r\n<div class=\"DescriptionText\">\r\n<p>Join us for open-ended meet ups where we&rsquo;ll get to know each other, share cool stuff, help each other with coding related homework or projects, practice on Leetcode, and discuss other relevant events. This is also a great opportunity to not only get help on any programming homework you might be struggling on, but also to learn about concepts you will learn about later on. We'll also be sharing important resources that will help you on your tech journey.</p>\r\n<p>💻If you're worried about not having a laptop, the AI Lab has multiple top-notch laptops with a secondary display monitor that you can use.</p>\r\n<p>🍕 Also, free pizza&nbsp;🍕</p>\r\n<p>We hope to see you there!</p>\r\n<p>📅 Every Friday<br />📍 HCC West Loop, AI Lab (Room 151)<br />🕒 4:00 PM - 6:00 PM</p>\r\n</div>",
@@ -916,6 +931,96 @@
     "visibility": "Public"
   },
   {
+    "id": "12692117",
+    "name": "CSA Coding Club",
+    "description": "<p>Coding Club meets every Friday from 4 to 6 pm in the AI Lab (Room 151). It is a laid back space to work on projects, bounce around ideas, and meet other CS students. Expect casual workshops, free food, and honestly, no two Fridays look the same, so come find out what you will pick up this week.</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-09-04T21:00:00+00:00",
+    "endsOn": "2026-09-04T23:00:00+00:00",
+    "imagePath": "a6462f49-bb3e-4282-b75f-a2a327241bae61820430-3b3d-4b7e-997a-150676d325a5.png",
+    "theme": "Social",
+    "categoryNames": [
+      "Academic/Educational",
+      "Meeting",
+      "Social",
+      "Workshop",
+      "Finals",
+      "Gaming"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
+    "id": "12692118",
+    "name": "CSA Coding Club",
+    "description": "<p>Coding Club meets every Friday from 4 to 6 pm in the AI Lab (Room 151). It is a laid back space to work on projects, bounce around ideas, and meet other CS students. Expect casual workshops, free food, and honestly, no two Fridays look the same, so come find out what you will pick up this week.</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-09-11T21:00:00+00:00",
+    "endsOn": "2026-09-11T23:00:00+00:00",
+    "imagePath": "a6462f49-bb3e-4282-b75f-a2a327241bae61820430-3b3d-4b7e-997a-150676d325a5.png",
+    "theme": "Social",
+    "categoryNames": [
+      "Academic/Educational",
+      "Meeting",
+      "Social",
+      "Workshop",
+      "Finals",
+      "Gaming"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
+    "id": "12635909",
+    "name": "Measuring Reliability in AI Systems Workshop",
+    "description": "<p>Join Bethel Kameni for a workshop on measuring reliability in AI systems. Learn how to evaluate whether AI models perform consistently and reliably, covering the core metrics and testing approaches used to catch failures before they matter. Whether you're building with AI or just curious about how engineers keep these systems in check, you'll leave with a practical framework for judging reliability. Open to all CSA members.</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-09-18T19:00:00+00:00",
+    "endsOn": "2026-09-18T21:00:00+00:00",
+    "imagePath": null,
+    "theme": "ThoughtfulLearning",
+    "categoryNames": [
+      "Academic/Educational"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
+    "id": "12635929",
+    "name": "Technical vs. Behavioral Interviews: How to Prepare and Stand Out",
+    "description": "<p>Join Madison, an insider threat investigator at Allstate, for a workshop on technical vs. behavioral interviews. Learn what separates the two interview formats, how to prepare for each, and practical strategies to stand out whether you're solving a coding problem or answering \"Tell me about a time when.\" Open to all CSA members.</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-09-18T21:00:00+00:00",
+    "endsOn": "2026-09-18T23:00:00+00:00",
+    "imagePath": null,
+    "theme": "ThoughtfulLearning",
+    "categoryNames": [
+      "Academic/Educational"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
+    "id": "12692119",
+    "name": "CSA Coding Club",
+    "description": "<p>Coding Club meets every Friday from 4 to 6 pm in the AI Lab (Room 151). It is a laid back space to work on projects, bounce around ideas, and meet other CS students. Expect casual workshops, free food, and honestly, no two Fridays look the same, so come find out what you will pick up this week.</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-09-18T21:00:00+00:00",
+    "endsOn": "2026-09-18T23:00:00+00:00",
+    "imagePath": "a6462f49-bb3e-4282-b75f-a2a327241bae61820430-3b3d-4b7e-997a-150676d325a5.png",
+    "theme": "Social",
+    "categoryNames": [
+      "Academic/Educational",
+      "Meeting",
+      "Social",
+      "Workshop",
+      "Finals",
+      "Gaming"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
     "id": "12547167",
     "name": "CSA Fall Kickoff Showcase",
     "description": "<p>🍂💻 Fall into Innovation with the HCC Computer Science Association! 🍁<br /><br />Ready to kick off the semester? Join us for the CSA Fall Kickoff Showcase&mdash;an afternoon of tech, creativity, and community!<br /><br />🌟 Bring your favorite project and showcase what you've been building for a chance to win prizes for the top projects!<br /><br />You'll also get:<br />🎮 The official reveal of this year's Hackathon theme<br />💡 A preview of our upcoming workshops, competitions, and events<br />🤝 Opportunities to network with fellow students, faculty, and tech enthusiasts<br />🚀 Learn how you can get involved with the Computer Science Association this year<br /><br />Whether you're an experienced developer or just starting your coding journey, this is the perfect opportunity to connect, get inspired, and see what CSA has planned for an exciting year ahead.<br /><br />📅 September 25<br />🕑 2:00 PM &ndash; 4:00 PM<br />📍 West Loop Campus Auditorium<br /><br />📲 RSVP today and submit your project using the QR codes on the flyer!<br /><br />RSVP:<a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg2VA_HC7&amp;urlhash=HGFi&amp;mt=t0XlhjlGWBj3L7Y7GGKIk8aOigWwenzfVkqdHPWe7T7o7wRcOWE-H58St7d42w8mT8XstdRS5_gdLP9gLTL7i8K9f3UmAVEUhHfswLS8tZ0MIuVqEMglkjhXcA&amp;isSdui=true\" target=\"_blank\" rel=\"noopener\"><span class=\"_4066ee1b _36e38d67\"><strong>https://lnkd.in/g2VA_HC7</strong></span></a><br />Project Submissions: <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgV_Afuj9&amp;urlhash=P0BQ&amp;mt=j5KBCTqXdOGLBPkcF3ij66M6m5FeIRZHT69WBpQ-ZUVECsPPf5Cl4s8BJL_pWTf3TtTwZYH6x7qLOWSDpmHHKbkP2Xpz4M-RIdQI3dvqd8jnYTgyR9MPAgSPpw&amp;isSdui=true\" target=\"_blank\" rel=\"noopener\"><span class=\"_4066ee1b _36e38d67\"><strong>https://lnkd.in/gV_Afuj9</strong></span></a> (Submissions close Friday, September 11)<br /><br /><a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23hcc&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#HCC</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23hcccsa&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#HCCCSA</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23computerscienceassociation&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#ComputerScienceAssociation</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23fallkickoff&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#FallKickoff</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23projectshowcase&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#ProjectShowcase</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23hackathon&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#Hackathon</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23stem&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#STEM</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23coding&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#Coding</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23programming&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#Programming</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23softwareengineering&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#SoftwareEngineering</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23houston&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#Houston</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23techcommunity&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#TechCommunity</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23networking&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#Networking</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23studentlife&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#StudentLife</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23innovation&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#Innovation</strong></span></a> <a class=\"_86e1601f _82089280\" href=\"https://www.linkedin.com/search/results/all/?keywords=%23buildtogether&amp;origin=HASH_TAG_FROM_FEED\"><span class=\"_4066ee1b _36e38d67\"><strong>#BuildTogether</strong></span></a></p>",
@@ -927,6 +1032,246 @@
     "categoryNames": [
       "Academic/Educational",
       "Social"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
+    "id": "12692120",
+    "name": "CSA Coding Club",
+    "description": "<p>Coding Club meets every Friday from 4 to 6 pm in the AI Lab (Room 151). It is a laid back space to work on projects, bounce around ideas, and meet other CS students. Expect casual workshops, free food, and honestly, no two Fridays look the same, so come find out what you will pick up this week.</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-09-25T21:00:00+00:00",
+    "endsOn": "2026-09-25T23:00:00+00:00",
+    "imagePath": "a6462f49-bb3e-4282-b75f-a2a327241bae61820430-3b3d-4b7e-997a-150676d325a5.png",
+    "theme": "Social",
+    "categoryNames": [
+      "Academic/Educational",
+      "Meeting",
+      "Social",
+      "Workshop",
+      "Finals",
+      "Gaming"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
+    "id": "12692121",
+    "name": "CSA Coding Club",
+    "description": "<p>Coding Club meets every Friday from 4 to 6 pm in the AI Lab (Room 151). It is a laid back space to work on projects, bounce around ideas, and meet other CS students. Expect casual workshops, free food, and honestly, no two Fridays look the same, so come find out what you will pick up this week.</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-10-02T21:00:00+00:00",
+    "endsOn": "2026-10-02T23:00:00+00:00",
+    "imagePath": "a6462f49-bb3e-4282-b75f-a2a327241bae61820430-3b3d-4b7e-997a-150676d325a5.png",
+    "theme": "Social",
+    "categoryNames": [
+      "Academic/Educational",
+      "Meeting",
+      "Social",
+      "Workshop",
+      "Finals",
+      "Gaming"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
+    "id": "12692122",
+    "name": "CSA Coding Club",
+    "description": "<p>Coding Club meets every Friday from 4 to 6 pm in the AI Lab (Room 151). It is a laid back space to work on projects, bounce around ideas, and meet other CS students. Expect casual workshops, free food, and honestly, no two Fridays look the same, so come find out what you will pick up this week.</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-10-09T21:00:00+00:00",
+    "endsOn": "2026-10-09T23:00:00+00:00",
+    "imagePath": "a6462f49-bb3e-4282-b75f-a2a327241bae61820430-3b3d-4b7e-997a-150676d325a5.png",
+    "theme": "Social",
+    "categoryNames": [
+      "Academic/Educational",
+      "Meeting",
+      "Social",
+      "Workshop",
+      "Finals",
+      "Gaming"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
+    "id": "12692123",
+    "name": "CSA Coding Club",
+    "description": "<p>Coding Club meets every Friday from 4 to 6 pm in the AI Lab (Room 151). It is a laid back space to work on projects, bounce around ideas, and meet other CS students. Expect casual workshops, free food, and honestly, no two Fridays look the same, so come find out what you will pick up this week.</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-10-16T21:00:00+00:00",
+    "endsOn": "2026-10-16T23:00:00+00:00",
+    "imagePath": "a6462f49-bb3e-4282-b75f-a2a327241bae61820430-3b3d-4b7e-997a-150676d325a5.png",
+    "theme": "Social",
+    "categoryNames": [
+      "Academic/Educational",
+      "Meeting",
+      "Social",
+      "Workshop",
+      "Finals",
+      "Gaming"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
+    "id": "12692124",
+    "name": "CSA Coding Club",
+    "description": "<p>Coding Club meets every Friday from 4 to 6 pm in the AI Lab (Room 151). It is a laid back space to work on projects, bounce around ideas, and meet other CS students. Expect casual workshops, free food, and honestly, no two Fridays look the same, so come find out what you will pick up this week.</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-10-23T21:00:00+00:00",
+    "endsOn": "2026-10-23T23:00:00+00:00",
+    "imagePath": "a6462f49-bb3e-4282-b75f-a2a327241bae61820430-3b3d-4b7e-997a-150676d325a5.png",
+    "theme": "Social",
+    "categoryNames": [
+      "Academic/Educational",
+      "Meeting",
+      "Social",
+      "Workshop",
+      "Finals",
+      "Gaming"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
+    "id": "12692125",
+    "name": "CSA Coding Club",
+    "description": "<p>Coding Club meets every Friday from 4 to 6 pm in the AI Lab (Room 151). It is a laid back space to work on projects, bounce around ideas, and meet other CS students. Expect casual workshops, free food, and honestly, no two Fridays look the same, so come find out what you will pick up this week.</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-10-30T21:00:00+00:00",
+    "endsOn": "2026-10-30T23:00:00+00:00",
+    "imagePath": "a6462f49-bb3e-4282-b75f-a2a327241bae61820430-3b3d-4b7e-997a-150676d325a5.png",
+    "theme": "Social",
+    "categoryNames": [
+      "Academic/Educational",
+      "Meeting",
+      "Social",
+      "Workshop",
+      "Finals",
+      "Gaming"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
+    "id": "12692126",
+    "name": "CSA Coding Club",
+    "description": "<p>Coding Club meets every Friday from 4 to 6 pm in the AI Lab (Room 151). It is a laid back space to work on projects, bounce around ideas, and meet other CS students. Expect casual workshops, free food, and honestly, no two Fridays look the same, so come find out what you will pick up this week.</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-11-06T22:00:00+00:00",
+    "endsOn": "2026-11-07T00:00:00+00:00",
+    "imagePath": "a6462f49-bb3e-4282-b75f-a2a327241bae61820430-3b3d-4b7e-997a-150676d325a5.png",
+    "theme": "Social",
+    "categoryNames": [
+      "Academic/Educational",
+      "Meeting",
+      "Social",
+      "Workshop",
+      "Finals",
+      "Gaming"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
+    "id": "12692127",
+    "name": "CSA Coding Club",
+    "description": "<p>Coding Club meets every Friday from 4 to 6 pm in the AI Lab (Room 151). It is a laid back space to work on projects, bounce around ideas, and meet other CS students. Expect casual workshops, free food, and honestly, no two Fridays look the same, so come find out what you will pick up this week.</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-11-13T22:00:00+00:00",
+    "endsOn": "2026-11-14T00:00:00+00:00",
+    "imagePath": "a6462f49-bb3e-4282-b75f-a2a327241bae61820430-3b3d-4b7e-997a-150676d325a5.png",
+    "theme": "Social",
+    "categoryNames": [
+      "Academic/Educational",
+      "Meeting",
+      "Social",
+      "Workshop",
+      "Finals",
+      "Gaming"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
+    "id": "12692128",
+    "name": "CSA Coding Club",
+    "description": "<p>Coding Club meets every Friday from 4 to 6 pm in the AI Lab (Room 151). It is a laid back space to work on projects, bounce around ideas, and meet other CS students. Expect casual workshops, free food, and honestly, no two Fridays look the same, so come find out what you will pick up this week.</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-11-20T22:00:00+00:00",
+    "endsOn": "2026-11-21T00:00:00+00:00",
+    "imagePath": "a6462f49-bb3e-4282-b75f-a2a327241bae61820430-3b3d-4b7e-997a-150676d325a5.png",
+    "theme": "Social",
+    "categoryNames": [
+      "Academic/Educational",
+      "Meeting",
+      "Social",
+      "Workshop",
+      "Finals",
+      "Gaming"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
+    "id": "12692129",
+    "name": "CSA Coding Club",
+    "description": "<p>Coding Club meets every Friday from 4 to 6 pm in the AI Lab (Room 151). It is a laid back space to work on projects, bounce around ideas, and meet other CS students. Expect casual workshops, free food, and honestly, no two Fridays look the same, so come find out what you will pick up this week.</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-12-04T22:00:00+00:00",
+    "endsOn": "2026-12-05T00:00:00+00:00",
+    "imagePath": "a6462f49-bb3e-4282-b75f-a2a327241bae61820430-3b3d-4b7e-997a-150676d325a5.png",
+    "theme": "Social",
+    "categoryNames": [
+      "Academic/Educational",
+      "Meeting",
+      "Social",
+      "Workshop",
+      "Finals",
+      "Gaming"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
+    "id": "12692130",
+    "name": "CSA Coding Club",
+    "description": "<p>Coding Club meets every Friday from 4 to 6 pm in the AI Lab (Room 151). It is a laid back space to work on projects, bounce around ideas, and meet other CS students. Expect casual workshops, free food, and honestly, no two Fridays look the same, so come find out what you will pick up this week.</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-12-11T22:00:00+00:00",
+    "endsOn": "2026-12-12T00:00:00+00:00",
+    "imagePath": "a6462f49-bb3e-4282-b75f-a2a327241bae61820430-3b3d-4b7e-997a-150676d325a5.png",
+    "theme": "Social",
+    "categoryNames": [
+      "Academic/Educational",
+      "Meeting",
+      "Social",
+      "Workshop",
+      "Finals",
+      "Gaming"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
+    "id": "12692131",
+    "name": "CSA Coding Club",
+    "description": "<p>Coding Club meets every Friday from 4 to 6 pm in the AI Lab (Room 151). It is a laid back space to work on projects, bounce around ideas, and meet other CS students. Expect casual workshops, free food, and honestly, no two Fridays look the same, so come find out what you will pick up this week.</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-12-18T22:00:00+00:00",
+    "endsOn": "2026-12-19T00:00:00+00:00",
+    "imagePath": "a6462f49-bb3e-4282-b75f-a2a327241bae61820430-3b3d-4b7e-997a-150676d325a5.png",
+    "theme": "Social",
+    "categoryNames": [
+      "Academic/Educational",
+      "Meeting",
+      "Social",
+      "Workshop",
+      "Finals",
+      "Gaming"
     ],
     "status": "Approved",
     "visibility": "Public"
