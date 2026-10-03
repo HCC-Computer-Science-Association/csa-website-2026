@@ -19,7 +19,7 @@ export const SOCIALS = {
   // TODO(officers): confirm handle/URL
   instagram: "https://www.instagram.com/TODO",
   linkedin: "https://www.linkedin.com/company/hcccsa/",
-  email: "contact@hcc-csa.org", // TODO(officers): confirm club email
+  email: "mailto:contact@hcc-csa.org", // TODO(officers): confirm club email
 } as const;
 
 export const STATS = [

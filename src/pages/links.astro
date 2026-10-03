@@ -1,0 +1,58 @@
+---
+import Base from "../layouts/Base.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import { SITE, SOCIALS, JOIN_URL } from "../config";
+
+const pins = [
+    {
+        pin: "Eagle Engage",
+        link: SOCIALS.join,
+        desc: "Events and Registration",
+    },
+    { pin: "Instagram", link: SOCIALS.instagram },
+    {
+        pin: "LinkedIn",
+        link: SOCIALS.linkedin,
+        desc: "Announcements and Opportunities",
+    },
+    { pin: "Email", link: SOCIALS.email },
+    {
+        pin: "Facebook",
+        link: "https://www.facebook.com/compscia/",
+        desc: ""
+    },
+    {
+        pin: "Teams",
+        link: "https://teams.microsoft.com/l/team/19%3A662cc3bf244547f98e8f725ec61630b3%40thread.skype/conversations?groupId=3c9d28d8-2b7c-4748-a185-45d34805454e&tenantId=bedc536d-9380-4d10-9954-ddfc8f5b5bdd",
+        desc: "Opportunities",
+    },
+    { pin: "Discord", link: "https://discord.gg/NcUyQujfY", desc: "Chatting and Announcements"},
+];
+---
+
+<Base
+    title={`Links · ${SITE.name} at ${SITE.college}`}
+    description="Join Computer Science Association at Houston City College: free, one click, every major welcome."
+>
+    <div class="mx-auto max-w-6xl px-5 pt-16 pb-12 sm:px-8">
+        <SectionHeader as="h1" designator="J1 · Connector" title="Links" />
+
+        <div class="md:max-w-2xl m-auto">
+            <div class="flex flex-col md:grid md:grid-cols-2 gap-8 mt-4">
+                {
+                    pins.map(({ pin, link, desc }) => (
+                        <a
+                            class="leading-relaxed btn-pad rounded-lg last:col-span-2 py-5"
+                            href={link}
+                        >
+                            <div class="m-auto text-center flex flex-col gap-2 border-b border-silk-hair last:border-b-0">
+                                <span class="legend text-xl">{pin}</span>
+                                <span>{desc}</span>
+                            </div>
+                        </a>
+                    ))
+                }
+            </div>
+        </div>
+    </div>
+</Base>
