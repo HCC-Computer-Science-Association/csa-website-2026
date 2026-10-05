@@ -49,7 +49,7 @@ const pins = [
             class="legend flex items-center gap-3 p-3 text-silk-dim transition-colors hover:bg-pour hover:text-silk"
           >
             <span class="text-silk-faint">
-              L3 · Links
+              J3 · Links
             </span>
             <span aria-hidden="true" class="ml-auto">↗</span>
           </a>
@@ -60,6 +60,7 @@ const pins = [
               <li class="border-b border-silk-hair last:border-b-0">
                 <a
                   href={href}
+                  target={href.startsWith("mailto:") ? undefined : "_blank"}
                   rel="me noopener"
                   class="legend flex items-center gap-3 p-3 text-silk-dim transition-colors hover:bg-pour hover:text-silk"
                 >

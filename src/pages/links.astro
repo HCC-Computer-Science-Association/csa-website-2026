@@ -1,58 +1,152 @@
 ---
+import { Image } from "astro:assets";
 import Base from "../layouts/Base.astro";
-import SectionHeader from "../components/SectionHeader.astro";
-import { SITE, SOCIALS, JOIN_URL } from "../config";
+import logoWhite from "../assets/csa-white-logo.png";
+import { SITE, SOCIALS } from "../config";
+
+/**
+ * The club's link-in-bio page: one connector with every pin broken out.
+ * Each card is one pin of J3, the same connector the footer prints in
+ * miniature. Eagle Engage is the join action, so it alone gets the gold pad.
+ *
+ * Glyphs are Bootstrap Icons (MIT, https://icons.getbootstrap.com), kept inline
+ * so the page ships no client script and no extra requests.
+ */
+const glyphs = {
+  calendarCheck:
+    '<path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0"/><path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>',
+  instagram:
+    '<path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>',
+  linkedin:
+    '<path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>',
+  envelope:
+    '<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>',
+  facebook:
+    '<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>',
+  teams:
+    '<path d="M9.186 4.797a2.42 2.42 0 1 0-2.86-2.448h1.178c.929 0 1.682.753 1.682 1.682zm-4.295 7.738h2.613c.929 0 1.682-.753 1.682-1.682V5.58h2.783a.7.7 0 0 1 .682.716v4.294a4.197 4.197 0 0 1-4.093 4.293c-1.618-.04-3-.99-3.667-2.35Zm10.737-9.372a1.674 1.674 0 1 1-3.349 0 1.674 1.674 0 0 1 3.349 0m-2.238 9.488-.12-.002a5.2 5.2 0 0 0 .381-2.07V6.306a1.7 1.7 0 0 0-.15-.725h1.792c.39 0 .707.317.707.707v3.765a2.6 2.6 0 0 1-2.598 2.598z"/><path d="M.682 3.349h6.822c.377 0 .682.305.682.682v6.822a.68.68 0 0 1-.682.682H.682A.68.68 0 0 1 0 10.853V4.03c0-.377.305-.682.682-.682Zm5.206 2.596v-.72h-3.59v.72h1.357V9.66h.87V5.945z"/>',
+} as const;
 
 const pins = [
-    {
-        pin: "Eagle Engage",
-        link: SOCIALS.join,
-        desc: "Events and Registration",
-    },
-    { pin: "Instagram", link: SOCIALS.instagram },
-    {
-        pin: "LinkedIn",
-        link: SOCIALS.linkedin,
-        desc: "Announcements and Opportunities",
-    },
-    { pin: "Email", link: SOCIALS.email },
-    {
-        pin: "Facebook",
-        link: "https://www.facebook.com/compscia/",
-        desc: ""
-    },
-    {
-        pin: "Teams",
-        link: "https://teams.microsoft.com/l/team/19%3A662cc3bf244547f98e8f725ec61630b3%40thread.skype/conversations?groupId=3c9d28d8-2b7c-4748-a185-45d34805454e&tenantId=bedc536d-9380-4d10-9954-ddfc8f5b5bdd",
-        desc: "Opportunities",
-    },
-    { pin: "Discord", link: "https://discord.gg/NcUyQujfY", desc: "Chatting and Announcements"},
+  {
+    label: "Eagle Engage",
+    desc: "Membership, events, and registration",
+    href: SOCIALS.join,
+    glyph: glyphs.calendarCheck,
+    rel: "noopener",
+    primary: true,
+  },
+  {
+    label: "Instagram",
+    desc: "Photos and announcements",
+    href: SOCIALS.instagram,
+    glyph: glyphs.instagram,
+    rel: "me noopener",
+  },
+  {
+    label: "LinkedIn",
+    desc: "Announcements and opportunities",
+    href: SOCIALS.linkedin,
+    glyph: glyphs.linkedin,
+    rel: "me noopener",
+  },
+  {
+    label: "Email",
+    desc: SOCIALS.email,
+    href: `mailto:${SOCIALS.email}`,
+    glyph: glyphs.envelope,
+  },
+  {
+    label: "Facebook",
+    desc: "Community page",
+    href: "https://www.facebook.com/compscia/",
+    glyph: glyphs.facebook,
+    rel: "me noopener",
+  },
+  {
+    label: "Teams",
+    desc: "Opportunities",
+    href: "https://teams.microsoft.com/l/team/19%3A662cc3bf244547f98e8f725ec61630b3%40thread.skype/conversations?groupId=3c9d28d8-2b7c-4748-a185-45d34805454e&tenantId=bedc536d-9380-4d10-9954-ddfc8f5b5bdd",
+    glyph: glyphs.teams,
+    rel: "noopener",
+  },
 ];
 ---
 
 <Base
-    title={`Links · ${SITE.name} at ${SITE.college}`}
-    description="Join Computer Science Association at Houston City College: free, one click, every major welcome."
+  title={`Links · ${SITE.name} at ${SITE.college}`}
+  description="Every Computer Science Association link in one place: Eagle Engage, Instagram, LinkedIn, email, Facebook, and Teams."
 >
-    <div class="mx-auto max-w-6xl px-5 pt-16 pb-12 sm:px-8">
-        <SectionHeader as="h1" designator="J1 · Connector" title="Links" />
-
-        <div class="md:max-w-2xl m-auto">
-            <div class="flex flex-col md:grid md:grid-cols-2 gap-8 mt-4">
-                {
-                    pins.map(({ pin, link, desc }) => (
-                        <a
-                            class="leading-relaxed btn-pad rounded-lg last:col-span-2 py-5"
-                            href={link}
-                        >
-                            <div class="m-auto text-center flex flex-col gap-2 border-b border-silk-hair last:border-b-0">
-                                <span class="legend text-xl">{pin}</span>
-                                <span>{desc}</span>
-                            </div>
-                        </a>
-                    ))
-                }
-            </div>
+  <div class="mx-auto max-w-6xl px-5 pt-16 pb-24 sm:px-8">
+    <div class="mx-auto max-w-xl">
+      {/* The part itself: logo silkscreened on an IC package, then its name. */}
+      <header class="flex flex-col items-center text-center">
+        <div class="relative flex h-32 w-32 items-center justify-center border border-silk-hair bg-mask">
+          <span class="absolute top-2.5 left-2.5 h-1.5 w-1.5 rounded-full bg-silk-faint" aria-hidden="true"></span>
+          <Image
+            src={logoWhite}
+            alt={`${SITE.name} logo`}
+            width={224}
+            densities={[1, 2]}
+            loading="eager"
+            class="h-auto w-28"
+          />
         </div>
+        <p class="legend mt-6 text-gold">J3 · Links</p>
+        <h1 class="mt-2 font-display text-3xl font-bold tracking-wide text-silk uppercase [text-wrap:balance] sm:text-4xl">
+          {SITE.fullName}
+        </h1>
+        <p class="legend mt-3 text-silk-dim">{SITE.college} · student organization</p>
+      </header>
+
+      {/* J3 pinout: one card per pin, the join pin gold-plated. */}
+      <ul class="mt-10 grid gap-3">
+        {
+          pins.map(({ label, desc, href, glyph, rel, primary }, i) => (
+            <li>
+              <a
+                href={href}
+                target={href.startsWith("mailto:") ? undefined : "_blank"}
+                rel={rel}
+                class:list={[
+                  "grid grid-cols-[2.75rem_1fr_auto] items-center gap-3 px-4 py-3.5 sm:grid-cols-[3rem_1fr_auto] sm:gap-4 sm:px-5 sm:py-4",
+                  primary
+                    ? [
+                        "relative rounded-[2px] border border-gold bg-gold text-mask-deep",
+                        "transition-[background-color,transform,box-shadow] duration-200 ease-power",
+                        "hover:-translate-y-0.5 hover:bg-[#ffc61a] hover:shadow-[0_8px_20px_-6px_rgba(237,177,0,0.45)]",
+                        "active:translate-y-0 active:shadow-none",
+                        "before:absolute before:top-2.5 before:left-2.5 before:h-1.5 before:w-1.5 before:rounded-full before:bg-mask-deep/60 before:content-['']",
+                      ]
+                    : "card-ic text-silk",
+                ]}
+              >
+                <span
+                  class:list={[
+                    "flex h-11 w-11 items-center justify-center border sm:h-12 sm:w-12",
+                    primary ? "border-mask-deep/25 bg-mask-deep/10" : "border-silk-hair bg-mask-deep/60",
+                  ]}
+                  aria-hidden="true"
+                >
+                  <svg viewBox="0 0 16 16" class="h-6 w-6 fill-current" set:html={glyph} />
+                </span>
+                <span class="min-w-0">
+                  <span class="block font-display text-xl leading-tight font-semibold tracking-wide uppercase">
+                    {label}
+                  </span>
+                  <span class:list={["mt-1 block text-sm leading-snug", primary ? "text-mask-deep/75" : "text-silk-dim"]}>
+                    {desc}
+                  </span>
+                </span>
+                <span class:list={["legend whitespace-nowrap", primary ? "text-mask-deep/70" : "text-silk-faint"]}>
+                  <span class="hidden sm:inline">PIN {i + 1} </span>
+                  <span aria-hidden="true">↗</span>
+                </span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
     </div>
+  </div>
 </Base>

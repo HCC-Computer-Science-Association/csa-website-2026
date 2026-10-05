@@ -8,6 +8,7 @@ const links = [
   { href: "/about/", label: "About" },
   { href: "/team/", label: "Team" },
   { href: "/resources/", label: "Resources" },
+  { href: "/links/", label: "Links" },
 ];
 
 const path = Astro.url.pathname;
@@ -22,7 +23,7 @@ const isActive = (href: string) => path === href || path === href.replace(/\/$/,
     </a>
     <a href="/join/" class="btn-pad order-2 !px-4 !py-2 md:order-3">Join</a>
     <nav aria-label="Main" class="order-3 w-full md:order-2 md:w-auto">
-      <ul class="flex flex-wrap items-center gap-x-6 gap-y-2">
+      <ul class="flex flex-wrap items-center gap-x-4 gap-y-2 sm:gap-x-6">
         {
           links.map(({ href, label }) => (
             <li>

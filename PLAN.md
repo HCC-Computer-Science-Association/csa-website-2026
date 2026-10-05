@@ -20,6 +20,7 @@ Joining the club means joining the Discord. Every page funnels there.
 | About | `/about` | Mission + story |
 | Team | `/team` | Officer board: photos, names, roles |
 | Resources | `/resources` | Workshop slides archive |
+| Links | `/links` | Every club link in one place: Eagle Engage, socials, email |
 | Join | `/join` | Why join, then one big Discord button |
 
 ## Homepage (section order)

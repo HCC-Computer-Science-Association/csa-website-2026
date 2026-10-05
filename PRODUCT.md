@@ -42,7 +42,7 @@ students, free, beginner-friendly, open to every major.
 
 - Static Astro 5 site, Tailwind CSS v4, TypeScript, zero client JS by default.
 - Hosted on GitHub Pages, custom domain https://hcc-csa.org.
-- Six pages: Home, Events, About, Team, Resources, Join.
+- Seven pages: Home, Events, About, Team, Resources, Links, Join.
 - Events: cards only (no detail pages); auto-split upcoming/past by date at
   build time; past cards carry a cover photo and a one-line recap.
 - Undecided/pending from officers: permanent Discord invite URL, Instagram and

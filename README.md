@@ -27,7 +27,7 @@ src/
   content/team.yaml    officer board
   content/resources.yaml  workshop slides archive
   components/          board-grammar UI (cards, pads, traces, title block)
-  pages/               index, events, about, team, resources, join, 404
+  pages/               index, events, about, team, resources, links, join, 404
   assets/              brand logos, event photos, headshots
 ```
 
