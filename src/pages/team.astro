@@ -59,6 +59,7 @@ const officers = (await getCollection("team"))
                   <li class="border-t border-silk-hair first:border-t-0">
                     <a
                       href={href}
+                      target="_blank"
                       rel="noopener"
                       aria-label={`${officer.name} on ${label}`}
                       class="legend group/pin flex items-center gap-3 px-6 py-3.5 text-silk-dim transition-colors hover:bg-pour hover:text-silk"
@@ -78,7 +79,7 @@ const officers = (await getCollection("team"))
 
     <p class="mt-14 max-w-[60ch] text-sm text-silk-dim">
       Want a seat here someday? Officers come from the community.
-      <a href={JOIN_URL} rel="noopener" class="text-signal-bright underline underline-offset-4">Join</a>, show up, and get involved.
+      <a href={JOIN_URL} target="_blank" rel="noopener" class="text-signal-bright underline underline-offset-4">Join</a>, show up, and get involved.
     </p>
   </div>
 </Base>

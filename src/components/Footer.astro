@@ -30,28 +30,45 @@ const pins = [
         </div>
         <div class="col-span-full p-4">
           <p class="legend text-silk-faint">Title</p>
-          <p class="mt-1 font-display text-xl font-semibold tracking-wide text-silk uppercase">
+          <p
+            class="mt-1 font-display text-xl font-semibold tracking-wide text-silk uppercase"
+          >
             {SITE.fullName} · {SITE.college}
           </p>
           <p class="mt-2 max-w-[60ch] text-sm text-silk-dim">
-            Student-run. Free. Every major, every level. The fastest way to reach us is the Discord.
+            Student-run. Free. Every major, every level. The fastest way to
+            reach us is the Discord.
           </p>
         </div>
       </div>
       <div class="border-t border-silk-hair sm:border-t-0 sm:border-l">
-        <p class="legend border-b border-silk-hair p-3 text-silk-faint">J3 · Connect</p>
+        <div class="border-b border-silk-hair">
+          <a
+            href="/links"
+            rel="me noopener"
+            class="legend flex items-center gap-3 p-3 text-silk-dim transition-colors hover:bg-pour hover:text-silk"
+          >
+            <span class="text-silk-faint">
+              J3 · Links
+            </span>
+            <span aria-hidden="true" class="ml-auto">↗</span>
+          </a>
+        </div>
         <ul>
           {
             pins.map(({ pin, label, href }) => (
               <li class="border-b border-silk-hair last:border-b-0">
                 <a
                   href={href}
+                  target={href.startsWith("mailto:") ? undefined : "_blank"}
                   rel="me noopener"
                   class="legend flex items-center gap-3 p-3 text-silk-dim transition-colors hover:bg-pour hover:text-silk"
                 >
                   <span class="text-silk-faint">PIN {pin}</span>
                   {label}
-                  <span aria-hidden="true" class="ml-auto">↗</span>
+                  <span aria-hidden="true" class="ml-auto">
+                    ↗
+                  </span>
                 </a>
               </li>
             ))
@@ -60,7 +77,8 @@ const pins = [
       </div>
     </div>
     <p class="legend mt-6 text-silk-faint">
-      © {year} {SITE.fullName} at {SITE.college} · Built by CSA members · Not to scale
+      © {year}
+      {SITE.fullName} at {SITE.college} · Built by CSA members · Not to scale
     </p>
   </div>
 </footer>
