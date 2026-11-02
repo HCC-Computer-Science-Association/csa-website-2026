@@ -20,14 +20,26 @@ const pastRefdes = past.map((e) => refdes(e.data.type));
 >
   <div class="mx-auto max-w-6xl px-5 pt-16 pb-24 sm:px-8">
     <SectionHeader as="h1" designator="Y1 · Oscillator" title="Events" />
-    <p class="-mt-4 mb-14 max-w-[65ch] text-silk-dim">
+    <p class="-mt-4 mb-7 max-w-[65ch] text-silk-dim">
       Everything runs on this clock: hands-on workshops, socials, and HackHCC.
-      This page mirrors Eagle Engage, so RSVP happens there; big events get their own site.
+      This page mirrors Eagle Engage, so RSVP happens there; big events get
+      their own site.
     </p>
+    <section aria-labelledby="calendar" class="mb-12 border-gold border-[1px]">
+      <iframe
+        src="https://calendar.google.com/calendar/embed?src=ffqs156k0n3lds8vrrgjfc167f89lnj7%40import.calendar.google.com&ctz=America%2FChicago"
+        style="border: 0;"
+        width="600"
+        height="600"
+        frameborder="0"
+        class="dark w-full invert-135"
+        scrolling="no"></iframe>
+    </section>
 
     <section aria-labelledby="upcoming">
       <h2 id="upcoming" class="legend mb-6 flex items-center gap-3 text-gold">
-        <span class="h-1.5 w-1.5 rounded-full bg-gold" aria-hidden="true"></span>
+        <span class="h-1.5 w-1.5 rounded-full bg-gold" aria-hidden="true"
+        ></span>
         Upcoming
       </h2>
       {
@@ -41,8 +53,9 @@ const pastRefdes = past.map((e) => refdes(e.data.type));
           <div class="border border-dashed border-silk-faint p-10">
             <p class="legend text-silk-dim">No upcoming events routed yet.</p>
             <p class="mt-2 max-w-[55ch] text-sm text-silk-dim">
-              The next schedule is being drawn. It appears here as soon as it is posted to Eagle
-              Engage, and announcements land in the Discord first.
+              The next schedule is being drawn. It appears here as soon as it is
+              posted to Eagle Engage, and announcements land in the Discord
+              first.
             </p>
           </div>
         )
@@ -62,12 +75,14 @@ const pastRefdes = past.map((e) => refdes(e.data.type));
             ))}
           </div>
         ) : (
-          <p class="text-sm text-silk-dim">The archive starts filling after our next event.</p>
+          <p class="text-sm text-silk-dim">
+            The archive starts filling after our next event.
+          </p>
         )
       }
       <p class="legend mt-8 text-silk-faint">
-        Every event {SITE.name} has published to Eagle Engage. The weekly Coding Club meetup is one
-        entry, not the 30-odd sessions it has run.
+        Every event {SITE.name} has published to Eagle Engage. The weekly Coding Club
+        meetup is one entry, not the 30-odd sessions it has run.
       </p>
     </section>
   </div>

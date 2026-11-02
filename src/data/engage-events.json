@@ -1077,6 +1077,23 @@
     "visibility": "Public"
   },
   {
+    "id": "12868152",
+    "name": "Introduction to Machine Learning",
+    "description": "<h3>🤖 Introduction to Machine Learning</h3>\r\n<p>Ready to dive into the world of Machine Learning? Join the HCC Computer Science Association for an interactive, hands-on introduction to machine learning and data science!</p>\r\n<p>In this workshop, we&rsquo;ll explore how Machine Learning fits into the larger AI landscape, look at real-world applications, and build a machine learning model from start to finish. Students will work with a <strong>Houston-area housing dataset</strong> to train a model that predicts housing prices.</p>\r\n<h3>💻 What We'll Cover</h3>\r\n<ul>\r\n<li>\r\n<p>What Machine Learning is and how it relates to AI</p>\r\n</li>\r\n<li>\r\n<p>Real-world applications of ML</p>\r\n</li>\r\n<li>\r\n<p>Data science fundamentals</p>\r\n</li>\r\n<li>\r\n<p>Python essentials for ML</p>\r\n</li>\r\n<li>\r\n<p>NumPy and Pandas</p>\r\n</li>\r\n<li>\r\n<p>DataFrames and working with datasets</p>\r\n</li>\r\n<li>\r\n<p>Training and testing machine learning models</p>\r\n</li>\r\n<li>\r\n<p>Overfitting and underfitting</p>\r\n</li>\r\n<li>\r\n<p>Train/test splits and model performance</p>\r\n</li>\r\n<li>\r\n<p>Building a housing price prediction model with Scikit-learn</p>\r\n</li>\r\n<li>\r\n<p>GitHub and project setup</p>\r\n</li>\r\n</ul>\r\n<h3>📅 Event Details</h3>\r\n<p><strong>Date:</strong> October 9, 2026<br /><strong>Duration:</strong> 2 hours<br /><strong>Location:</strong> HCC &mdash; Room 151 AI Lab<br /><strong>Hosted by:</strong> HCC Computer Science Association</p>\r\n<h3>🧑&zwj;💻 What You&rsquo;ll Need</h3>\r\n<p>Students should have:</p>\r\n<ul>\r\n<li>\r\n<p>Basic Python knowledge (variables, lists, loops, and functions)</p>\r\n</li>\r\n<li>\r\n<p>A free GitHub account</p>\r\n</li>\r\n<li>\r\n<p>A laptop capable of running the required software</p>\r\n</li>\r\n</ul>\r\n<p>No prior Machine Learning experience is required! We'll walk through the concepts and build the project together.</p>\r\n<p>Come ready to code, learn, and get hands-on experience with Machine Learning! 🚀</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-10-09T19:00:00+00:00",
+    "endsOn": "2026-10-09T21:00:00+00:00",
+    "imagePath": null,
+    "theme": "ThoughtfulLearning",
+    "categoryNames": [
+      "Academic/Educational",
+      "Social",
+      "Workshop"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
     "id": "12692122",
     "name": "CSA Coding Club",
     "description": "<p>Coding Club meets every Friday from 4 to 6 pm in the AI Lab (Room 151). It is a laid back space to work on projects, bounce around ideas, and meet other CS students. Expect casual workshops, free food, and honestly, no two Fridays look the same, so come find out what you will pick up this week.</p>",
@@ -1152,6 +1169,22 @@
       "Workshop",
       "Finals",
       "Gaming"
+    ],
+    "status": "Approved",
+    "visibility": "Public"
+  },
+  {
+    "id": "12868147",
+    "name": "Spooky Crochet Workshop ",
+    "description": "<p>Learn how to crochet spiderwebs for the spooky season! Also, wear your costumes to the coding club!</p>",
+    "location": "151 AI Lab",
+    "startsOn": "2026-10-30T21:00:00+00:00",
+    "endsOn": "2026-10-30T23:00:00+00:00",
+    "imagePath": null,
+    "theme": "Social",
+    "categoryNames": [
+      "Social",
+      "Workshop"
     ],
     "status": "Approved",
     "visibility": "Public"
